@@ -6,6 +6,7 @@ import json
 import time
 
 HEROS_URL = "https://overwatch.weirdgloop.org/w/Heroes"
+SPRAYS_FILE = "sprays.json"
 
 def get_heros():
     response = requests.get(HEROS_URL)
@@ -101,6 +102,10 @@ def load_existing(path):
     # handle both {"items": [...]} and bare [...]
     items = data["items"] if isinstance(data, dict) and "items" in data else data
     return {item["guid"]: item for item in items if "guid" in item}
+
+def save_sprays(sprays, path=SPRAYS_FILE):
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(sprays, f, ensure_ascii=False, indent=2)
 
 
 if __name__ == "__main__":
