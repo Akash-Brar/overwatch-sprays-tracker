@@ -1,3 +1,4 @@
+import os
 import re
 import requests
 from bs4 import BeautifulSoup
@@ -5,7 +6,6 @@ import json
 import time
 
 HEROS_URL = "https://overwatch.weirdgloop.org/w/Heroes"
-SPRAYS_URL = "https://overwatch.weirdgloop.org/w/Sprays"
 
 def get_heros():
     response = requests.get(HEROS_URL)
@@ -86,11 +86,21 @@ def get_sprays():
     seen = set()
     unique = [s for s in all_sprays if not (s["guid"] in seen or seen.add(s["guid"]))]
 
-    with open("sprays.json", "w", encoding="utf-8") as f:
-        json.dump(unique, f, ensure_ascii=False, indent=2)
+    return unique
 
-    print(f"\nSaved {len(unique)} unique sprays to sprays.json")
-
+def load_existing(path):
+    """Return {guid: item} for whatever is already saved, or {} if none."""
+    if not os.path.exists(path):
+        return {}
+    with open(path, "r", encoding="utf-8") as f:
+        try:
+            data = json.load(f)
+        except json.JSONDecodeError:
+            print(f"Warning: {path} is not valid JSON, starting fresh.")
+            return {}
+    # handle both {"items": [...]} and bare [...]
+    items = data["items"] if isinstance(data, dict) and "items" in data else data
+    return {item["guid"]: item for item in items if "guid" in item}
 
 
 if __name__ == "__main__":
