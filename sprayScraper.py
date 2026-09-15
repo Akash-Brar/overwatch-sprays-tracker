@@ -1,8 +1,8 @@
+from bs4 import BeautifulSoup
+import json
 import os
 import re
 import requests
-from bs4 import BeautifulSoup
-import json
 import time
 
 HEROS_URL = "https://overwatch.weirdgloop.org/w/Heroes"
@@ -51,7 +51,7 @@ def get_sprays():
     }
 
     PAGE_SIZE = 100   # server max
-    all_sprays = []
+    all_sprays = {}
     page = 1
 
     while True:
@@ -71,7 +71,10 @@ def get_sprays():
 
         print(f"page {page}/{total_pages}: got {len(items)} items (total={total})")
 
-        all_sprays.extend(items)
+        for item in items:
+            guid = item.get("guid")
+            if guid:
+                all_sprays[guid] = item
 
         if not items:
             break
@@ -83,11 +86,41 @@ def get_sprays():
         page += 1
         time.sleep(0.25)   # be polite; bump to 0.5-1.0 if you get 429s
 
-    # Safety de-dupe on guid
-    seen = set()
-    unique = [s for s in all_sprays if not (s["guid"] in seen or seen.add(s["guid"]))]
+    return all_sprays
 
-    return unique
+def merge_sprays(existing, fetched):
+    new_guids     = set(fetched) - set(existing)
+    updated_guids = set()
+    unchanged     = set()
+    merged = dict(existing)   # start from disk, so nothing is lost
+
+    for guid, item in fetched.items():
+        if guid not in existing:
+            merged[guid] = item
+        else:
+            combined = merge_item(existing[guid], item)
+            if combined != existing[guid]:
+                merged[guid] = combined
+                updated_guids.add(guid)
+            else:
+                merged[guid] = existing[guid]
+                unchanged.add(guid)
+
+    merged_list = sorted(merged.values(), key=lambda x: (x.get("name") or "").lower())
+    stats = {
+        "new": len(new_guids),
+        "updated": len(updated_guids),
+        "unchanged": len(unchanged),
+        "removed": len(set(existing) - set(fetched)),
+        "total": len(merged_list),
+    }
+    return merged_list, stats
+
+def merge_item(old, new):
+    """API (new) wins on keys it has; old-only keys (like 'location') are preserved."""
+    merged = dict(old)      # start from what we had
+    merged.update(new)      # API overwrites whatever it knows about
+    return merged
 
 def load_existing(path):
     """Return {guid: item} for whatever is already saved, or {} if none."""
@@ -109,5 +142,20 @@ def save_sprays(sprays, path=SPRAYS_FILE):
 
 
 if __name__ == "__main__":
-    # heros = get_heros()
-    get_sprays()
+    existing = load_existing(SPRAYS_FILE)
+    print(f"Loaded {len(existing)} existing sprays from {SPRAYS_FILE}")
+
+    fetched = get_sprays()
+    print(f"Fetched {len(fetched)} sprays from API")
+
+    merged, stats = merge_sprays(existing, fetched)
+
+    print("\nMerge summary:")
+    print(f"  new:       {stats['new']}")
+    print(f"  updated:   {stats['updated']}")
+    print(f"  unchanged: {stats['unchanged']}")
+    print(f"  removed:   {stats['removed']}  (in file but gone from API)")
+    print(f"  total:     {stats['total']}")
+
+    save_sprays(merged)
+    print(f"\nSaved {len(merged)} sprays to {SPRAYS_FILE}")

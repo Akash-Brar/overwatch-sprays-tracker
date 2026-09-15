@@ -1698,18 +1698,18 @@
     }
   },
   {
-    "guid": "000000000210.0A5",
-    "slug": "ahhhh",
-    "heroSlug": "junkrat",
+    "guid": "00000000063E.0A5",
+    "slug": "happy",
+    "heroSlug": "mei",
     "typeSlug": "spray",
-    "name": "AHHHH!",
-    "hero": "Junkrat",
+    "name": "^_^",
+    "hero": "Mei",
     "type": "Spray",
     "rarity": "Common",
     "description": null,
     "availableIn": null,
-    "productId": 875775,
-    "imageUrl": "/images/heroes/Junkrat/Spray/AHHHH!.png",
+    "productId": 876804,
+    "imageUrl": "/images/heroes/Mei/Spray/%5E_%5E.png",
     "videoUrl": null,
     "audioUrl": null,
     "categories": [
@@ -1719,32 +1719,32 @@
     "shopStatus": {
       "enabled": true,
       "price": 25,
-      "purchaseUrl": "https://battle.net/shop/en/checkout/buy/875775"
+      "purchaseUrl": "https://battle.net/shop/en/checkout/buy/876804"
     }
   },
   {
-    "guid": "00000000487E.0A5",
-    "slug": "alf",
-    "heroSlug": "roadhog",
+    "guid": "00000000100B.0A5",
+    "slug": "happy",
+    "heroSlug": "orisa",
     "typeSlug": "spray",
-    "name": "ALF",
-    "hero": "Roadhog",
+    "name": "^_^",
+    "hero": "Orisa",
     "type": "Spray",
     "rarity": "Common",
     "description": null,
     "availableIn": null,
-    "productId": 881736,
-    "imageUrl": "/images/heroes/Roadhog/Spray/ALF.png",
+    "productId": 878552,
+    "imageUrl": "/images/heroes/Orisa/Spray/%5E_%5E.png",
     "videoUrl": null,
     "audioUrl": null,
     "categories": [
-      "Archives"
+      "Base"
     ],
     "updatedAt": "2026-09-12T06:26:24.523Z",
     "shopStatus": {
       "enabled": true,
-      "price": 50,
-      "purchaseUrl": "https://battle.net/shop/en/checkout/buy/881736"
+      "price": 25,
+      "purchaseUrl": "https://battle.net/shop/en/checkout/buy/878552"
     }
   },
   {
@@ -2277,6 +2277,31 @@
     }
   },
   {
+    "guid": "000000000210.0A5",
+    "slug": "ahhhh",
+    "heroSlug": "junkrat",
+    "typeSlug": "spray",
+    "name": "AHHHH!",
+    "hero": "Junkrat",
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": null,
+    "productId": 875775,
+    "imageUrl": "/images/heroes/Junkrat/Spray/AHHHH!.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "Base"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": true,
+      "price": 25,
+      "purchaseUrl": "https://battle.net/shop/en/checkout/buy/875775"
+    }
+  },
+  {
     "guid": "0000000011C5.0A5",
     "slug": "akande",
     "heroSlug": "doomfist",
@@ -2402,6 +2427,31 @@
       "enabled": true,
       "price": 25,
       "purchaseUrl": "https://battle.net/shop/en/checkout/buy/877047"
+    }
+  },
+  {
+    "guid": "00000000487E.0A5",
+    "slug": "alf",
+    "heroSlug": "roadhog",
+    "typeSlug": "spray",
+    "name": "ALF",
+    "hero": "Roadhog",
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": null,
+    "productId": 881736,
+    "imageUrl": "/images/heroes/Roadhog/Spray/ALF.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "Archives"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": true,
+      "price": 50,
+      "purchaseUrl": "https://battle.net/shop/en/checkout/buy/881736"
     }
   },
   {
@@ -4294,82 +4344,6 @@
     }
   },
   {
-    "guid": "00000000055B.0A5",
-    "slug": "bamf",
-    "heroSlug": "cassidy",
-    "typeSlug": "spray",
-    "name": "BAMF",
-    "hero": "Cassidy",
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": null,
-    "productId": 876593,
-    "imageUrl": "/images/heroes/Cassidy/Spray/BAMF.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "Base"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": true,
-      "price": 25,
-      "purchaseUrl": "https://battle.net/shop/en/checkout/buy/876593"
-    }
-  },
-  {
-    "guid": "000000000B58.0A5",
-    "slug": "bmx",
-    "heroSlug": "reaper",
-    "typeSlug": "spray",
-    "name": "BMX",
-    "hero": "Reaper",
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": null,
-    "productId": 877835,
-    "imageUrl": "/images/heroes/Reaper/Spray/BMX.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "SummerGames"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": true,
-      "price": 50,
-      "purchaseUrl": "https://battle.net/shop/en/checkout/buy/877835"
-    }
-  },
-  {
-    "guid": "00000000CC39.0A5",
-    "slug": "bmx-freestyle-shion",
-    "heroSlug": "shion",
-    "typeSlug": "spray",
-    "name": "BMX Freestyle Shion",
-    "hero": "Shion",
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": "Unlocked by completing the Long Jumper challenge in the 2026 Summer Games event",
-    "productId": 2102936,
-    "imageUrl": "/images/heroes/Shion/Spray/BMX%20Freestyle%20Shion.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "SummerGames",
-      "2026 Season3"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": false,
-      "price": 0,
-      "purchaseUrl": null
-    }
-  },
-  {
     "guid": "000000005DB5.0A5",
     "slug": "ba-jiao-shan",
     "heroSlug": "junkrat",
@@ -4791,6 +4765,31 @@
       "enabled": true,
       "price": 100,
       "purchaseUrl": "https://battle.net/shop/en/checkout/buy/1175134"
+    }
+  },
+  {
+    "guid": "00000000055B.0A5",
+    "slug": "bamf",
+    "heroSlug": "cassidy",
+    "typeSlug": "spray",
+    "name": "BAMF",
+    "hero": "Cassidy",
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": null,
+    "productId": 876593,
+    "imageUrl": "/images/heroes/Cassidy/Spray/BAMF.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "Base"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": true,
+      "price": 25,
+      "purchaseUrl": "https://battle.net/shop/en/checkout/buy/876593"
     }
   },
   {
@@ -5580,6 +5579,32 @@
     }
   },
   {
+    "guid": "000000006963.0A5",
+    "slug": "bear-and-bone",
+    "heroSlug": "roadhog",
+    "typeSlug": "spray",
+    "name": "Bear and Bone",
+    "hero": "Roadhog",
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": "Sometimes available in the Shop",
+    "productId": 1581274,
+    "imageUrl": "/images/heroes/Roadhog/Spray/Bear%20and%20Bone.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "Season8",
+      "Shop"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": true,
+      "price": 100,
+      "purchaseUrl": "https://battle.net/shop/en/checkout/buy/1581274"
+    }
+  },
+  {
     "guid": "000000004875.0A5",
     "slug": "bear-hug",
     "heroSlug": "mei",
@@ -5628,32 +5653,6 @@
       "enabled": false,
       "price": 100,
       "purchaseUrl": null
-    }
-  },
-  {
-    "guid": "000000006963.0A5",
-    "slug": "bear-and-bone",
-    "heroSlug": "roadhog",
-    "typeSlug": "spray",
-    "name": "Bear and Bone",
-    "hero": "Roadhog",
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": "Sometimes available in the Shop",
-    "productId": 1581274,
-    "imageUrl": "/images/heroes/Roadhog/Spray/Bear%20and%20Bone.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "Season8",
-      "Shop"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": true,
-      "price": 100,
-      "purchaseUrl": "https://battle.net/shop/en/checkout/buy/1581274"
     }
   },
   {
@@ -6820,6 +6819,57 @@
       "enabled": true,
       "price": 25,
       "purchaseUrl": "https://battle.net/shop/en/checkout/buy/876002"
+    }
+  },
+  {
+    "guid": "000000000B58.0A5",
+    "slug": "bmx",
+    "heroSlug": "reaper",
+    "typeSlug": "spray",
+    "name": "BMX",
+    "hero": "Reaper",
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": null,
+    "productId": 877835,
+    "imageUrl": "/images/heroes/Reaper/Spray/BMX.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "SummerGames"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": true,
+      "price": 50,
+      "purchaseUrl": "https://battle.net/shop/en/checkout/buy/877835"
+    }
+  },
+  {
+    "guid": "00000000CC39.0A5",
+    "slug": "bmx-freestyle-shion",
+    "heroSlug": "shion",
+    "typeSlug": "spray",
+    "name": "BMX Freestyle Shion",
+    "hero": "Shion",
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": "Unlocked by completing the Long Jumper challenge in the 2026 Summer Games event",
+    "productId": 2102936,
+    "imageUrl": "/images/heroes/Shion/Spray/BMX%20Freestyle%20Shion.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "SummerGames",
+      "2026 Season3"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": false,
+      "price": 0,
+      "purchaseUrl": null
     }
   },
   {
@@ -8288,31 +8338,6 @@
       "enabled": false,
       "price": 0,
       "purchaseUrl": null
-    }
-  },
-  {
-    "guid": "000000000D17.0A5",
-    "slug": "cookie",
-    "heroSlug": "d-va",
-    "typeSlug": "spray",
-    "name": "COOKIE",
-    "hero": "D.Va",
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": null,
-    "productId": 878224,
-    "imageUrl": "/images/heroes/D.Va/Spray/COOKIE.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "Winter"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": true,
-      "price": 50,
-      "purchaseUrl": "https://battle.net/shop/en/checkout/buy/878224"
     }
   },
   {
@@ -12326,6 +12351,31 @@
     }
   },
   {
+    "guid": "000000000D17.0A5",
+    "slug": "cookie",
+    "heroSlug": "d-va",
+    "typeSlug": "spray",
+    "name": "COOKIE",
+    "hero": "D.Va",
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": null,
+    "productId": 878224,
+    "imageUrl": "/images/heroes/D.Va/Spray/COOKIE.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "Winter"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": true,
+      "price": 50,
+      "purchaseUrl": "https://battle.net/shop/en/checkout/buy/878224"
+    }
+  },
+  {
     "guid": "000000004BFB.0A5",
     "slug": "cookie-throw",
     "heroSlug": "universal",
@@ -15905,32 +15955,6 @@
     }
   },
   {
-    "guid": "00000000549C.0A5",
-    "slug": "dj-d-va",
-    "heroSlug": "d-va",
-    "typeSlug": "spray",
-    "name": "DJ D.Va",
-    "hero": "D.Va",
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": null,
-    "productId": 908614,
-    "imageUrl": "/images/heroes/D.Va/Spray/DJ%20D.Va.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "Season1",
-      "BattlePass"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": false,
-      "price": 0,
-      "purchaseUrl": null
-    }
-  },
-  {
     "guid": "000000004B27.0A5",
     "slug": "dai-tengu",
     "heroSlug": "hanzo",
@@ -16568,6 +16592,32 @@
     }
   },
   {
+    "guid": "000000004FCE.0A5",
+    "slug": "death-and-deceit",
+    "heroSlug": "reaper",
+    "typeSlug": "spray",
+    "name": "Death and Deceit",
+    "hero": "Reaper",
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": "Unlocked by watching participating streams during Reaper's Code of Violence Challenge",
+    "productId": 886181,
+    "imageUrl": "/images/heroes/Reaper/Spray/Death%20and%20Deceit.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "Special",
+      "Limited"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": false,
+      "price": 0,
+      "purchaseUrl": null
+    }
+  },
+  {
     "guid": "000000000751.0A5",
     "slug": "death-blossom",
     "heroSlug": "reaper",
@@ -16609,32 +16659,6 @@
     "audioUrl": null,
     "categories": [
       "Base"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": false,
-      "price": 0,
-      "purchaseUrl": null
-    }
-  },
-  {
-    "guid": "000000004FCE.0A5",
-    "slug": "death-and-deceit",
-    "heroSlug": "reaper",
-    "typeSlug": "spray",
-    "name": "Death and Deceit",
-    "hero": "Reaper",
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": "Unlocked by watching participating streams during Reaper's Code of Violence Challenge",
-    "productId": 886181,
-    "imageUrl": "/images/heroes/Reaper/Spray/Death%20and%20Deceit.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "Special",
-      "Limited"
     ],
     "updatedAt": "2026-09-12T06:26:24.523Z",
     "shopStatus": {
@@ -19462,6 +19486,32 @@
     }
   },
   {
+    "guid": "00000000549C.0A5",
+    "slug": "dj-d-va",
+    "heroSlug": "d-va",
+    "typeSlug": "spray",
+    "name": "DJ D.Va",
+    "hero": "D.Va",
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": null,
+    "productId": 908614,
+    "imageUrl": "/images/heroes/D.Va/Spray/DJ%20D.Va.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "Season1",
+      "BattlePass"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": false,
+      "price": 0,
+      "purchaseUrl": null
+    }
+  },
+  {
     "guid": "0000000049FC.0A5",
     "slug": "djembe",
     "heroSlug": "orisa",
@@ -19510,31 +19560,6 @@
       "enabled": true,
       "price": 25,
       "purchaseUrl": "https://battle.net/shop/en/checkout/buy/881395"
-    }
-  },
-  {
-    "guid": "00000000C55B.0A5",
-    "slug": "dor-o-t-h-y-butterfly",
-    "heroSlug": "sierra",
-    "typeSlug": "spray",
-    "name": "DoR.O.T.H.y Butterfly",
-    "hero": "Sierra",
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": null,
-    "productId": 2069650,
-    "imageUrl": "/images/heroes/Sierra/Spray/DoR.O.T.H.y%20Butterfly.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "Base"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": false,
-      "price": 0,
-      "purchaseUrl": null
     }
   },
   {
@@ -19657,6 +19682,31 @@
     "categories": [
       "Special",
       "Limited"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": false,
+      "price": 0,
+      "purchaseUrl": null
+    }
+  },
+  {
+    "guid": "00000000C55B.0A5",
+    "slug": "dor-o-t-h-y-butterfly",
+    "heroSlug": "sierra",
+    "typeSlug": "spray",
+    "name": "DoR.O.T.H.y Butterfly",
+    "hero": "Sierra",
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": null,
+    "productId": 2069650,
+    "imageUrl": "/images/heroes/Sierra/Spray/DoR.O.T.H.y%20Butterfly.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "Base"
     ],
     "updatedAt": "2026-09-12T06:26:24.523Z",
     "shopStatus": {
@@ -21173,6 +21223,31 @@
     }
   },
   {
+    "guid": "000000000606.0A5",
+    "slug": "e54",
+    "heroSlug": "bastion",
+    "typeSlug": "spray",
+    "name": "e54",
+    "hero": "Bastion",
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": null,
+    "productId": 876766,
+    "imageUrl": "/images/heroes/Bastion/Spray/e54.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "Base"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": true,
+      "price": 25,
+      "purchaseUrl": "https://battle.net/shop/en/checkout/buy/876766"
+    }
+  },
+  {
     "guid": "0000000084DD.0A5",
     "slug": "eagle-76",
     "heroSlug": "soldier-76",
@@ -22517,6 +22592,84 @@
     }
   },
   {
+    "guid": "00000000B7F6.0A5",
+    "slug": "exo-l2pus-ashe",
+    "heroSlug": "ashe",
+    "typeSlug": "spray",
+    "name": "exo-L2PUS Ashe",
+    "hero": "Ashe",
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": "Sometimes available in the Shop",
+    "productId": 2027156,
+    "imageUrl": "/images/heroes/Ashe/Spray/exo-L2PUS%20Ashe.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "Season20",
+      "Shop"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": false,
+      "price": 100,
+      "purchaseUrl": null
+    }
+  },
+  {
+    "guid": "00000000B7F7.0A5",
+    "slug": "exo-pant6ra",
+    "heroSlug": "vendetta",
+    "typeSlug": "spray",
+    "name": "exo-PANT6RA",
+    "hero": "Vendetta",
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": "Sometimes available in the Shop",
+    "productId": 2027153,
+    "imageUrl": "/images/heroes/Vendetta/Spray/exo-PANT6RA.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "Season20",
+      "Shop"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": false,
+      "price": 100,
+      "purchaseUrl": null
+    }
+  },
+  {
+    "guid": "00000000B7F8.0A5",
+    "slug": "exo-vu7pes",
+    "heroSlug": "kiriko",
+    "typeSlug": "spray",
+    "name": "exo-VU7PES",
+    "hero": "Kiriko",
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": "Sometimes available in the Shop",
+    "productId": 2027157,
+    "imageUrl": "/images/heroes/Kiriko/Spray/exo-VU7PES.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "Season20",
+      "Shop"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": false,
+      "price": 100,
+      "purchaseUrl": null
+    }
+  },
+  {
     "guid": "00000000062D.0A5",
     "slug": "explorer",
     "heroSlug": "mei",
@@ -22842,31 +22995,6 @@
       "enabled": true,
       "price": 25,
       "purchaseUrl": "https://battle.net/shop/en/checkout/buy/877079"
-    }
-  },
-  {
-    "guid": "000000000D14.0A5",
-    "slug": "festive",
-    "heroSlug": "bastion",
-    "typeSlug": "spray",
-    "name": "FESTIVE",
-    "hero": "Bastion",
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": null,
-    "productId": 878223,
-    "imageUrl": "/images/heroes/Bastion/Spray/FESTIVE.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "Winter"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": true,
-      "price": 50,
-      "purchaseUrl": "https://battle.net/shop/en/checkout/buy/878223"
     }
   },
   {
@@ -23610,6 +23738,31 @@
     }
   },
   {
+    "guid": "000000000D14.0A5",
+    "slug": "festive",
+    "heroSlug": "bastion",
+    "typeSlug": "spray",
+    "name": "FESTIVE",
+    "hero": "Bastion",
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": null,
+    "productId": 878223,
+    "imageUrl": "/images/heroes/Bastion/Spray/FESTIVE.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "Winter"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": true,
+      "price": 50,
+      "purchaseUrl": "https://battle.net/shop/en/checkout/buy/878223"
+    }
+  },
+  {
     "guid": "00000000B7F2.0A5",
     "slug": "festive-reindeer",
     "heroSlug": "wuyang",
@@ -23839,6 +23992,31 @@
     }
   },
   {
+    "guid": "000000002474.0A5",
+    "slug": "fire-in-the-hole",
+    "heroSlug": "ashe",
+    "typeSlug": "spray",
+    "name": "Fire in the Hole",
+    "hero": "Ashe",
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": null,
+    "productId": 880616,
+    "imageUrl": "/images/heroes/Ashe/Spray/Fire%20in%20the%20Hole.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "Base"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": true,
+      "price": 25,
+      "purchaseUrl": "https://battle.net/shop/en/checkout/buy/880616"
+    }
+  },
+  {
     "guid": "00000000C969.0A5",
     "slug": "fire-star-anran",
     "heroSlug": "anran",
@@ -23887,31 +24065,6 @@
       "enabled": true,
       "price": 25,
       "purchaseUrl": "https://battle.net/shop/en/checkout/buy/877001"
-    }
-  },
-  {
-    "guid": "000000002474.0A5",
-    "slug": "fire-in-the-hole",
-    "heroSlug": "ashe",
-    "typeSlug": "spray",
-    "name": "Fire in the Hole",
-    "hero": "Ashe",
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": null,
-    "productId": 880616,
-    "imageUrl": "/images/heroes/Ashe/Spray/Fire%20in%20the%20Hole.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "Base"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": true,
-      "price": 25,
-      "purchaseUrl": "https://battle.net/shop/en/checkout/buy/880616"
     }
   },
   {
@@ -24964,31 +25117,6 @@
     }
   },
   {
-    "guid": "000000000214.0A5",
-    "slug": "for-you",
-    "heroSlug": "junkrat",
-    "typeSlug": "spray",
-    "name": "For You",
-    "hero": "Junkrat",
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": null,
-    "productId": 875779,
-    "imageUrl": "/images/heroes/Junkrat/Spray/For%20You.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "Base"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": true,
-      "price": 25,
-      "purchaseUrl": "https://battle.net/shop/en/checkout/buy/875779"
-    }
-  },
-  {
     "guid": "000000000713.0A5",
     "slug": "for-the-people",
     "heroSlug": "zarya",
@@ -25011,6 +25139,31 @@
       "enabled": true,
       "price": 25,
       "purchaseUrl": "https://battle.net/shop/en/checkout/buy/876986"
+    }
+  },
+  {
+    "guid": "000000000214.0A5",
+    "slug": "for-you",
+    "heroSlug": "junkrat",
+    "typeSlug": "spray",
+    "name": "For You",
+    "hero": "Junkrat",
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": null,
+    "productId": 875779,
+    "imageUrl": "/images/heroes/Junkrat/Spray/For%20You.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "Base"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": true,
+      "price": 25,
+      "purchaseUrl": "https://battle.net/shop/en/checkout/buy/875779"
     }
   },
   {
@@ -25827,56 +25980,6 @@
     }
   },
   {
-    "guid": "000000000251.0A5",
-    "slug": "gg",
-    "heroSlug": "d-va",
-    "typeSlug": "spray",
-    "name": "GG",
-    "hero": "D.Va",
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": null,
-    "productId": 875820,
-    "imageUrl": "/images/heroes/D.Va/Spray/GG.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "Base"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": true,
-      "price": 25,
-      "purchaseUrl": "https://battle.net/shop/en/checkout/buy/875820"
-    }
-  },
-  {
-    "guid": "0000000001E2.0A5",
-    "slug": "gl-hf",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "GL HF",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": null,
-    "productId": 888350,
-    "imageUrl": "/images/heroes/ALL/Spray/GL%20HF.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "Achievement"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": false,
-      "price": 0,
-      "purchaseUrl": null
-    }
-  },
-  {
     "guid": "000000006015.0A5",
     "slug": "galactic-emperor",
     "heroSlug": "sigma",
@@ -26435,6 +26538,31 @@
     }
   },
   {
+    "guid": "000000000251.0A5",
+    "slug": "gg",
+    "heroSlug": "d-va",
+    "typeSlug": "spray",
+    "name": "GG",
+    "hero": "D.Va",
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": null,
+    "productId": 875820,
+    "imageUrl": "/images/heroes/D.Va/Spray/GG.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "Base"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": true,
+      "price": 25,
+      "purchaseUrl": "https://battle.net/shop/en/checkout/buy/875820"
+    }
+  },
+  {
     "guid": "00000000487D.0A5",
     "slug": "ghillie-suit",
     "heroSlug": "ana",
@@ -26659,6 +26787,31 @@
       "enabled": true,
       "price": 25,
       "purchaseUrl": "https://battle.net/shop/en/checkout/buy/879107"
+    }
+  },
+  {
+    "guid": "0000000001E2.0A5",
+    "slug": "gl-hf",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "GL HF",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": null,
+    "productId": 888350,
+    "imageUrl": "/images/heroes/ALL/Spray/GL%20HF.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "Achievement"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": false,
+      "price": 0,
+      "purchaseUrl": null
     }
   },
   {
@@ -26919,31 +27072,6 @@
     }
   },
   {
-    "guid": "0000000002D1.0A5",
-    "slug": "god-of-war",
-    "heroSlug": "genji",
-    "typeSlug": "spray",
-    "name": "God of War",
-    "hero": "Genji",
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": null,
-    "productId": 875980,
-    "imageUrl": "/images/heroes/Genji/Spray/God%20of%20War.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "Base"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": true,
-      "price": 25,
-      "purchaseUrl": "https://battle.net/shop/en/checkout/buy/875980"
-    }
-  },
-  {
     "guid": "0000000056FB.0A5",
     "slug": "god-of-the-sea",
     "heroSlug": "ramattra",
@@ -26967,6 +27095,31 @@
       "enabled": false,
       "price": 0,
       "purchaseUrl": null
+    }
+  },
+  {
+    "guid": "0000000002D1.0A5",
+    "slug": "god-of-war",
+    "heroSlug": "genji",
+    "typeSlug": "spray",
+    "name": "God of War",
+    "hero": "Genji",
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": null,
+    "productId": 875980,
+    "imageUrl": "/images/heroes/Genji/Spray/God%20of%20War.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "Base"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": true,
+      "price": 25,
+      "purchaseUrl": "https://battle.net/shop/en/checkout/buy/875980"
     }
   },
   {
@@ -29194,6 +29347,31 @@
       "enabled": false,
       "price": 0,
       "purchaseUrl": null
+    }
+  },
+  {
+    "guid": "000000000CE0.0A5",
+    "slug": "hax0red",
+    "heroSlug": "sombra",
+    "typeSlug": "spray",
+    "name": "hax0red",
+    "hero": "Sombra",
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": null,
+    "productId": 878159,
+    "imageUrl": "/images/heroes/Sombra/Spray/hax0red.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "Base"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": true,
+      "price": 25,
+      "purchaseUrl": "https://battle.net/shop/en/checkout/buy/878159"
     }
   },
   {
@@ -35942,32 +36120,6 @@
     }
   },
   {
-    "guid": "000000004BB9.0A5",
-    "slug": "light-weave",
-    "heroSlug": "symmetra",
-    "typeSlug": "spray",
-    "name": "Light Weave",
-    "hero": "Symmetra",
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": "Unlocked by watching participating streams during Symmetra's Restoration Challenge",
-    "productId": 124539,
-    "imageUrl": "/images/heroes/Symmetra/Spray/Light%20Weave.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "Special",
-      "Limited"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": false,
-      "price": 0,
-      "purchaseUrl": null
-    }
-  },
-  {
     "guid": "0000000027D8.0A5",
     "slug": "light-the-way",
     "heroSlug": "universal",
@@ -35985,6 +36137,32 @@
     "categories": [
       "Archives",
       "Achievement"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": false,
+      "price": 0,
+      "purchaseUrl": null
+    }
+  },
+  {
+    "guid": "000000004BB9.0A5",
+    "slug": "light-weave",
+    "heroSlug": "symmetra",
+    "typeSlug": "spray",
+    "name": "Light Weave",
+    "hero": "Symmetra",
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": "Unlocked by watching participating streams during Symmetra's Restoration Challenge",
+    "productId": 124539,
+    "imageUrl": "/images/heroes/Symmetra/Spray/Light%20Weave.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "Special",
+      "Limited"
     ],
     "updatedAt": "2026-09-12T06:26:24.523Z",
     "shopStatus": {
@@ -37131,163 +37309,6 @@
     }
   },
   {
-    "guid": "000000000253.0A5",
-    "slug": "meka",
-    "heroSlug": "d-va",
-    "typeSlug": "spray",
-    "name": "MEKA",
-    "hero": "D.Va",
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": null,
-    "productId": 875822,
-    "imageUrl": "/images/heroes/D.Va/Spray/MEKA.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "Base"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": true,
-      "price": 25,
-      "purchaseUrl": "https://battle.net/shop/en/checkout/buy/875822"
-    }
-  },
-  {
-    "guid": "00000000CEBD.0A5",
-    "slug": "meka-casino",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "MEKA Casino",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": null,
-    "productId": 2110771,
-    "imageUrl": "/images/heroes/ALL/Spray/MEKA%20Casino.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "2026 Season4"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": null
-  },
-  {
-    "guid": "00000000CEBE.0A5",
-    "slug": "meka-d-mon",
-    "heroSlug": "d-mon",
-    "typeSlug": "spray",
-    "name": "MEKA D.Mon",
-    "hero": "D.Mon",
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": null,
-    "productId": 2110770,
-    "imageUrl": "/images/heroes/D.Mon/Spray/MEKA%20D.Mon.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "2026 Season4"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": null
-  },
-  {
-    "guid": "00000000CEBF.0A5",
-    "slug": "meka-d-va",
-    "heroSlug": "d-va",
-    "typeSlug": "spray",
-    "name": "MEKA D.Va",
-    "hero": "D.Va",
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": null,
-    "productId": 2110789,
-    "imageUrl": "/images/heroes/D.Va/Spray/MEKA%20D.Va.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "2026 Season4"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": null
-  },
-  {
-    "guid": "00000000CEBC.0A5",
-    "slug": "meka-king",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "MEKA King",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": null,
-    "productId": 2110772,
-    "imageUrl": "/images/heroes/ALL/Spray/MEKA%20King.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "2026 Season4"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": null
-  },
-  {
-    "guid": "00000000CEBB.0A5",
-    "slug": "meka-overlord",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "MEKA Overlord",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": null,
-    "productId": 2110773,
-    "imageUrl": "/images/heroes/ALL/Spray/MEKA%20Overlord.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "2026 Season4"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": null
-  },
-  {
-    "guid": "0000000084DC.0A5",
-    "slug": "mmc-champion",
-    "heroSlug": "mei",
-    "typeSlug": "spray",
-    "name": "MMC Champion",
-    "hero": "Mei",
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": "Sometimes available in the Shop",
-    "productId": 1935937,
-    "imageUrl": "/images/heroes/Mei/Spray/MMC%20Champion.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "ESports",
-      "Season16",
-      "Shop"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": false,
-      "price": 0,
-      "purchaseUrl": null
-    }
-  },
-  {
     "guid": "000000002A48.0A5",
     "slug": "maatjesharing",
     "heroSlug": "sigma",
@@ -38204,6 +38225,136 @@
     }
   },
   {
+    "guid": "000000000253.0A5",
+    "slug": "meka",
+    "heroSlug": "d-va",
+    "typeSlug": "spray",
+    "name": "MEKA",
+    "hero": "D.Va",
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": null,
+    "productId": 875822,
+    "imageUrl": "/images/heroes/D.Va/Spray/MEKA.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "Base"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": true,
+      "price": 25,
+      "purchaseUrl": "https://battle.net/shop/en/checkout/buy/875822"
+    }
+  },
+  {
+    "guid": "00000000CEBD.0A5",
+    "slug": "meka-casino",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "MEKA Casino",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": null,
+    "productId": 2110771,
+    "imageUrl": "/images/heroes/ALL/Spray/MEKA%20Casino.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "2026 Season4"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": null
+  },
+  {
+    "guid": "00000000CEBE.0A5",
+    "slug": "meka-d-mon",
+    "heroSlug": "d-mon",
+    "typeSlug": "spray",
+    "name": "MEKA D.Mon",
+    "hero": "D.Mon",
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": null,
+    "productId": 2110770,
+    "imageUrl": "/images/heroes/D.Mon/Spray/MEKA%20D.Mon.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "2026 Season4"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": null
+  },
+  {
+    "guid": "00000000CEBF.0A5",
+    "slug": "meka-d-va",
+    "heroSlug": "d-va",
+    "typeSlug": "spray",
+    "name": "MEKA D.Va",
+    "hero": "D.Va",
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": null,
+    "productId": 2110789,
+    "imageUrl": "/images/heroes/D.Va/Spray/MEKA%20D.Va.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "2026 Season4"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": null
+  },
+  {
+    "guid": "00000000CEBC.0A5",
+    "slug": "meka-king",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "MEKA King",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": null,
+    "productId": 2110772,
+    "imageUrl": "/images/heroes/ALL/Spray/MEKA%20King.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "2026 Season4"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": null
+  },
+  {
+    "guid": "00000000CEBB.0A5",
+    "slug": "meka-overlord",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "MEKA Overlord",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": null,
+    "productId": 2110773,
+    "imageUrl": "/images/heroes/ALL/Spray/MEKA%20Overlord.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "2026 Season4"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": null
+  },
+  {
     "guid": "0000000064F1.0A5",
     "slug": "melting-grasp",
     "heroSlug": "sombra",
@@ -38656,6 +38807,33 @@
     "audioUrl": null,
     "categories": [
       "Season18"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": false,
+      "price": 0,
+      "purchaseUrl": null
+    }
+  },
+  {
+    "guid": "0000000084DC.0A5",
+    "slug": "mmc-champion",
+    "heroSlug": "mei",
+    "typeSlug": "spray",
+    "name": "MMC Champion",
+    "hero": "Mei",
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": "Sometimes available in the Shop",
+    "productId": 1935937,
+    "imageUrl": "/images/heroes/Mei/Spray/MMC%20Champion.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "ESports",
+      "Season16",
+      "Shop"
     ],
     "updatedAt": "2026-09-12T06:26:24.523Z",
     "shopStatus": {
@@ -39682,31 +39860,6 @@
     }
   },
   {
-    "guid": "00000000962A.0A5",
-    "slug": "nerf-cassidy",
-    "heroSlug": "cassidy",
-    "typeSlug": "spray",
-    "name": "NERF Cassidy",
-    "hero": "Cassidy",
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": null,
-    "productId": 1959732,
-    "imageUrl": "/images/heroes/Cassidy/Spray/NERF%20Cassidy.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "Season17"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": false,
-      "price": 0,
-      "purchaseUrl": null
-    }
-  },
-  {
     "guid": "00000000C8CB.0A5",
     "slug": "nail-tech",
     "heroSlug": "domina",
@@ -39907,6 +40060,31 @@
       "enabled": true,
       "price": 100,
       "purchaseUrl": "https://battle.net/shop/en/checkout/buy/1052602"
+    }
+  },
+  {
+    "guid": "00000000962A.0A5",
+    "slug": "nerf-cassidy",
+    "heroSlug": "cassidy",
+    "typeSlug": "spray",
+    "name": "NERF Cassidy",
+    "hero": "Cassidy",
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": null,
+    "productId": 1959732,
+    "imageUrl": "/images/heroes/Cassidy/Spray/NERF%20Cassidy.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "Season17"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": false,
+      "price": 0,
+      "purchaseUrl": null
     }
   },
   {
@@ -41233,1859 +41411,6 @@
     }
   },
   {
-    "guid": "0000000010B3.0A5",
-    "slug": "or14-ns",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "OR14-NS",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": null,
-    "productId": 889478,
-    "imageUrl": "/images/heroes/ALL/Spray/OR14-NS.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "Archives",
-      "Achievement"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": false,
-      "price": 0,
-      "purchaseUrl": null
-    }
-  },
-  {
-    "guid": "000000000D33.0A5",
-    "slug": "ornament",
-    "heroSlug": "d-va",
-    "typeSlug": "spray",
-    "name": "ORNAMENT",
-    "hero": "D.Va",
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": null,
-    "productId": 878262,
-    "imageUrl": "/images/heroes/D.Va/Spray/ORNAMENT.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "Winter"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": true,
-      "price": 50,
-      "purchaseUrl": "https://battle.net/shop/en/checkout/buy/878262"
-    }
-  },
-  {
-    "guid": "000000000D2F.0A5",
-    "slug": "ornament",
-    "heroSlug": "bastion",
-    "typeSlug": "spray",
-    "name": "ORNAMENT",
-    "hero": "Bastion",
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": null,
-    "productId": 878230,
-    "imageUrl": "/images/heroes/Bastion/Spray/ORNAMENT.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "Winter"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": true,
-      "price": 50,
-      "purchaseUrl": "https://battle.net/shop/en/checkout/buy/878230"
-    }
-  },
-  {
-    "guid": "0000000078F3.0A5",
-    "slug": "ow-collegiate-retro-tvs",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "OW Collegiate Retro TVs",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": "Unlocked by watching Overwatch Esports events",
-    "productId": 1853598,
-    "imageUrl": "/images/heroes/ALL/Spray/OW%20Collegiate%20Retro%20TVs.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "ESports"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": false,
-      "price": 0,
-      "purchaseUrl": null
-    }
-  },
-  {
-    "guid": "000000007B83.0A5",
-    "slug": "owcs-2024-stockholm-world-finals",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "OWCS 2024 Stockholm World Finals",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": "Unlocked by attending Overwatch Esports events",
-    "productId": 1864981,
-    "imageUrl": "/images/heroes/ALL/Spray/OWCS%202024%20Stockholm%20World%20Finals.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "ESports"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": false,
-      "price": 0,
-      "purchaseUrl": null
-    }
-  },
-  {
-    "guid": "000000007B84.0A5",
-    "slug": "owcs-2024-world-finals-trophy",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "OWCS 2024 World Finals Trophy",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": "Unlocked by watching Overwatch Esports events",
-    "productId": 1864950,
-    "imageUrl": "/images/heroes/ALL/Spray/OWCS%202024%20World%20Finals%20Trophy.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "ESports"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": false,
-      "price": 0,
-      "purchaseUrl": null
-    }
-  },
-  {
-    "guid": "0000000095C6.0A5",
-    "slug": "owcs-2025-midseason-gild",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "OWCS 2025 Midseason Gild",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": "Unlocked by watching, attending, or participating in an Overwatch Esports event",
-    "productId": 1959814,
-    "imageUrl": "/images/heroes/ALL/Spray/OWCS%202025%20Midseason%20Gild.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "ESports",
-      "Season17"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": false,
-      "price": 0,
-      "purchaseUrl": null
-    }
-  },
-  {
-    "guid": "00000000A809.0A5",
-    "slug": "owcs-2025-stockholm-world-finals",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "OWCS 2025 Stockholm World Finals",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": "Unlocked by watching, attending, or participating in an Overwatch Esports event",
-    "productId": 1980150,
-    "imageUrl": "/images/heroes/ALL/Spray/OWCS%202025%20Stockholm%20World%20Finals.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "ESports",
-      "Season19"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": false,
-      "price": 0,
-      "purchaseUrl": null
-    }
-  },
-  {
-    "guid": "00000000AC75.0A5",
-    "slug": "owcs-2025-world-finals-trophy",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "OWCS 2025 World Finals Trophy",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": "Unlocked by watching, attending, or participating in an Overwatch Esports event",
-    "productId": 2007088,
-    "imageUrl": "/images/heroes/ALL/Spray/OWCS%202025%20World%20Finals%20Trophy.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "ESports",
-      "Season19"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": false,
-      "price": 0,
-      "purchaseUrl": null
-    }
-  },
-  {
-    "guid": "00000000CDF6.0A5",
-    "slug": "owcs-all-gamers-2026",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "OWCS All Gamers 2026",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": "A portion of the sales revenue* will go to the OWCS Partner Teams and select OWCS China teams*.\n\n*Platform fees, applicable taxes and any other deductions paid to third parties will be deducted from the sales revenue actually received by Blizzard to calculate the OWCS Partner Team incentives.",
-    "availableIn": "Sometimes available in the Shop",
-    "productId": 2108016,
-    "imageUrl": "/images/heroes/ALL/Spray/OWCS%20All%20Gamers%202026.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "ESports",
-      "2026 Season4",
-      "Shop"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": true,
-      "price": 100,
-      "purchaseUrl": "https://battle.net/shop/en/checkout/buy/2108016"
-    }
-  },
-  {
-    "guid": "00000000A6CE.0A5",
-    "slug": "owcs-boarding-pass",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "OWCS Boarding Pass",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": "Unlocked by watching, attending, or participating in an Overwatch Esports event",
-    "productId": 1976355,
-    "imageUrl": "/images/heroes/ALL/Spray/OWCS%20Boarding%20Pass.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "ESports",
-      "Season18"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": false,
-      "price": 0,
-      "purchaseUrl": null
-    }
-  },
-  {
-    "guid": "0000000082F1.0A5",
-    "slug": "owcs-champions-guardian",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "OWCS Champion's Guardian",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": "Unlocked by watching Overwatch Esports events",
-    "productId": 1913228,
-    "imageUrl": "/images/heroes/ALL/Spray/OWCS%20Champion's%20Guardian.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "ESports",
-      "Season15"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": false,
-      "price": 0,
-      "purchaseUrl": null
-    }
-  },
-  {
-    "guid": "00000000C6E4.0A5",
-    "slug": "owcs-champions-clash-tokyo-2026",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "OWCS Champions Clash Tokyo 2026",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": null,
-    "productId": 2075215,
-    "imageUrl": "/images/heroes/ALL/Spray/OWCS%20Champions%20Clash%20Tokyo%202026.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "ESports",
-      "2026 Season2"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": false,
-      "price": 0,
-      "purchaseUrl": null
-    }
-  },
-  {
-    "guid": "00000000D082.0A5",
-    "slug": "owcs-crazy-raccoon-2026",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "OWCS Crazy Raccoon 2026",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": "A portion of the sales revenue* will go to the OWCS Partner Teams and select OWCS China teams*.\n\n*Platform fees, applicable taxes and any other deductions paid to third parties will be deducted from the sales revenue actually received by Blizzard to calculate the OWCS Partner Team incentives.",
-    "availableIn": "Sometimes available in the Shop",
-    "productId": 2115062,
-    "imageUrl": "/images/heroes/ALL/Spray/OWCS%20Crazy%20Raccoon%202026.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "ESports",
-      "2026 Season4",
-      "Shop"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": true,
-      "price": 100,
-      "purchaseUrl": "https://battle.net/shop/en/checkout/buy/2115062"
-    }
-  },
-  {
-    "guid": "00000000D080.0A5",
-    "slug": "owcs-dallas-fuel-2026",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "OWCS Dallas Fuel 2026",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": "A portion of the sales revenue* will go to the OWCS Partner Teams and select OWCS China teams*.\n\n*Platform fees, applicable taxes and any other deductions paid to third parties will be deducted from the sales revenue actually received by Blizzard to calculate the OWCS Partner Team incentives.",
-    "availableIn": "Sometimes available in the Shop",
-    "productId": 2115061,
-    "imageUrl": "/images/heroes/ALL/Spray/OWCS%20Dallas%20Fuel%202026.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "ESports",
-      "2026 Season4",
-      "Shop"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": true,
-      "price": 100,
-      "purchaseUrl": "https://battle.net/shop/en/checkout/buy/2115061"
-    }
-  },
-  {
-    "guid": "00000000D081.0A5",
-    "slug": "owcs-disguised-2026",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "OWCS Disguised 2026",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": "A portion of the sales revenue* will go to the OWCS Partner Teams and select OWCS China teams*.\n\n*Platform fees, applicable taxes and any other deductions paid to third parties will be deducted from the sales revenue actually received by Blizzard to calculate the OWCS Partner Team incentives.",
-    "availableIn": "Sometimes available in the Shop",
-    "productId": 2115060,
-    "imageUrl": "/images/heroes/ALL/Spray/OWCS%20Disguised%202026.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "ESports",
-      "2026 Season4",
-      "Shop"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": true,
-      "price": 100,
-      "purchaseUrl": "https://battle.net/shop/en/checkout/buy/2115060"
-    }
-  },
-  {
-    "guid": "00000000854F.0A5",
-    "slug": "owcs-ggwp",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "OWCS GGWP",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": "Unlocked by watching Overwatch Esports events",
-    "productId": 1936535,
-    "imageUrl": "/images/heroes/ALL/Spray/OWCS%20GGWP.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "ESports",
-      "Season16"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": false,
-      "price": 0,
-      "purchaseUrl": null
-    }
-  },
-  {
-    "guid": "0000000082F2.0A5",
-    "slug": "owcs-guardian-lantern",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "OWCS Guardian Lantern",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": "Unlocked by watching Overwatch Esports events",
-    "productId": 1913254,
-    "imageUrl": "/images/heroes/ALL/Spray/OWCS%20Guardian%20Lantern.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "ESports",
-      "Season15"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": false,
-      "price": 0,
-      "purchaseUrl": null
-    }
-  },
-  {
-    "guid": "0000000083A7.0A5",
-    "slug": "owcs-hangzhou-2025-biggest-fans",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "OWCS Hangzhou 2025 - Biggest Fans",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": "Unlocked by watching Overwatch Esports events",
-    "productId": 1918447,
-    "imageUrl": "/images/heroes/ALL/Spray/OWCS%20Hangzhou%202025%20-%20Biggest%20Fans.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "ESports",
-      "Season15"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": false,
-      "price": 0,
-      "purchaseUrl": null
-    }
-  },
-  {
-    "guid": "0000000083A6.0A5",
-    "slug": "owcs-hangzhou-2025-jiayou",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "OWCS Hangzhou 2025 - Jiayou",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": "Unlocked by watching Overwatch Esports events",
-    "productId": 1918431,
-    "imageUrl": "/images/heroes/ALL/Spray/OWCS%20Hangzhou%202025%20-%20Jiayou.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "ESports",
-      "Season15"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": false,
-      "price": 0,
-      "purchaseUrl": null
-    }
-  },
-  {
-    "guid": "0000000083A5.0A5",
-    "slug": "owcs-hangzhou-2025-stadium",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "OWCS Hangzhou 2025 - Stadium",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": "Unlocked by watching Overwatch Esports events",
-    "productId": 1918430,
-    "imageUrl": "/images/heroes/ALL/Spray/OWCS%20Hangzhou%202025%20-%20Stadium.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "ESports",
-      "Season15"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": false,
-      "price": 0,
-      "purchaseUrl": null
-    }
-  },
-  {
-    "guid": "00000000CDF7.0A5",
-    "slug": "owcs-jdg-2026",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "OWCS JDG 2026",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": "A portion of the sales revenue* will go to the OWCS Partner Teams and select OWCS China teams*.\n\n*Platform fees, applicable taxes and any other deductions paid to third parties will be deducted from the sales revenue actually received by Blizzard to calculate the OWCS Partner Team incentives.",
-    "availableIn": "Sometimes available in the Shop",
-    "productId": 2108489,
-    "imageUrl": "/images/heroes/ALL/Spray/OWCS%20JDG%202026.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "ESports",
-      "2026 Season4",
-      "Shop"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": true,
-      "price": 100,
-      "purchaseUrl": "https://battle.net/shop/en/checkout/buy/2108489"
-    }
-  },
-  {
-    "guid": "0000000082EF.0A5",
-    "slug": "owcs-lucky-red-envelope",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "OWCS Lucky Red Envelope",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": "Unlocked by watching Overwatch Esports events",
-    "productId": 1913229,
-    "imageUrl": "/images/heroes/ALL/Spray/OWCS%20Lucky%20Red%20Envelope.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "ESports",
-      "Season15"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": false,
-      "price": 0,
-      "purchaseUrl": null
-    }
-  },
-  {
-    "guid": "00000000CCE2.0A5",
-    "slug": "owcs-msc-gilded-2026",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "OWCS MSC Gilded 2026",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": "Unlocked by watching, attending, or participating in an Overwatch Esports event",
-    "productId": 2103089,
-    "imageUrl": "/images/heroes/ALL/Spray/OWCS%20MSC%20Gilded%202026.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "ESports",
-      "2026 Season3"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": false,
-      "price": 0,
-      "purchaseUrl": null
-    }
-  },
-  {
-    "guid": "00000000CCE4.0A5",
-    "slug": "owcs-paris-2026",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "OWCS Paris 2026",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": "Unlocked by watching, attending, or participating in an Overwatch Esports event",
-    "productId": 2103085,
-    "imageUrl": "/images/heroes/ALL/Spray/OWCS%20Paris%202026.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "ESports",
-      "2026 Season3"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": false,
-      "price": 0,
-      "purchaseUrl": null
-    }
-  },
-  {
-    "guid": "00000000CCE6.0A5",
-    "slug": "owcs-paris-2026-bistro",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "OWCS Paris 2026 - Bistro",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": "Unlocked by watching, attending, or participating in an Overwatch Esports event",
-    "productId": 2103088,
-    "imageUrl": "/images/heroes/ALL/Spray/OWCS%20Paris%202026%20-%20Bistro.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "ESports",
-      "2026 Season3"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": false,
-      "price": 0,
-      "purchaseUrl": null
-    }
-  },
-  {
-    "guid": "00000000CCE5.0A5",
-    "slug": "owcs-paris-2026-macarons",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "OWCS Paris 2026 - Macarons",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": "Unlocked by watching, attending, or participating in an Overwatch Esports event",
-    "productId": 2103032,
-    "imageUrl": "/images/heroes/ALL/Spray/OWCS%20Paris%202026%20-%20Macarons.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "ESports",
-      "2026 Season3"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": false,
-      "price": 0,
-      "purchaseUrl": null
-    }
-  },
-  {
-    "guid": "00000000CCE3.0A5",
-    "slug": "owcs-paris-2026-tapestry",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "OWCS Paris 2026 - Tapestry",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": "Unlocked by watching, attending, or participating in an Overwatch Esports event",
-    "productId": 2103086,
-    "imageUrl": "/images/heroes/ALL/Spray/OWCS%20Paris%202026%20-%20Tapestry.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "ESports",
-      "2026 Season3"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": false,
-      "price": 0,
-      "purchaseUrl": null
-    }
-  },
-  {
-    "guid": "00000000854E.0A5",
-    "slug": "owcs-potionmaker",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "OWCS Potionmaker",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": "Unlocked by watching Overwatch Esports events",
-    "productId": 1936536,
-    "imageUrl": "/images/heroes/ALL/Spray/OWCS%20Potionmaker.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "ESports",
-      "Season16"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": false,
-      "price": 0,
-      "purchaseUrl": null
-    }
-  },
-  {
-    "guid": "0000000078F8.0A5",
-    "slug": "owcs-retro-tvs",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "OWCS Retro TVs",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": "Unlocked by watching Overwatch Esports events",
-    "productId": 1853619,
-    "imageUrl": "/images/heroes/ALL/Spray/OWCS%20Retro%20TVs.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "ESports"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": false,
-      "price": 0,
-      "purchaseUrl": null
-    }
-  },
-  {
-    "guid": "0000000095C5.0A5",
-    "slug": "owcs-riyadh-2025-boulevard",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "OWCS Riyadh 2025 - Boulevard",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": "Unlocked by watching Overwatch Esports events",
-    "productId": 1959790,
-    "imageUrl": "/images/heroes/ALL/Spray/OWCS%20Riyadh%202025%20-%20Boulevard.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "ESports",
-      "Season17"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": false,
-      "price": 0,
-      "purchaseUrl": null
-    }
-  },
-  {
-    "guid": "00000000A6CD.0A5",
-    "slug": "owcs-runway",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "OWCS Runway",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": "Unlocked by watching, attending, or participating in an Overwatch Esports event",
-    "productId": 1976354,
-    "imageUrl": "/images/heroes/ALL/Spray/OWCS%20Runway.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "ESports",
-      "Season18"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": false,
-      "price": 0,
-      "purchaseUrl": null
-    }
-  },
-  {
-    "guid": "0000000082F0.0A5",
-    "slug": "owcs-snake-lantern",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "OWCS Snake Lantern",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": "Unlocked by watching Overwatch Esports events",
-    "productId": 1913255,
-    "imageUrl": "/images/heroes/ALL/Spray/OWCS%20Snake%20Lantern.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "ESports",
-      "Season15"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": false,
-      "price": 0,
-      "purchaseUrl": null
-    }
-  },
-  {
-    "guid": "00000000D084.0A5",
-    "slug": "owcs-spacestation-gaming-2026",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "OWCS Spacestation Gaming 2026",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": "A portion of the sales revenue* will go to the OWCS Partner Teams and select OWCS China teams*.\n\n*Platform fees, applicable taxes and any other deductions paid to third parties will be deducted from the sales revenue actually received by Blizzard to calculate the OWCS Partner Team incentives.",
-    "availableIn": "Sometimes available in the Shop",
-    "productId": 2115058,
-    "imageUrl": "/images/heroes/ALL/Spray/OWCS%20Spacestation%20Gaming%202026.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "ESports",
-      "2026 Season4",
-      "Shop"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": true,
-      "price": 100,
-      "purchaseUrl": "https://battle.net/shop/en/checkout/buy/2115058"
-    }
-  },
-  {
-    "guid": "00000000D087.0A5",
-    "slug": "owcs-t1-2026",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "OWCS T1 2026",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": "A portion of the sales revenue* will go to the OWCS Partner Teams and select OWCS China teams*.\n\n*Platform fees, applicable taxes and any other deductions paid to third parties will be deducted from the sales revenue actually received by Blizzard to calculate the OWCS Partner Team incentives.",
-    "availableIn": "Sometimes available in the Shop",
-    "productId": 2115047,
-    "imageUrl": "/images/heroes/ALL/Spray/OWCS%20T1%202026.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "ESports",
-      "2026 Season4",
-      "Shop"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": true,
-      "price": 100,
-      "purchaseUrl": "https://battle.net/shop/en/checkout/buy/2115047"
-    }
-  },
-  {
-    "guid": "00000000D089.0A5",
-    "slug": "owcs-team-falcons-2026",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "OWCS Team Falcons 2026",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": "A portion of the sales revenue* will go to the OWCS Partner Teams and select OWCS China teams*.\n\n*Platform fees, applicable taxes and any other deductions paid to third parties will be deducted from the sales revenue actually received by Blizzard to calculate the OWCS Partner Team incentives.",
-    "availableIn": "Sometimes available in the Shop",
-    "productId": 2115046,
-    "imageUrl": "/images/heroes/ALL/Spray/OWCS%20Team%20Falcons%202026.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "ESports",
-      "2026 Season4",
-      "Shop"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": true,
-      "price": 100,
-      "purchaseUrl": "https://battle.net/shop/en/checkout/buy/2115046"
-    }
-  },
-  {
-    "guid": "00000000D085.0A5",
-    "slug": "owcs-team-liquid-2026",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "OWCS Team Liquid 2026",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": "A portion of the sales revenue* will go to the OWCS Partner Teams and select OWCS China teams*.\n\n*Platform fees, applicable taxes and any other deductions paid to third parties will be deducted from the sales revenue actually received by Blizzard to calculate the OWCS Partner Team incentives.",
-    "availableIn": "Sometimes available in the Shop",
-    "productId": 2115049,
-    "imageUrl": "/images/heroes/ALL/Spray/OWCS%20Team%20Liquid%202026.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "ESports",
-      "2026 Season4",
-      "Shop"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": true,
-      "price": 100,
-      "purchaseUrl": "https://battle.net/shop/en/checkout/buy/2115049"
-    }
-  },
-  {
-    "guid": "00000000D083.0A5",
-    "slug": "owcs-team-peps-2026",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "OWCS Team Peps 2026",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": "A portion of the sales revenue* will go to the OWCS Partner Teams and select OWCS China teams*.\n\n*Platform fees, applicable taxes and any other deductions paid to third parties will be deducted from the sales revenue actually received by Blizzard to calculate the OWCS Partner Team incentives.",
-    "availableIn": "Sometimes available in the Shop",
-    "productId": 2115048,
-    "imageUrl": "/images/heroes/ALL/Spray/OWCS%20Team%20Peps%202026.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "ESports",
-      "2026 Season4",
-      "Shop"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": true,
-      "price": 100,
-      "purchaseUrl": "https://battle.net/shop/en/checkout/buy/2115048"
-    }
-  },
-  {
-    "guid": "00000000C6E3.0A5",
-    "slug": "owcs-tokyo-watch-party",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "OWCS Tokyo Watch Party",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": null,
-    "productId": 2075214,
-    "imageUrl": "/images/heroes/ALL/Spray/OWCS%20Tokyo%20Watch%20Party.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "ESports",
-      "2026 Season2"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": false,
-      "price": 0,
-      "purchaseUrl": null
-    }
-  },
-  {
-    "guid": "00000000C6E7.0A5",
-    "slug": "owcs-tokyo-zeta-kun-hanzo",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "OWCS Tokyo Zeta-kun Hanzo",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": null,
-    "productId": 2075213,
-    "imageUrl": "/images/heroes/ALL/Spray/OWCS%20Tokyo%20Zeta-kun%20Hanzo.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "ESports",
-      "2026 Season2"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": false,
-      "price": 0,
-      "purchaseUrl": null
-    }
-  },
-  {
-    "guid": "00000000C6E5.0A5",
-    "slug": "owcs-tokyo-zeta-kun-kiriko",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "OWCS Tokyo Zeta-kun Kiriko",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": null,
-    "productId": 2075216,
-    "imageUrl": "/images/heroes/ALL/Spray/OWCS%20Tokyo%20Zeta-kun%20Kiriko.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "ESports",
-      "2026 Season2"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": false,
-      "price": 0,
-      "purchaseUrl": null
-    }
-  },
-  {
-    "guid": "00000000D08A.0A5",
-    "slug": "owcs-twisted-minds-2026",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "OWCS Twisted Minds 2026",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": "A portion of the sales revenue* will go to the OWCS Partner Teams and select OWCS China teams*.\n\n*Platform fees, applicable taxes and any other deductions paid to third parties will be deducted from the sales revenue actually received by Blizzard to calculate the OWCS Partner Team incentives.",
-    "availableIn": "Sometimes available in the Shop",
-    "productId": 2115050,
-    "imageUrl": "/images/heroes/ALL/Spray/OWCS%20Twisted%20Minds%202026.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "ESports",
-      "2026 Season4",
-      "Shop"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": true,
-      "price": 100,
-      "purchaseUrl": "https://battle.net/shop/en/checkout/buy/2115050"
-    }
-  },
-  {
-    "guid": "00000000D086.0A5",
-    "slug": "owcs-virtus-pro-2026",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "OWCS Virtus.pro 2026",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": "A portion of the sales revenue* will go to the OWCS Partner Teams and select OWCS China teams*.\n\n*Platform fees, applicable taxes and any other deductions paid to third parties will be deducted from the sales revenue actually received by Blizzard to calculate the OWCS Partner Team incentives.",
-    "availableIn": "Sometimes available in the Shop",
-    "productId": 2115051,
-    "imageUrl": "/images/heroes/ALL/Spray/OWCS%20Virtus.pro%202026.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "ESports",
-      "2026 Season4",
-      "Shop"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": true,
-      "price": 100,
-      "purchaseUrl": "https://battle.net/shop/en/checkout/buy/2115051"
-    }
-  },
-  {
-    "guid": "00000000CDF5.0A5",
-    "slug": "owcs-weibo-gaming-2026",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "OWCS Weibo Gaming 2026",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": "A portion of the sales revenue* will go to the OWCS Partner Teams and select OWCS China teams*.\n\n*Platform fees, applicable taxes and any other deductions paid to third parties will be deducted from the sales revenue actually received by Blizzard to calculate the OWCS Partner Team incentives.",
-    "availableIn": "Sometimes available in the Shop",
-    "productId": 2108514,
-    "imageUrl": "/images/heroes/ALL/Spray/OWCS%20Weibo%20Gaming%202026.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "ESports",
-      "2026 Season4",
-      "Shop"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": true,
-      "price": 100,
-      "purchaseUrl": "https://battle.net/shop/en/checkout/buy/2108514"
-    }
-  },
-  {
-    "guid": "00000000D088.0A5",
-    "slug": "owcs-zeta-division-2026",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "OWCS ZETA DIVISION 2026",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": "A portion of the sales revenue* will go to the OWCS Partner Teams and select OWCS China teams*.\n\n*Platform fees, applicable taxes and any other deductions paid to third parties will be deducted from the sales revenue actually received by Blizzard to calculate the OWCS Partner Team incentives.",
-    "availableIn": "Sometimes available in the Shop",
-    "productId": 2115053,
-    "imageUrl": "/images/heroes/ALL/Spray/OWCS%20ZETA%20DIVISION%202026.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "ESports",
-      "2026 Season4",
-      "Shop"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": true,
-      "price": 100,
-      "purchaseUrl": "https://battle.net/shop/en/checkout/buy/2115053"
-    }
-  },
-  {
-    "guid": "0000000068D5.0A5",
-    "slug": "owwc-2023-leaderboard-challenge-winners-pol",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "OWWC 2023 Leaderboard Challenge Winners - POL",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": "Available during Season 7",
-    "productId": 1549461,
-    "imageUrl": "/images/heroes/ALL/Spray/OWWC%202023%20Leaderboard%20Challenge%20Winners%20-%20POL.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "ESports",
-      "Shop"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": false,
-      "price": 0,
-      "purchaseUrl": null
-    }
-  },
-  {
-    "guid": "0000000068D4.0A5",
-    "slug": "owwc-2023-lets-dive",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "OWWC 2023 Let's Dive",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": "Available during Season 7",
-    "productId": 1549451,
-    "imageUrl": "/images/heroes/ALL/Spray/OWWC%202023%20Let's%20Dive.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "ESports",
-      "Shop"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": false,
-      "price": 0,
-      "purchaseUrl": null
-    }
-  },
-  {
-    "guid": "0000000068D6.0A5",
-    "slug": "owwc-2023-rush-em",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "OWWC 2023 Rush 'Em",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": "Available during Season 7",
-    "productId": 1549460,
-    "imageUrl": "/images/heroes/ALL/Spray/OWWC%202023%20Rush%20'Em.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "ESports",
-      "Shop"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": false,
-      "price": 0,
-      "purchaseUrl": null
-    }
-  },
-  {
-    "guid": "00000000C6EF.0A5",
-    "slug": "owwc-amer-conference",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "OWWC AMER Conference",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": "A portion of Blizzard’s revenue* from sales of items from the OWWC Conference Crowdfunding Bundles will be contributed to the 2026 Overwatch World Cup prize pool.\r\n \r\n*platform fees, applicable taxes and any other deductions paid to third parties will be deducted from the sales revenue actually received by Blizzard to calculate the 2026 Overwatch World Cup prize pool contribution.",
-    "availableIn": "Sometimes available in the Shop",
-    "productId": 2075210,
-    "imageUrl": "/images/heroes/ALL/Spray/OWWC%20AMER%20Conference.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "ESports",
-      "2026 Season2",
-      "Shop"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": true,
-      "price": 100,
-      "purchaseUrl": "https://battle.net/shop/en/checkout/buy/2075210"
-    }
-  },
-  {
-    "guid": "00000000C6EB.0A5",
-    "slug": "owwc-amer-tag",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "OWWC AMER Tag",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": null,
-    "productId": 2075187,
-    "imageUrl": "/images/heroes/ALL/Spray/OWWC%20AMER%20Tag.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "ESports",
-      "2026 Season2"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": false,
-      "price": 0,
-      "purchaseUrl": null
-    }
-  },
-  {
-    "guid": "00000000C6F0.0A5",
-    "slug": "owwc-asia-conference",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "OWWC ASIA Conference",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": "A portion of Blizzard’s revenue* from sales of items from the OWWC Conference Crowdfunding Bundles will be contributed to the 2026 Overwatch World Cup prize pool.\r\n \r\n*platform fees, applicable taxes and any other deductions paid to third parties will be deducted from the sales revenue actually received by Blizzard to calculate the 2026 Overwatch World Cup prize pool contribution.",
-    "availableIn": "Sometimes available in the Shop",
-    "productId": 2075209,
-    "imageUrl": "/images/heroes/ALL/Spray/OWWC%20ASIA%20Conference.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "ESports",
-      "2026 Season2",
-      "Shop"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": true,
-      "price": 100,
-      "purchaseUrl": "https://battle.net/shop/en/checkout/buy/2075209"
-    }
-  },
-  {
-    "guid": "00000000C6ED.0A5",
-    "slug": "owwc-asia-tag",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "OWWC ASIA Tag",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": null,
-    "productId": 2075206,
-    "imageUrl": "/images/heroes/ALL/Spray/OWWC%20ASIA%20Tag.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "ESports",
-      "2026 Season2"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": false,
-      "price": 0,
-      "purchaseUrl": null
-    }
-  },
-  {
-    "guid": "000000006844.0A5",
-    "slug": "owwc-aus",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "OWWC AUS",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": "Available during Season 7",
-    "productId": 1519834,
-    "imageUrl": "/images/heroes/ALL/Spray/OWWC%20AUS.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "ESports",
-      "Shop"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": false,
-      "price": 0,
-      "purchaseUrl": null
-    }
-  },
-  {
-    "guid": "000000006846.0A5",
-    "slug": "owwc-bra",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "OWWC BRA",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": "Available during Season 7",
-    "productId": 1519803,
-    "imageUrl": "/images/heroes/ALL/Spray/OWWC%20BRA.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "ESports",
-      "Shop"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": false,
-      "price": 0,
-      "purchaseUrl": null
-    }
-  },
-  {
-    "guid": "000000006847.0A5",
-    "slug": "owwc-can",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "OWWC CAN",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": "Available during Season 7",
-    "productId": 1519804,
-    "imageUrl": "/images/heroes/ALL/Spray/OWWC%20CAN.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "ESports",
-      "Shop"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": false,
-      "price": 0,
-      "purchaseUrl": null
-    }
-  },
-  {
-    "guid": "000000006848.0A5",
-    "slug": "owwc-chn",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "OWWC CHN",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": "Available during Season 7",
-    "productId": 1519805,
-    "imageUrl": "/images/heroes/ALL/Spray/OWWC%20CHN.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "ESports",
-      "Shop"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": false,
-      "price": 0,
-      "purchaseUrl": null
-    }
-  },
-  {
-    "guid": "000000006849.0A5",
-    "slug": "owwc-col",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "OWWC COL",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": "Available during Season 7",
-    "productId": 1519806,
-    "imageUrl": "/images/heroes/ALL/Spray/OWWC%20COL.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "ESports",
-      "Shop"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": false,
-      "price": 0,
-      "purchaseUrl": null
-    }
-  },
-  {
-    "guid": "00000000C6F1.0A5",
-    "slug": "owwc-emea-conference",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "OWWC EMEA Conference",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": "A portion of Blizzard’s revenue* from sales of items from the OWWC Conference Crowdfunding Bundles will be contributed to the 2026 Overwatch World Cup prize pool.\r\n \r\n*platform fees, applicable taxes and any other deductions paid to third parties will be deducted from the sales revenue actually received by Blizzard to calculate the 2026 Overwatch World Cup prize pool contribution.",
-    "availableIn": "Sometimes available in the Shop",
-    "productId": 2075208,
-    "imageUrl": "/images/heroes/ALL/Spray/OWWC%20EMEA%20Conference.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "ESports",
-      "2026 Season2",
-      "Shop"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": true,
-      "price": 100,
-      "purchaseUrl": "https://battle.net/shop/en/checkout/buy/2075208"
-    }
-  },
-  {
-    "guid": "00000000C6EC.0A5",
-    "slug": "owwc-emea-tag",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "OWWC EMEA Tag",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": null,
-    "productId": 2075188,
-    "imageUrl": "/images/heroes/ALL/Spray/OWWC%20EMEA%20Tag.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "ESports",
-      "2026 Season2"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": false,
-      "price": 0,
-      "purchaseUrl": null
-    }
-  },
-  {
-    "guid": "00000000684A.0A5",
-    "slug": "owwc-esp",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "OWWC ESP",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": "Available during Season 7",
-    "productId": 1519836,
-    "imageUrl": "/images/heroes/ALL/Spray/OWWC%20ESP.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "ESports",
-      "Shop"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": false,
-      "price": 0,
-      "purchaseUrl": null
-    }
-  },
-  {
-    "guid": "000000006851.0A5",
-    "slug": "owwc-fin",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "OWWC FIN",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": "Available during Season 7",
-    "productId": 1519807,
-    "imageUrl": "/images/heroes/ALL/Spray/OWWC%20FIN.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "ESports",
-      "Shop"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": false,
-      "price": 0,
-      "purchaseUrl": null
-    }
-  },
-  {
-    "guid": "000000006854.0A5",
-    "slug": "owwc-fra",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "OWWC FRA",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": "Available during Season 7",
-    "productId": 1519837,
-    "imageUrl": "/images/heroes/ALL/Spray/OWWC%20FRA.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "ESports",
-      "Shop"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": false,
-      "price": 0,
-      "purchaseUrl": null
-    }
-  },
-  {
-    "guid": "0000000068C6.0A5",
-    "slug": "owwc-gbr",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "OWWC GBR",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": "Available during Season 7",
-    "productId": 1523476,
-    "imageUrl": "/images/heroes/ALL/Spray/OWWC%20GBR.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "ESports",
-      "Shop"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": false,
-      "price": 0,
-      "purchaseUrl": null
-    }
-  },
-  {
-    "guid": "00000000D08B.0A5",
-    "slug": "owwc-groups-busan-2026",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "OWWC Groups Busan 2026",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": null,
-    "productId": 2115054,
-    "imageUrl": "/images/heroes/ALL/Spray/OWWC%20Groups%20Busan%202026.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "ESports",
-      "2026 Season4"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": null
-  },
-  {
-    "guid": "0000000068C7.0A5",
-    "slug": "owwc-hkg",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "OWWC HKG",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": "Available during Season 7",
-    "productId": 1523477,
-    "imageUrl": "/images/heroes/ALL/Spray/OWWC%20HKG.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "ESports",
-      "Shop"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": false,
-      "price": 0,
-      "purchaseUrl": null
-    }
-  },
-  {
-    "guid": "0000000068C8.0A5",
-    "slug": "owwc-jpn",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "OWWC JPN",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": "Available during Season 7",
-    "productId": 1523498,
-    "imageUrl": "/images/heroes/ALL/Spray/OWWC%20JPN.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "ESports",
-      "Shop"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": false,
-      "price": 0,
-      "purchaseUrl": null
-    }
-  },
-  {
-    "guid": "0000000068C9.0A5",
-    "slug": "owwc-kor",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "OWWC KOR",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": "Available during Season 7",
-    "productId": 1523500,
-    "imageUrl": "/images/heroes/ALL/Spray/OWWC%20KOR.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "ESports",
-      "Shop"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": false,
-      "price": 0,
-      "purchaseUrl": null
-    }
-  },
-  {
-    "guid": "0000000068CA.0A5",
-    "slug": "owwc-ksa",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "OWWC KSA",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": "Available during Season 7",
-    "productId": 1523499,
-    "imageUrl": "/images/heroes/ALL/Spray/OWWC%20KSA.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "ESports",
-      "Shop"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": false,
-      "price": 0,
-      "purchaseUrl": null
-    }
-  },
-  {
-    "guid": "0000000068CB.0A5",
-    "slug": "owwc-mex",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "OWWC MEX",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": "Available during Season 7",
-    "productId": 1523501,
-    "imageUrl": "/images/heroes/ALL/Spray/OWWC%20MEX.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "ESports",
-      "Shop"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": false,
-      "price": 0,
-      "purchaseUrl": null
-    }
-  },
-  {
-    "guid": "0000000068CC.0A5",
-    "slug": "owwc-tha",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "OWWC THA",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": "Available during Season 7",
-    "productId": 1523502,
-    "imageUrl": "/images/heroes/ALL/Spray/OWWC%20THA.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "ESports",
-      "Shop"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": false,
-      "price": 0,
-      "purchaseUrl": null
-    }
-  },
-  {
-    "guid": "0000000068C5.0A5",
-    "slug": "owwc-usa",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "OWWC USA",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": "Available during Season 7",
-    "productId": 1523433,
-    "imageUrl": "/images/heroes/ALL/Spray/OWWC%20USA.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "ESports",
-      "Shop"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": false,
-      "price": 0,
-      "purchaseUrl": null
-    }
-  },
-  {
     "guid": "000000004414.0A5",
     "slug": "observation",
     "heroSlug": "sigma",
@@ -43469,6 +41794,32 @@
     }
   },
   {
+    "guid": "000000003FA6.0A5",
+    "slug": "on-the-clock",
+    "heroSlug": "mercy",
+    "typeSlug": "spray",
+    "name": "On the clock",
+    "hero": "Mercy",
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": "Unlocked by watching participating streams during Mercy's Recall Challenge",
+    "productId": 71230,
+    "imageUrl": "/images/heroes/Mercy/Spray/On%20the%20clock.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "Special",
+      "Limited"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": false,
+      "price": 0,
+      "purchaseUrl": null
+    }
+  },
+  {
     "guid": "000000004D1D.0A5",
     "slug": "on-the-prowl",
     "heroSlug": "sombra",
@@ -43491,32 +41842,6 @@
       "enabled": true,
       "price": 50,
       "purchaseUrl": "https://battle.net/shop/en/checkout/buy/876282"
-    }
-  },
-  {
-    "guid": "0000000061D5.0A5",
-    "slug": "on-vacation",
-    "heroSlug": "doomfist",
-    "typeSlug": "spray",
-    "name": "On Vacation",
-    "hero": "Doomfist",
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": "Unlocked by completing the Ultimate Player challenge from the Summer Games 2023 event.",
-    "productId": 1283301,
-    "imageUrl": "/images/heroes/Doomfist/Spray/On%20Vacation.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "SummerGames",
-      "Season5"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": false,
-      "price": 0,
-      "purchaseUrl": null
     }
   },
   {
@@ -43545,23 +41870,23 @@
     }
   },
   {
-    "guid": "000000003FA6.0A5",
-    "slug": "on-the-clock",
-    "heroSlug": "mercy",
+    "guid": "0000000061D5.0A5",
+    "slug": "on-vacation",
+    "heroSlug": "doomfist",
     "typeSlug": "spray",
-    "name": "On the clock",
-    "hero": "Mercy",
+    "name": "On Vacation",
+    "hero": "Doomfist",
     "type": "Spray",
     "rarity": "Common",
     "description": null,
-    "availableIn": "Unlocked by watching participating streams during Mercy's Recall Challenge",
-    "productId": 71230,
-    "imageUrl": "/images/heroes/Mercy/Spray/On%20the%20clock.png",
+    "availableIn": "Unlocked by completing the Ultimate Player challenge from the Summer Games 2023 event.",
+    "productId": 1283301,
+    "imageUrl": "/images/heroes/Doomfist/Spray/On%20Vacation.png",
     "videoUrl": null,
     "audioUrl": null,
     "categories": [
-      "Special",
-      "Limited"
+      "SummerGames",
+      "Season5"
     ],
     "updatedAt": "2026-09-12T06:26:24.523Z",
     "shopStatus": {
@@ -43625,6 +41950,32 @@
     }
   },
   {
+    "guid": "000000006588.0A5",
+    "slug": "one-in-the-iris",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "One in the Iris",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": null,
+    "productId": 1416421,
+    "imageUrl": "/images/heroes/ALL/Spray/One%20in%20the%20Iris.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "Season6",
+      "BattlePass"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": false,
+      "price": 0,
+      "purchaseUrl": null
+    }
+  },
+  {
     "guid": "000000002848.0A5",
     "slug": "one-up",
     "heroSlug": "baptiste",
@@ -43667,32 +42018,6 @@
     "categories": [
       "2026 Season2",
       "Anniversary"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": false,
-      "price": 0,
-      "purchaseUrl": null
-    }
-  },
-  {
-    "guid": "000000006588.0A5",
-    "slug": "one-in-the-iris",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "One in the Iris",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": null,
-    "productId": 1416421,
-    "imageUrl": "/images/heroes/ALL/Spray/One%20in%20the%20Iris.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "Season6",
-      "BattlePass"
     ],
     "updatedAt": "2026-09-12T06:26:24.523Z",
     "shopStatus": {
@@ -44134,6 +42459,32 @@
     }
   },
   {
+    "guid": "0000000010B3.0A5",
+    "slug": "or14-ns",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "OR14-NS",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": null,
+    "productId": 889478,
+    "imageUrl": "/images/heroes/ALL/Spray/OR14-NS.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "Archives",
+      "Achievement"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": false,
+      "price": 0,
+      "purchaseUrl": null
+    }
+  },
+  {
     "guid": "00000000016C.0A5",
     "slug": "orange",
     "heroSlug": "tracer",
@@ -44256,6 +42607,56 @@
       "enabled": true,
       "price": 25,
       "purchaseUrl": "https://battle.net/shop/en/checkout/buy/881385"
+    }
+  },
+  {
+    "guid": "000000000D33.0A5",
+    "slug": "ornament",
+    "heroSlug": "d-va",
+    "typeSlug": "spray",
+    "name": "ORNAMENT",
+    "hero": "D.Va",
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": null,
+    "productId": 878262,
+    "imageUrl": "/images/heroes/D.Va/Spray/ORNAMENT.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "Winter"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": true,
+      "price": 50,
+      "purchaseUrl": "https://battle.net/shop/en/checkout/buy/878262"
+    }
+  },
+  {
+    "guid": "000000000D2F.0A5",
+    "slug": "ornament",
+    "heroSlug": "bastion",
+    "typeSlug": "spray",
+    "name": "ORNAMENT",
+    "hero": "Bastion",
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": null,
+    "productId": 878230,
+    "imageUrl": "/images/heroes/Bastion/Spray/ORNAMENT.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "Winter"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": true,
+      "price": 50,
+      "purchaseUrl": "https://battle.net/shop/en/checkout/buy/878230"
     }
   },
   {
@@ -45948,6 +44349,1108 @@
     }
   },
   {
+    "guid": "0000000078F3.0A5",
+    "slug": "ow-collegiate-retro-tvs",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "OW Collegiate Retro TVs",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": "Unlocked by watching Overwatch Esports events",
+    "productId": 1853598,
+    "imageUrl": "/images/heroes/ALL/Spray/OW%20Collegiate%20Retro%20TVs.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "ESports"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": false,
+      "price": 0,
+      "purchaseUrl": null
+    }
+  },
+  {
+    "guid": "000000007B83.0A5",
+    "slug": "owcs-2024-stockholm-world-finals",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "OWCS 2024 Stockholm World Finals",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": "Unlocked by attending Overwatch Esports events",
+    "productId": 1864981,
+    "imageUrl": "/images/heroes/ALL/Spray/OWCS%202024%20Stockholm%20World%20Finals.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "ESports"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": false,
+      "price": 0,
+      "purchaseUrl": null
+    }
+  },
+  {
+    "guid": "000000007B84.0A5",
+    "slug": "owcs-2024-world-finals-trophy",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "OWCS 2024 World Finals Trophy",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": "Unlocked by watching Overwatch Esports events",
+    "productId": 1864950,
+    "imageUrl": "/images/heroes/ALL/Spray/OWCS%202024%20World%20Finals%20Trophy.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "ESports"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": false,
+      "price": 0,
+      "purchaseUrl": null
+    }
+  },
+  {
+    "guid": "0000000095C6.0A5",
+    "slug": "owcs-2025-midseason-gild",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "OWCS 2025 Midseason Gild",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": "Unlocked by watching, attending, or participating in an Overwatch Esports event",
+    "productId": 1959814,
+    "imageUrl": "/images/heroes/ALL/Spray/OWCS%202025%20Midseason%20Gild.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "ESports",
+      "Season17"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": false,
+      "price": 0,
+      "purchaseUrl": null
+    }
+  },
+  {
+    "guid": "00000000A809.0A5",
+    "slug": "owcs-2025-stockholm-world-finals",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "OWCS 2025 Stockholm World Finals",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": "Unlocked by watching, attending, or participating in an Overwatch Esports event",
+    "productId": 1980150,
+    "imageUrl": "/images/heroes/ALL/Spray/OWCS%202025%20Stockholm%20World%20Finals.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "ESports",
+      "Season19"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": false,
+      "price": 0,
+      "purchaseUrl": null
+    }
+  },
+  {
+    "guid": "00000000AC75.0A5",
+    "slug": "owcs-2025-world-finals-trophy",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "OWCS 2025 World Finals Trophy",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": "Unlocked by watching, attending, or participating in an Overwatch Esports event",
+    "productId": 2007088,
+    "imageUrl": "/images/heroes/ALL/Spray/OWCS%202025%20World%20Finals%20Trophy.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "ESports",
+      "Season19"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": false,
+      "price": 0,
+      "purchaseUrl": null
+    }
+  },
+  {
+    "guid": "00000000CDF6.0A5",
+    "slug": "owcs-all-gamers-2026",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "OWCS All Gamers 2026",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": "A portion of the sales revenue* will go to the OWCS Partner Teams and select OWCS China teams*.\n\n*Platform fees, applicable taxes and any other deductions paid to third parties will be deducted from the sales revenue actually received by Blizzard to calculate the OWCS Partner Team incentives.",
+    "availableIn": "Sometimes available in the Shop",
+    "productId": 2108016,
+    "imageUrl": "/images/heroes/ALL/Spray/OWCS%20All%20Gamers%202026.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "ESports",
+      "2026 Season4",
+      "Shop"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": true,
+      "price": 100,
+      "purchaseUrl": "https://battle.net/shop/en/checkout/buy/2108016"
+    }
+  },
+  {
+    "guid": "00000000A6CE.0A5",
+    "slug": "owcs-boarding-pass",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "OWCS Boarding Pass",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": "Unlocked by watching, attending, or participating in an Overwatch Esports event",
+    "productId": 1976355,
+    "imageUrl": "/images/heroes/ALL/Spray/OWCS%20Boarding%20Pass.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "ESports",
+      "Season18"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": false,
+      "price": 0,
+      "purchaseUrl": null
+    }
+  },
+  {
+    "guid": "0000000082F1.0A5",
+    "slug": "owcs-champions-guardian",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "OWCS Champion's Guardian",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": "Unlocked by watching Overwatch Esports events",
+    "productId": 1913228,
+    "imageUrl": "/images/heroes/ALL/Spray/OWCS%20Champion's%20Guardian.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "ESports",
+      "Season15"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": false,
+      "price": 0,
+      "purchaseUrl": null
+    }
+  },
+  {
+    "guid": "00000000C6E4.0A5",
+    "slug": "owcs-champions-clash-tokyo-2026",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "OWCS Champions Clash Tokyo 2026",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": null,
+    "productId": 2075215,
+    "imageUrl": "/images/heroes/ALL/Spray/OWCS%20Champions%20Clash%20Tokyo%202026.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "ESports",
+      "2026 Season2"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": false,
+      "price": 0,
+      "purchaseUrl": null
+    }
+  },
+  {
+    "guid": "00000000D082.0A5",
+    "slug": "owcs-crazy-raccoon-2026",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "OWCS Crazy Raccoon 2026",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": "A portion of the sales revenue* will go to the OWCS Partner Teams and select OWCS China teams*.\n\n*Platform fees, applicable taxes and any other deductions paid to third parties will be deducted from the sales revenue actually received by Blizzard to calculate the OWCS Partner Team incentives.",
+    "availableIn": "Sometimes available in the Shop",
+    "productId": 2115062,
+    "imageUrl": "/images/heroes/ALL/Spray/OWCS%20Crazy%20Raccoon%202026.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "ESports",
+      "2026 Season4",
+      "Shop"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": true,
+      "price": 100,
+      "purchaseUrl": "https://battle.net/shop/en/checkout/buy/2115062"
+    }
+  },
+  {
+    "guid": "00000000D080.0A5",
+    "slug": "owcs-dallas-fuel-2026",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "OWCS Dallas Fuel 2026",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": "A portion of the sales revenue* will go to the OWCS Partner Teams and select OWCS China teams*.\n\n*Platform fees, applicable taxes and any other deductions paid to third parties will be deducted from the sales revenue actually received by Blizzard to calculate the OWCS Partner Team incentives.",
+    "availableIn": "Sometimes available in the Shop",
+    "productId": 2115061,
+    "imageUrl": "/images/heroes/ALL/Spray/OWCS%20Dallas%20Fuel%202026.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "ESports",
+      "2026 Season4",
+      "Shop"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": true,
+      "price": 100,
+      "purchaseUrl": "https://battle.net/shop/en/checkout/buy/2115061"
+    }
+  },
+  {
+    "guid": "00000000D081.0A5",
+    "slug": "owcs-disguised-2026",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "OWCS Disguised 2026",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": "A portion of the sales revenue* will go to the OWCS Partner Teams and select OWCS China teams*.\n\n*Platform fees, applicable taxes and any other deductions paid to third parties will be deducted from the sales revenue actually received by Blizzard to calculate the OWCS Partner Team incentives.",
+    "availableIn": "Sometimes available in the Shop",
+    "productId": 2115060,
+    "imageUrl": "/images/heroes/ALL/Spray/OWCS%20Disguised%202026.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "ESports",
+      "2026 Season4",
+      "Shop"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": true,
+      "price": 100,
+      "purchaseUrl": "https://battle.net/shop/en/checkout/buy/2115060"
+    }
+  },
+  {
+    "guid": "00000000854F.0A5",
+    "slug": "owcs-ggwp",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "OWCS GGWP",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": "Unlocked by watching Overwatch Esports events",
+    "productId": 1936535,
+    "imageUrl": "/images/heroes/ALL/Spray/OWCS%20GGWP.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "ESports",
+      "Season16"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": false,
+      "price": 0,
+      "purchaseUrl": null
+    }
+  },
+  {
+    "guid": "0000000082F2.0A5",
+    "slug": "owcs-guardian-lantern",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "OWCS Guardian Lantern",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": "Unlocked by watching Overwatch Esports events",
+    "productId": 1913254,
+    "imageUrl": "/images/heroes/ALL/Spray/OWCS%20Guardian%20Lantern.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "ESports",
+      "Season15"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": false,
+      "price": 0,
+      "purchaseUrl": null
+    }
+  },
+  {
+    "guid": "0000000083A7.0A5",
+    "slug": "owcs-hangzhou-2025-biggest-fans",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "OWCS Hangzhou 2025 - Biggest Fans",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": "Unlocked by watching Overwatch Esports events",
+    "productId": 1918447,
+    "imageUrl": "/images/heroes/ALL/Spray/OWCS%20Hangzhou%202025%20-%20Biggest%20Fans.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "ESports",
+      "Season15"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": false,
+      "price": 0,
+      "purchaseUrl": null
+    }
+  },
+  {
+    "guid": "0000000083A6.0A5",
+    "slug": "owcs-hangzhou-2025-jiayou",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "OWCS Hangzhou 2025 - Jiayou",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": "Unlocked by watching Overwatch Esports events",
+    "productId": 1918431,
+    "imageUrl": "/images/heroes/ALL/Spray/OWCS%20Hangzhou%202025%20-%20Jiayou.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "ESports",
+      "Season15"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": false,
+      "price": 0,
+      "purchaseUrl": null
+    }
+  },
+  {
+    "guid": "0000000083A5.0A5",
+    "slug": "owcs-hangzhou-2025-stadium",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "OWCS Hangzhou 2025 - Stadium",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": "Unlocked by watching Overwatch Esports events",
+    "productId": 1918430,
+    "imageUrl": "/images/heroes/ALL/Spray/OWCS%20Hangzhou%202025%20-%20Stadium.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "ESports",
+      "Season15"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": false,
+      "price": 0,
+      "purchaseUrl": null
+    }
+  },
+  {
+    "guid": "00000000CDF7.0A5",
+    "slug": "owcs-jdg-2026",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "OWCS JDG 2026",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": "A portion of the sales revenue* will go to the OWCS Partner Teams and select OWCS China teams*.\n\n*Platform fees, applicable taxes and any other deductions paid to third parties will be deducted from the sales revenue actually received by Blizzard to calculate the OWCS Partner Team incentives.",
+    "availableIn": "Sometimes available in the Shop",
+    "productId": 2108489,
+    "imageUrl": "/images/heroes/ALL/Spray/OWCS%20JDG%202026.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "ESports",
+      "2026 Season4",
+      "Shop"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": true,
+      "price": 100,
+      "purchaseUrl": "https://battle.net/shop/en/checkout/buy/2108489"
+    }
+  },
+  {
+    "guid": "0000000082EF.0A5",
+    "slug": "owcs-lucky-red-envelope",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "OWCS Lucky Red Envelope",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": "Unlocked by watching Overwatch Esports events",
+    "productId": 1913229,
+    "imageUrl": "/images/heroes/ALL/Spray/OWCS%20Lucky%20Red%20Envelope.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "ESports",
+      "Season15"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": false,
+      "price": 0,
+      "purchaseUrl": null
+    }
+  },
+  {
+    "guid": "00000000CCE2.0A5",
+    "slug": "owcs-msc-gilded-2026",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "OWCS MSC Gilded 2026",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": "Unlocked by watching, attending, or participating in an Overwatch Esports event",
+    "productId": 2103089,
+    "imageUrl": "/images/heroes/ALL/Spray/OWCS%20MSC%20Gilded%202026.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "ESports",
+      "2026 Season3"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": false,
+      "price": 0,
+      "purchaseUrl": null
+    }
+  },
+  {
+    "guid": "00000000CCE4.0A5",
+    "slug": "owcs-paris-2026",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "OWCS Paris 2026",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": "Unlocked by watching, attending, or participating in an Overwatch Esports event",
+    "productId": 2103085,
+    "imageUrl": "/images/heroes/ALL/Spray/OWCS%20Paris%202026.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "ESports",
+      "2026 Season3"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": false,
+      "price": 0,
+      "purchaseUrl": null
+    }
+  },
+  {
+    "guid": "00000000CCE6.0A5",
+    "slug": "owcs-paris-2026-bistro",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "OWCS Paris 2026 - Bistro",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": "Unlocked by watching, attending, or participating in an Overwatch Esports event",
+    "productId": 2103088,
+    "imageUrl": "/images/heroes/ALL/Spray/OWCS%20Paris%202026%20-%20Bistro.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "ESports",
+      "2026 Season3"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": false,
+      "price": 0,
+      "purchaseUrl": null
+    }
+  },
+  {
+    "guid": "00000000CCE5.0A5",
+    "slug": "owcs-paris-2026-macarons",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "OWCS Paris 2026 - Macarons",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": "Unlocked by watching, attending, or participating in an Overwatch Esports event",
+    "productId": 2103032,
+    "imageUrl": "/images/heroes/ALL/Spray/OWCS%20Paris%202026%20-%20Macarons.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "ESports",
+      "2026 Season3"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": false,
+      "price": 0,
+      "purchaseUrl": null
+    }
+  },
+  {
+    "guid": "00000000CCE3.0A5",
+    "slug": "owcs-paris-2026-tapestry",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "OWCS Paris 2026 - Tapestry",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": "Unlocked by watching, attending, or participating in an Overwatch Esports event",
+    "productId": 2103086,
+    "imageUrl": "/images/heroes/ALL/Spray/OWCS%20Paris%202026%20-%20Tapestry.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "ESports",
+      "2026 Season3"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": false,
+      "price": 0,
+      "purchaseUrl": null
+    }
+  },
+  {
+    "guid": "00000000854E.0A5",
+    "slug": "owcs-potionmaker",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "OWCS Potionmaker",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": "Unlocked by watching Overwatch Esports events",
+    "productId": 1936536,
+    "imageUrl": "/images/heroes/ALL/Spray/OWCS%20Potionmaker.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "ESports",
+      "Season16"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": false,
+      "price": 0,
+      "purchaseUrl": null
+    }
+  },
+  {
+    "guid": "0000000078F8.0A5",
+    "slug": "owcs-retro-tvs",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "OWCS Retro TVs",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": "Unlocked by watching Overwatch Esports events",
+    "productId": 1853619,
+    "imageUrl": "/images/heroes/ALL/Spray/OWCS%20Retro%20TVs.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "ESports"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": false,
+      "price": 0,
+      "purchaseUrl": null
+    }
+  },
+  {
+    "guid": "0000000095C5.0A5",
+    "slug": "owcs-riyadh-2025-boulevard",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "OWCS Riyadh 2025 - Boulevard",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": "Unlocked by watching Overwatch Esports events",
+    "productId": 1959790,
+    "imageUrl": "/images/heroes/ALL/Spray/OWCS%20Riyadh%202025%20-%20Boulevard.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "ESports",
+      "Season17"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": false,
+      "price": 0,
+      "purchaseUrl": null
+    }
+  },
+  {
+    "guid": "00000000A6CD.0A5",
+    "slug": "owcs-runway",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "OWCS Runway",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": "Unlocked by watching, attending, or participating in an Overwatch Esports event",
+    "productId": 1976354,
+    "imageUrl": "/images/heroes/ALL/Spray/OWCS%20Runway.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "ESports",
+      "Season18"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": false,
+      "price": 0,
+      "purchaseUrl": null
+    }
+  },
+  {
+    "guid": "0000000082F0.0A5",
+    "slug": "owcs-snake-lantern",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "OWCS Snake Lantern",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": "Unlocked by watching Overwatch Esports events",
+    "productId": 1913255,
+    "imageUrl": "/images/heroes/ALL/Spray/OWCS%20Snake%20Lantern.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "ESports",
+      "Season15"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": false,
+      "price": 0,
+      "purchaseUrl": null
+    }
+  },
+  {
+    "guid": "00000000D084.0A5",
+    "slug": "owcs-spacestation-gaming-2026",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "OWCS Spacestation Gaming 2026",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": "A portion of the sales revenue* will go to the OWCS Partner Teams and select OWCS China teams*.\n\n*Platform fees, applicable taxes and any other deductions paid to third parties will be deducted from the sales revenue actually received by Blizzard to calculate the OWCS Partner Team incentives.",
+    "availableIn": "Sometimes available in the Shop",
+    "productId": 2115058,
+    "imageUrl": "/images/heroes/ALL/Spray/OWCS%20Spacestation%20Gaming%202026.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "ESports",
+      "2026 Season4",
+      "Shop"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": true,
+      "price": 100,
+      "purchaseUrl": "https://battle.net/shop/en/checkout/buy/2115058"
+    }
+  },
+  {
+    "guid": "00000000D087.0A5",
+    "slug": "owcs-t1-2026",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "OWCS T1 2026",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": "A portion of the sales revenue* will go to the OWCS Partner Teams and select OWCS China teams*.\n\n*Platform fees, applicable taxes and any other deductions paid to third parties will be deducted from the sales revenue actually received by Blizzard to calculate the OWCS Partner Team incentives.",
+    "availableIn": "Sometimes available in the Shop",
+    "productId": 2115047,
+    "imageUrl": "/images/heroes/ALL/Spray/OWCS%20T1%202026.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "ESports",
+      "2026 Season4",
+      "Shop"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": true,
+      "price": 100,
+      "purchaseUrl": "https://battle.net/shop/en/checkout/buy/2115047"
+    }
+  },
+  {
+    "guid": "00000000D089.0A5",
+    "slug": "owcs-team-falcons-2026",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "OWCS Team Falcons 2026",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": "A portion of the sales revenue* will go to the OWCS Partner Teams and select OWCS China teams*.\n\n*Platform fees, applicable taxes and any other deductions paid to third parties will be deducted from the sales revenue actually received by Blizzard to calculate the OWCS Partner Team incentives.",
+    "availableIn": "Sometimes available in the Shop",
+    "productId": 2115046,
+    "imageUrl": "/images/heroes/ALL/Spray/OWCS%20Team%20Falcons%202026.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "ESports",
+      "2026 Season4",
+      "Shop"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": true,
+      "price": 100,
+      "purchaseUrl": "https://battle.net/shop/en/checkout/buy/2115046"
+    }
+  },
+  {
+    "guid": "00000000D085.0A5",
+    "slug": "owcs-team-liquid-2026",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "OWCS Team Liquid 2026",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": "A portion of the sales revenue* will go to the OWCS Partner Teams and select OWCS China teams*.\n\n*Platform fees, applicable taxes and any other deductions paid to third parties will be deducted from the sales revenue actually received by Blizzard to calculate the OWCS Partner Team incentives.",
+    "availableIn": "Sometimes available in the Shop",
+    "productId": 2115049,
+    "imageUrl": "/images/heroes/ALL/Spray/OWCS%20Team%20Liquid%202026.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "ESports",
+      "2026 Season4",
+      "Shop"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": true,
+      "price": 100,
+      "purchaseUrl": "https://battle.net/shop/en/checkout/buy/2115049"
+    }
+  },
+  {
+    "guid": "00000000D083.0A5",
+    "slug": "owcs-team-peps-2026",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "OWCS Team Peps 2026",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": "A portion of the sales revenue* will go to the OWCS Partner Teams and select OWCS China teams*.\n\n*Platform fees, applicable taxes and any other deductions paid to third parties will be deducted from the sales revenue actually received by Blizzard to calculate the OWCS Partner Team incentives.",
+    "availableIn": "Sometimes available in the Shop",
+    "productId": 2115048,
+    "imageUrl": "/images/heroes/ALL/Spray/OWCS%20Team%20Peps%202026.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "ESports",
+      "2026 Season4",
+      "Shop"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": true,
+      "price": 100,
+      "purchaseUrl": "https://battle.net/shop/en/checkout/buy/2115048"
+    }
+  },
+  {
+    "guid": "00000000C6E3.0A5",
+    "slug": "owcs-tokyo-watch-party",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "OWCS Tokyo Watch Party",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": null,
+    "productId": 2075214,
+    "imageUrl": "/images/heroes/ALL/Spray/OWCS%20Tokyo%20Watch%20Party.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "ESports",
+      "2026 Season2"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": false,
+      "price": 0,
+      "purchaseUrl": null
+    }
+  },
+  {
+    "guid": "00000000C6E7.0A5",
+    "slug": "owcs-tokyo-zeta-kun-hanzo",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "OWCS Tokyo Zeta-kun Hanzo",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": null,
+    "productId": 2075213,
+    "imageUrl": "/images/heroes/ALL/Spray/OWCS%20Tokyo%20Zeta-kun%20Hanzo.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "ESports",
+      "2026 Season2"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": false,
+      "price": 0,
+      "purchaseUrl": null
+    }
+  },
+  {
+    "guid": "00000000C6E5.0A5",
+    "slug": "owcs-tokyo-zeta-kun-kiriko",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "OWCS Tokyo Zeta-kun Kiriko",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": null,
+    "productId": 2075216,
+    "imageUrl": "/images/heroes/ALL/Spray/OWCS%20Tokyo%20Zeta-kun%20Kiriko.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "ESports",
+      "2026 Season2"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": false,
+      "price": 0,
+      "purchaseUrl": null
+    }
+  },
+  {
+    "guid": "00000000D08A.0A5",
+    "slug": "owcs-twisted-minds-2026",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "OWCS Twisted Minds 2026",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": "A portion of the sales revenue* will go to the OWCS Partner Teams and select OWCS China teams*.\n\n*Platform fees, applicable taxes and any other deductions paid to third parties will be deducted from the sales revenue actually received by Blizzard to calculate the OWCS Partner Team incentives.",
+    "availableIn": "Sometimes available in the Shop",
+    "productId": 2115050,
+    "imageUrl": "/images/heroes/ALL/Spray/OWCS%20Twisted%20Minds%202026.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "ESports",
+      "2026 Season4",
+      "Shop"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": true,
+      "price": 100,
+      "purchaseUrl": "https://battle.net/shop/en/checkout/buy/2115050"
+    }
+  },
+  {
+    "guid": "00000000D086.0A5",
+    "slug": "owcs-virtus-pro-2026",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "OWCS Virtus.pro 2026",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": "A portion of the sales revenue* will go to the OWCS Partner Teams and select OWCS China teams*.\n\n*Platform fees, applicable taxes and any other deductions paid to third parties will be deducted from the sales revenue actually received by Blizzard to calculate the OWCS Partner Team incentives.",
+    "availableIn": "Sometimes available in the Shop",
+    "productId": 2115051,
+    "imageUrl": "/images/heroes/ALL/Spray/OWCS%20Virtus.pro%202026.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "ESports",
+      "2026 Season4",
+      "Shop"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": true,
+      "price": 100,
+      "purchaseUrl": "https://battle.net/shop/en/checkout/buy/2115051"
+    }
+  },
+  {
+    "guid": "00000000CDF5.0A5",
+    "slug": "owcs-weibo-gaming-2026",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "OWCS Weibo Gaming 2026",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": "A portion of the sales revenue* will go to the OWCS Partner Teams and select OWCS China teams*.\n\n*Platform fees, applicable taxes and any other deductions paid to third parties will be deducted from the sales revenue actually received by Blizzard to calculate the OWCS Partner Team incentives.",
+    "availableIn": "Sometimes available in the Shop",
+    "productId": 2108514,
+    "imageUrl": "/images/heroes/ALL/Spray/OWCS%20Weibo%20Gaming%202026.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "ESports",
+      "2026 Season4",
+      "Shop"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": true,
+      "price": 100,
+      "purchaseUrl": "https://battle.net/shop/en/checkout/buy/2108514"
+    }
+  },
+  {
+    "guid": "00000000D088.0A5",
+    "slug": "owcs-zeta-division-2026",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "OWCS ZETA DIVISION 2026",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": "A portion of the sales revenue* will go to the OWCS Partner Teams and select OWCS China teams*.\n\n*Platform fees, applicable taxes and any other deductions paid to third parties will be deducted from the sales revenue actually received by Blizzard to calculate the OWCS Partner Team incentives.",
+    "availableIn": "Sometimes available in the Shop",
+    "productId": 2115053,
+    "imageUrl": "/images/heroes/ALL/Spray/OWCS%20ZETA%20DIVISION%202026.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "ESports",
+      "2026 Season4",
+      "Shop"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": true,
+      "price": 100,
+      "purchaseUrl": "https://battle.net/shop/en/checkout/buy/2115053"
+    }
+  },
+  {
     "guid": "000000005713.0A5",
     "slug": "owl-guardian",
     "heroSlug": "mercy",
@@ -45974,47 +45477,672 @@
     }
   },
   {
-    "guid": "0000000001F6.0A5",
-    "slug": "pb",
-    "heroSlug": "winston",
-    "typeSlug": "spray",
-    "name": "PB",
-    "hero": "Winston",
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": null,
-    "productId": 875741,
-    "imageUrl": "/images/heroes/Winston/Spray/PB.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "Base"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": true,
-      "price": 25,
-      "purchaseUrl": "https://battle.net/shop/en/checkout/buy/875741"
-    }
-  },
-  {
-    "guid": "000000007576.0A5",
-    "slug": "pc-bang",
+    "guid": "0000000068D5.0A5",
+    "slug": "owwc-2023-leaderboard-challenge-winners-pol",
     "heroSlug": "universal",
     "typeSlug": "spray",
-    "name": "PC bang",
+    "name": "OWWC 2023 Leaderboard Challenge Winners - POL",
     "hero": null,
     "type": "Spray",
     "rarity": "Common",
     "description": null,
-    "availableIn": "Unlocked by participating in Overwatch Esports events",
-    "productId": 1844024,
-    "imageUrl": "/images/heroes/ALL/Spray/PC%20bang.png",
+    "availableIn": "Available during Season 7",
+    "productId": 1549461,
+    "imageUrl": "/images/heroes/ALL/Spray/OWWC%202023%20Leaderboard%20Challenge%20Winners%20-%20POL.png",
     "videoUrl": null,
     "audioUrl": null,
     "categories": [
-      "ESports"
+      "ESports",
+      "Shop"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": false,
+      "price": 0,
+      "purchaseUrl": null
+    }
+  },
+  {
+    "guid": "0000000068D4.0A5",
+    "slug": "owwc-2023-lets-dive",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "OWWC 2023 Let's Dive",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": "Available during Season 7",
+    "productId": 1549451,
+    "imageUrl": "/images/heroes/ALL/Spray/OWWC%202023%20Let's%20Dive.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "ESports",
+      "Shop"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": false,
+      "price": 0,
+      "purchaseUrl": null
+    }
+  },
+  {
+    "guid": "0000000068D6.0A5",
+    "slug": "owwc-2023-rush-em",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "OWWC 2023 Rush 'Em",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": "Available during Season 7",
+    "productId": 1549460,
+    "imageUrl": "/images/heroes/ALL/Spray/OWWC%202023%20Rush%20'Em.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "ESports",
+      "Shop"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": false,
+      "price": 0,
+      "purchaseUrl": null
+    }
+  },
+  {
+    "guid": "00000000C6EF.0A5",
+    "slug": "owwc-amer-conference",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "OWWC AMER Conference",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": "A portion of Blizzard’s revenue* from sales of items from the OWWC Conference Crowdfunding Bundles will be contributed to the 2026 Overwatch World Cup prize pool.\r\n \r\n*platform fees, applicable taxes and any other deductions paid to third parties will be deducted from the sales revenue actually received by Blizzard to calculate the 2026 Overwatch World Cup prize pool contribution.",
+    "availableIn": "Sometimes available in the Shop",
+    "productId": 2075210,
+    "imageUrl": "/images/heroes/ALL/Spray/OWWC%20AMER%20Conference.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "ESports",
+      "2026 Season2",
+      "Shop"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": true,
+      "price": 100,
+      "purchaseUrl": "https://battle.net/shop/en/checkout/buy/2075210"
+    }
+  },
+  {
+    "guid": "00000000C6EB.0A5",
+    "slug": "owwc-amer-tag",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "OWWC AMER Tag",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": null,
+    "productId": 2075187,
+    "imageUrl": "/images/heroes/ALL/Spray/OWWC%20AMER%20Tag.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "ESports",
+      "2026 Season2"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": false,
+      "price": 0,
+      "purchaseUrl": null
+    }
+  },
+  {
+    "guid": "00000000C6F0.0A5",
+    "slug": "owwc-asia-conference",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "OWWC ASIA Conference",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": "A portion of Blizzard’s revenue* from sales of items from the OWWC Conference Crowdfunding Bundles will be contributed to the 2026 Overwatch World Cup prize pool.\r\n \r\n*platform fees, applicable taxes and any other deductions paid to third parties will be deducted from the sales revenue actually received by Blizzard to calculate the 2026 Overwatch World Cup prize pool contribution.",
+    "availableIn": "Sometimes available in the Shop",
+    "productId": 2075209,
+    "imageUrl": "/images/heroes/ALL/Spray/OWWC%20ASIA%20Conference.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "ESports",
+      "2026 Season2",
+      "Shop"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": true,
+      "price": 100,
+      "purchaseUrl": "https://battle.net/shop/en/checkout/buy/2075209"
+    }
+  },
+  {
+    "guid": "00000000C6ED.0A5",
+    "slug": "owwc-asia-tag",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "OWWC ASIA Tag",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": null,
+    "productId": 2075206,
+    "imageUrl": "/images/heroes/ALL/Spray/OWWC%20ASIA%20Tag.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "ESports",
+      "2026 Season2"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": false,
+      "price": 0,
+      "purchaseUrl": null
+    }
+  },
+  {
+    "guid": "000000006844.0A5",
+    "slug": "owwc-aus",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "OWWC AUS",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": "Available during Season 7",
+    "productId": 1519834,
+    "imageUrl": "/images/heroes/ALL/Spray/OWWC%20AUS.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "ESports",
+      "Shop"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": false,
+      "price": 0,
+      "purchaseUrl": null
+    }
+  },
+  {
+    "guid": "000000006846.0A5",
+    "slug": "owwc-bra",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "OWWC BRA",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": "Available during Season 7",
+    "productId": 1519803,
+    "imageUrl": "/images/heroes/ALL/Spray/OWWC%20BRA.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "ESports",
+      "Shop"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": false,
+      "price": 0,
+      "purchaseUrl": null
+    }
+  },
+  {
+    "guid": "000000006847.0A5",
+    "slug": "owwc-can",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "OWWC CAN",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": "Available during Season 7",
+    "productId": 1519804,
+    "imageUrl": "/images/heroes/ALL/Spray/OWWC%20CAN.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "ESports",
+      "Shop"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": false,
+      "price": 0,
+      "purchaseUrl": null
+    }
+  },
+  {
+    "guid": "000000006848.0A5",
+    "slug": "owwc-chn",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "OWWC CHN",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": "Available during Season 7",
+    "productId": 1519805,
+    "imageUrl": "/images/heroes/ALL/Spray/OWWC%20CHN.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "ESports",
+      "Shop"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": false,
+      "price": 0,
+      "purchaseUrl": null
+    }
+  },
+  {
+    "guid": "000000006849.0A5",
+    "slug": "owwc-col",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "OWWC COL",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": "Available during Season 7",
+    "productId": 1519806,
+    "imageUrl": "/images/heroes/ALL/Spray/OWWC%20COL.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "ESports",
+      "Shop"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": false,
+      "price": 0,
+      "purchaseUrl": null
+    }
+  },
+  {
+    "guid": "00000000C6F1.0A5",
+    "slug": "owwc-emea-conference",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "OWWC EMEA Conference",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": "A portion of Blizzard’s revenue* from sales of items from the OWWC Conference Crowdfunding Bundles will be contributed to the 2026 Overwatch World Cup prize pool.\r\n \r\n*platform fees, applicable taxes and any other deductions paid to third parties will be deducted from the sales revenue actually received by Blizzard to calculate the 2026 Overwatch World Cup prize pool contribution.",
+    "availableIn": "Sometimes available in the Shop",
+    "productId": 2075208,
+    "imageUrl": "/images/heroes/ALL/Spray/OWWC%20EMEA%20Conference.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "ESports",
+      "2026 Season2",
+      "Shop"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": true,
+      "price": 100,
+      "purchaseUrl": "https://battle.net/shop/en/checkout/buy/2075208"
+    }
+  },
+  {
+    "guid": "00000000C6EC.0A5",
+    "slug": "owwc-emea-tag",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "OWWC EMEA Tag",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": null,
+    "productId": 2075188,
+    "imageUrl": "/images/heroes/ALL/Spray/OWWC%20EMEA%20Tag.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "ESports",
+      "2026 Season2"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": false,
+      "price": 0,
+      "purchaseUrl": null
+    }
+  },
+  {
+    "guid": "00000000684A.0A5",
+    "slug": "owwc-esp",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "OWWC ESP",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": "Available during Season 7",
+    "productId": 1519836,
+    "imageUrl": "/images/heroes/ALL/Spray/OWWC%20ESP.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "ESports",
+      "Shop"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": false,
+      "price": 0,
+      "purchaseUrl": null
+    }
+  },
+  {
+    "guid": "000000006851.0A5",
+    "slug": "owwc-fin",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "OWWC FIN",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": "Available during Season 7",
+    "productId": 1519807,
+    "imageUrl": "/images/heroes/ALL/Spray/OWWC%20FIN.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "ESports",
+      "Shop"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": false,
+      "price": 0,
+      "purchaseUrl": null
+    }
+  },
+  {
+    "guid": "000000006854.0A5",
+    "slug": "owwc-fra",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "OWWC FRA",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": "Available during Season 7",
+    "productId": 1519837,
+    "imageUrl": "/images/heroes/ALL/Spray/OWWC%20FRA.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "ESports",
+      "Shop"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": false,
+      "price": 0,
+      "purchaseUrl": null
+    }
+  },
+  {
+    "guid": "0000000068C6.0A5",
+    "slug": "owwc-gbr",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "OWWC GBR",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": "Available during Season 7",
+    "productId": 1523476,
+    "imageUrl": "/images/heroes/ALL/Spray/OWWC%20GBR.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "ESports",
+      "Shop"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": false,
+      "price": 0,
+      "purchaseUrl": null
+    }
+  },
+  {
+    "guid": "00000000D08B.0A5",
+    "slug": "owwc-groups-busan-2026",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "OWWC Groups Busan 2026",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": null,
+    "productId": 2115054,
+    "imageUrl": "/images/heroes/ALL/Spray/OWWC%20Groups%20Busan%202026.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "ESports",
+      "2026 Season4"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": null
+  },
+  {
+    "guid": "0000000068C7.0A5",
+    "slug": "owwc-hkg",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "OWWC HKG",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": "Available during Season 7",
+    "productId": 1523477,
+    "imageUrl": "/images/heroes/ALL/Spray/OWWC%20HKG.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "ESports",
+      "Shop"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": false,
+      "price": 0,
+      "purchaseUrl": null
+    }
+  },
+  {
+    "guid": "0000000068C8.0A5",
+    "slug": "owwc-jpn",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "OWWC JPN",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": "Available during Season 7",
+    "productId": 1523498,
+    "imageUrl": "/images/heroes/ALL/Spray/OWWC%20JPN.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "ESports",
+      "Shop"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": false,
+      "price": 0,
+      "purchaseUrl": null
+    }
+  },
+  {
+    "guid": "0000000068C9.0A5",
+    "slug": "owwc-kor",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "OWWC KOR",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": "Available during Season 7",
+    "productId": 1523500,
+    "imageUrl": "/images/heroes/ALL/Spray/OWWC%20KOR.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "ESports",
+      "Shop"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": false,
+      "price": 0,
+      "purchaseUrl": null
+    }
+  },
+  {
+    "guid": "0000000068CA.0A5",
+    "slug": "owwc-ksa",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "OWWC KSA",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": "Available during Season 7",
+    "productId": 1523499,
+    "imageUrl": "/images/heroes/ALL/Spray/OWWC%20KSA.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "ESports",
+      "Shop"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": false,
+      "price": 0,
+      "purchaseUrl": null
+    }
+  },
+  {
+    "guid": "0000000068CB.0A5",
+    "slug": "owwc-mex",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "OWWC MEX",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": "Available during Season 7",
+    "productId": 1523501,
+    "imageUrl": "/images/heroes/ALL/Spray/OWWC%20MEX.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "ESports",
+      "Shop"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": false,
+      "price": 0,
+      "purchaseUrl": null
+    }
+  },
+  {
+    "guid": "0000000068CC.0A5",
+    "slug": "owwc-tha",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "OWWC THA",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": "Available during Season 7",
+    "productId": 1523502,
+    "imageUrl": "/images/heroes/ALL/Spray/OWWC%20THA.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "ESports",
+      "Shop"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": false,
+      "price": 0,
+      "purchaseUrl": null
+    }
+  },
+  {
+    "guid": "0000000068C5.0A5",
+    "slug": "owwc-usa",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "OWWC USA",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": "Available during Season 7",
+    "productId": 1523433,
+    "imageUrl": "/images/heroes/ALL/Spray/OWWC%20USA.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "ESports",
+      "Shop"
     ],
     "updatedAt": "2026-09-12T06:26:24.523Z",
     "shopStatus": {
@@ -46893,6 +47021,56 @@
       "enabled": true,
       "price": 300,
       "purchaseUrl": "https://battle.net/shop/en/checkout/buy/1850351"
+    }
+  },
+  {
+    "guid": "0000000001F6.0A5",
+    "slug": "pb",
+    "heroSlug": "winston",
+    "typeSlug": "spray",
+    "name": "PB",
+    "hero": "Winston",
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": null,
+    "productId": 875741,
+    "imageUrl": "/images/heroes/Winston/Spray/PB.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "Base"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": true,
+      "price": 25,
+      "purchaseUrl": "https://battle.net/shop/en/checkout/buy/875741"
+    }
+  },
+  {
+    "guid": "000000007576.0A5",
+    "slug": "pc-bang",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "PC bang",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": "Unlocked by participating in Overwatch Esports events",
+    "productId": 1844024,
+    "imageUrl": "/images/heroes/ALL/Spray/PC%20bang.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "ESports"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": false,
+      "price": 0,
+      "purchaseUrl": null
     }
   },
   {
@@ -51285,60 +51463,6 @@
     }
   },
   {
-    "guid": "000000009967.0A5",
-    "slug": "roc-esports",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "ROC Esports",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": "Sometimes available in the Shop",
-    "productId": 1962393,
-    "imageUrl": "/images/heroes/ALL/Spray/ROC%20Esports.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "ESports",
-      "Season17",
-      "Shop"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": false,
-      "price": 0,
-      "purchaseUrl": null
-    }
-  },
-  {
-    "guid": "00000000AC84.0A5",
-    "slug": "roc-esports-2025-finals",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "ROC Esports 2025 Finals",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": "Sometimes available in the Shop",
-    "productId": 2008017,
-    "imageUrl": "/images/heroes/ALL/Spray/ROC%20Esports%202025%20Finals.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "ESports",
-      "Season19",
-      "Shop"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": false,
-      "price": 100,
-      "purchaseUrl": null
-    }
-  },
-  {
     "guid": "00000000C490.0A5",
     "slug": "ra-ana",
     "heroSlug": "ana",
@@ -53265,6 +53389,60 @@
       "enabled": true,
       "price": 25,
       "purchaseUrl": "https://battle.net/shop/en/checkout/buy/877006"
+    }
+  },
+  {
+    "guid": "000000009967.0A5",
+    "slug": "roc-esports",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "ROC Esports",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": "Sometimes available in the Shop",
+    "productId": 1962393,
+    "imageUrl": "/images/heroes/ALL/Spray/ROC%20Esports.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "ESports",
+      "Season17",
+      "Shop"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": false,
+      "price": 0,
+      "purchaseUrl": null
+    }
+  },
+  {
+    "guid": "00000000AC84.0A5",
+    "slug": "roc-esports-2025-finals",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "ROC Esports 2025 Finals",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": "Sometimes available in the Shop",
+    "productId": 2008017,
+    "imageUrl": "/images/heroes/ALL/Spray/ROC%20Esports%202025%20Finals.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "ESports",
+      "Season19",
+      "Shop"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": false,
+      "price": 100,
+      "purchaseUrl": null
     }
   },
   {
@@ -57433,32 +57611,6 @@
     }
   },
   {
-    "guid": "00000000C6BB.0A5",
-    "slug": "seven-year-player",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "Seven Year Player",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": null,
-    "productId": 2080540,
-    "imageUrl": "/images/heroes/ALL/Spray/Seven%20Year%20Player.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "2026 Season2",
-      "Anniversary"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": false,
-      "price": 0,
-      "purchaseUrl": null
-    }
-  },
-  {
     "guid": "0000000049C3.0A5",
     "slug": "seven-of-hearts",
     "heroSlug": "echo",
@@ -57506,6 +57658,32 @@
       "enabled": true,
       "price": 50,
       "purchaseUrl": "https://battle.net/shop/en/checkout/buy/881476"
+    }
+  },
+  {
+    "guid": "00000000C6BB.0A5",
+    "slug": "seven-year-player",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "Seven Year Player",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": null,
+    "productId": 2080540,
+    "imageUrl": "/images/heroes/ALL/Spray/Seven%20Year%20Player.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "2026 Season2",
+      "Anniversary"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": false,
+      "price": 0,
+      "purchaseUrl": null
     }
   },
   {
@@ -60076,18 +60254,18 @@
     }
   },
   {
-    "guid": "00000000297D.0A5",
-    "slug": "so-fresh",
+    "guid": "00000000296F.0A5",
+    "slug": "so-done",
     "heroSlug": "baptiste",
     "typeSlug": "spray",
-    "name": "So Fresh",
+    "name": "So done",
     "hero": "Baptiste",
     "type": "Spray",
     "rarity": "Common",
     "description": null,
     "availableIn": "Unlocked by watching participating streams during Baptiste's Reunion Challenge",
-    "productId": 58372,
-    "imageUrl": "/images/heroes/Baptiste/Spray/So%20Fresh.png",
+    "productId": 58373,
+    "imageUrl": "/images/heroes/Baptiste/Spray/So%20done.png",
     "videoUrl": null,
     "audioUrl": null,
     "categories": [
@@ -60102,18 +60280,18 @@
     }
   },
   {
-    "guid": "00000000296F.0A5",
-    "slug": "so-done",
+    "guid": "00000000297D.0A5",
+    "slug": "so-fresh",
     "heroSlug": "baptiste",
     "typeSlug": "spray",
-    "name": "So done",
+    "name": "So Fresh",
     "hero": "Baptiste",
     "type": "Spray",
     "rarity": "Common",
     "description": null,
     "availableIn": "Unlocked by watching participating streams during Baptiste's Reunion Challenge",
-    "productId": 58373,
-    "imageUrl": "/images/heroes/Baptiste/Spray/So%20done.png",
+    "productId": 58372,
+    "imageUrl": "/images/heroes/Baptiste/Spray/So%20Fresh.png",
     "videoUrl": null,
     "audioUrl": null,
     "categories": [
@@ -62090,31 +62268,6 @@
     }
   },
   {
-    "guid": "0000000007E3.0A5",
-    "slug": "strike-commander",
-    "heroSlug": "soldier-76",
-    "typeSlug": "spray",
-    "name": "Strike Commander",
-    "hero": "Soldier: 76",
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": null,
-    "productId": 877154,
-    "imageUrl": "/images/heroes/Soldier_%2076/Spray/Strike%20Commander.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "Base"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": true,
-      "price": 25,
-      "purchaseUrl": "https://battle.net/shop/en/checkout/buy/877154"
-    }
-  },
-  {
     "guid": "000000005FEA.0A5",
     "slug": "strike-a-pose",
     "heroSlug": "lifeweaver",
@@ -62137,6 +62290,31 @@
       "enabled": true,
       "price": 100,
       "purchaseUrl": "https://battle.net/shop/en/checkout/buy/1180684"
+    }
+  },
+  {
+    "guid": "0000000007E3.0A5",
+    "slug": "strike-commander",
+    "heroSlug": "soldier-76",
+    "typeSlug": "spray",
+    "name": "Strike Commander",
+    "hero": "Soldier: 76",
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": null,
+    "productId": 877154,
+    "imageUrl": "/images/heroes/Soldier_%2076/Spray/Strike%20Commander.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "Base"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": true,
+      "price": 25,
+      "purchaseUrl": "https://battle.net/shop/en/checkout/buy/877154"
     }
   },
   {
@@ -63405,31 +63583,6 @@
     }
   },
   {
-    "guid": "000000006531.0A5",
-    "slug": "ts-1-repairs",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "TS-1 Repairs",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": null,
-    "productId": 1406336,
-    "imageUrl": "/images/heroes/ALL/Spray/TS-1%20Repairs.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "Season6"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": false,
-      "price": 0,
-      "purchaseUrl": null
-    }
-  },
-  {
     "guid": "000000000B74.0A5",
     "slug": "table-tennis",
     "heroSlug": "mei",
@@ -64684,32 +64837,6 @@
     }
   },
   {
-    "guid": "00000000C6BC.0A5",
-    "slug": "ten-year-player",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "Ten Year Player",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": null,
-    "productId": 2080538,
-    "imageUrl": "/images/heroes/ALL/Spray/Ten%20Year%20Player.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "2026 Season2",
-      "Anniversary"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": false,
-      "price": 0,
-      "purchaseUrl": null
-    }
-  },
-  {
     "guid": "000000001169.0A5",
     "slug": "ten-of-clubs",
     "heroSlug": "bastion",
@@ -64807,6 +64934,32 @@
       "enabled": true,
       "price": 50,
       "purchaseUrl": "https://battle.net/shop/en/checkout/buy/878827"
+    }
+  },
+  {
+    "guid": "00000000C6BC.0A5",
+    "slug": "ten-year-player",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "Ten Year Player",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": null,
+    "productId": 2080538,
+    "imageUrl": "/images/heroes/ALL/Spray/Ten%20Year%20Player.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "2026 Season2",
+      "Anniversary"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": false,
+      "price": 0,
+      "purchaseUrl": null
     }
   },
   {
@@ -65497,6 +65650,31 @@
     }
   },
   {
+    "guid": "0000000018DA.0A5",
+    "slug": "thumbs-down",
+    "heroSlug": "doomfist",
+    "typeSlug": "spray",
+    "name": "Thumbs down",
+    "hero": "Doomfist",
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": null,
+    "productId": 880133,
+    "imageUrl": null,
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "Archives"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": true,
+      "price": 50,
+      "purchaseUrl": "https://battle.net/shop/en/checkout/buy/880133"
+    }
+  },
+  {
     "guid": "00000000CEC1.0A5",
     "slug": "thumbs-up",
     "heroSlug": "universal",
@@ -65565,31 +65743,6 @@
       "enabled": true,
       "price": 25,
       "purchaseUrl": "https://battle.net/shop/en/checkout/buy/876595"
-    }
-  },
-  {
-    "guid": "0000000018DA.0A5",
-    "slug": "thumbs-down",
-    "heroSlug": "doomfist",
-    "typeSlug": "spray",
-    "name": "Thumbs down",
-    "hero": "Doomfist",
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": null,
-    "productId": 880133,
-    "imageUrl": null,
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "Archives"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": true,
-      "price": 50,
-      "purchaseUrl": "https://battle.net/shop/en/checkout/buy/880133"
     }
   },
   {
@@ -67452,6 +67605,31 @@
     "categories": [
       "Special",
       "Limited"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": false,
+      "price": 0,
+      "purchaseUrl": null
+    }
+  },
+  {
+    "guid": "000000006531.0A5",
+    "slug": "ts-1-repairs",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "TS-1 Repairs",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": null,
+    "productId": 1406336,
+    "imageUrl": "/images/heroes/ALL/Spray/TS-1%20Repairs.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "Season6"
     ],
     "updatedAt": "2026-09-12T06:26:24.523Z",
     "shopStatus": {
@@ -70933,31 +71111,6 @@
     }
   },
   {
-    "guid": "000000000E52.0A5",
-    "slug": "winter-wonderland",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "Winter Wonderland",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": null,
-    "productId": 889296,
-    "imageUrl": "/images/heroes/ALL/Spray/Winter%20Wonderland.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "Winter"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": true,
-      "price": 50,
-      "purchaseUrl": "https://battle.net/shop/en/checkout/buy/889296"
-    }
-  },
-  {
     "guid": "000000003FB3.0A5",
     "slug": "winter-spell",
     "heroSlug": "mercy",
@@ -70982,6 +71135,31 @@
       "enabled": false,
       "price": 0,
       "purchaseUrl": null
+    }
+  },
+  {
+    "guid": "000000000E52.0A5",
+    "slug": "winter-wonderland",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "Winter Wonderland",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": null,
+    "productId": 889296,
+    "imageUrl": "/images/heroes/ALL/Spray/Winter%20Wonderland.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "Winter"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": true,
+      "price": 50,
+      "purchaseUrl": "https://battle.net/shop/en/checkout/buy/889296"
     }
   },
   {
@@ -71743,33 +71921,6 @@
     }
   },
   {
-    "guid": "00000000BCDD.0A5",
-    "slug": "ynb-esports",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "YNB Esports",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": "Sometimes available in the Shop",
-    "productId": 2037435,
-    "imageUrl": "/images/heroes/ALL/Spray/YNB%20Esports.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "ESports",
-      "Season20",
-      "Shop"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": false,
-      "price": 100,
-      "purchaseUrl": null
-    }
-  },
-  {
     "guid": "000000005DB9.0A5",
     "slug": "yache-thonk",
     "heroSlug": "universal",
@@ -71963,110 +72114,6 @@
     "availableIn": "Unlocked via Anniversary Loot Boxes.",
     "productId": 2081716,
     "imageUrl": "/images/heroes/ALL/Spray/Year%20Nine%20-%20New%20Friends.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "2026 Season2",
-      "Anniversary"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": false,
-      "price": 0,
-      "purchaseUrl": null
-    }
-  },
-  {
-    "guid": "00000000C741.0A5",
-    "slug": "year-seven-null-sector",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "Year Seven - Null Sector",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": "Unlocked via Anniversary Loot Boxes.",
-    "productId": 2081714,
-    "imageUrl": "/images/heroes/ALL/Spray/Year%20Seven%20-%20Null%20Sector.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "2026 Season2",
-      "Anniversary"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": false,
-      "price": 0,
-      "purchaseUrl": null
-    }
-  },
-  {
-    "guid": "00000000C742.0A5",
-    "slug": "year-six-stomped",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "Year Six - Stomped!",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": "Unlocked via Anniversary Loot Boxes.",
-    "productId": 2081715,
-    "imageUrl": "/images/heroes/ALL/Spray/Year%20Six%20-%20Stomped!.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "2026 Season2",
-      "Anniversary"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": false,
-      "price": 0,
-      "purchaseUrl": null
-    }
-  },
-  {
-    "guid": "00000000C860.0A5",
-    "slug": "year-ten-loot-boxes",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "Year Ten - Loot Boxes",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": "Unlocked via Anniversary Loot Boxes.",
-    "productId": 2091259,
-    "imageUrl": "/images/heroes/ALL/Spray/Year%20Ten%20-%20Loot%20Boxes.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "2026 Season2",
-      "Anniversary"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": false,
-      "price": 0,
-      "purchaseUrl": null
-    }
-  },
-  {
-    "guid": "00000000C73F.0A5",
-    "slug": "year-two-rip-rez",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "Year Two - RIP REZ",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": "Unlocked via Anniversary Loot Boxes.",
-    "productId": 2081712,
-    "imageUrl": "/images/heroes/ALL/Spray/Year%20Two%20-%20RIP%20REZ.png",
     "videoUrl": null,
     "audioUrl": null,
     "categories": [
@@ -72310,6 +72357,110 @@
     }
   },
   {
+    "guid": "00000000C741.0A5",
+    "slug": "year-seven-null-sector",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "Year Seven - Null Sector",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": "Unlocked via Anniversary Loot Boxes.",
+    "productId": 2081714,
+    "imageUrl": "/images/heroes/ALL/Spray/Year%20Seven%20-%20Null%20Sector.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "2026 Season2",
+      "Anniversary"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": false,
+      "price": 0,
+      "purchaseUrl": null
+    }
+  },
+  {
+    "guid": "00000000C742.0A5",
+    "slug": "year-six-stomped",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "Year Six - Stomped!",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": "Unlocked via Anniversary Loot Boxes.",
+    "productId": 2081715,
+    "imageUrl": "/images/heroes/ALL/Spray/Year%20Six%20-%20Stomped!.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "2026 Season2",
+      "Anniversary"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": false,
+      "price": 0,
+      "purchaseUrl": null
+    }
+  },
+  {
+    "guid": "00000000C860.0A5",
+    "slug": "year-ten-loot-boxes",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "Year Ten - Loot Boxes",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": "Unlocked via Anniversary Loot Boxes.",
+    "productId": 2091259,
+    "imageUrl": "/images/heroes/ALL/Spray/Year%20Ten%20-%20Loot%20Boxes.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "2026 Season2",
+      "Anniversary"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": false,
+      "price": 0,
+      "purchaseUrl": null
+    }
+  },
+  {
+    "guid": "00000000C73F.0A5",
+    "slug": "year-two-rip-rez",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "Year Two - RIP REZ",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": "Unlocked via Anniversary Loot Boxes.",
+    "productId": 2081712,
+    "imageUrl": "/images/heroes/ALL/Spray/Year%20Two%20-%20RIP%20REZ.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "2026 Season2",
+      "Anniversary"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": false,
+      "price": 0,
+      "purchaseUrl": null
+    }
+  },
+  {
     "guid": "0000000001B0.0A5",
     "slug": "yellow",
     "heroSlug": "hanzo",
@@ -72435,6 +72586,33 @@
       "enabled": true,
       "price": 100,
       "purchaseUrl": "https://battle.net/shop/en/checkout/buy/1052633"
+    }
+  },
+  {
+    "guid": "00000000BCDD.0A5",
+    "slug": "ynb-esports",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "YNB Esports",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": "Sometimes available in the Shop",
+    "productId": 2037435,
+    "imageUrl": "/images/heroes/ALL/Spray/YNB%20Esports.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "ESports",
+      "Season20",
+      "Shop"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": false,
+      "price": 100,
+      "purchaseUrl": null
     }
   },
   {
@@ -72668,85 +72846,6 @@
     }
   },
   {
-    "guid": "00000000847C.0A5",
-    "slug": "zero-system",
-    "heroSlug": "mercy",
-    "typeSlug": "spray",
-    "name": "ZERO System",
-    "hero": "Mercy",
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": null,
-    "productId": 1935743,
-    "imageUrl": "/images/heroes/Mercy/Spray/ZERO%20System.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "Season16"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": false,
-      "price": 0,
-      "purchaseUrl": null
-    }
-  },
-  {
-    "guid": "0000000095A2.0A5",
-    "slug": "zeta-division",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "ZETA DIVISION",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": "Sometimes available in the Shop",
-    "productId": 1961696,
-    "imageUrl": "/images/heroes/ALL/Spray/ZETA%20DIVISION.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "ESports",
-      "Season17",
-      "Shop"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": false,
-      "price": 0,
-      "purchaseUrl": null
-    }
-  },
-  {
-    "guid": "00000000BCDB.0A5",
-    "slug": "zones",
-    "heroSlug": "universal",
-    "typeSlug": "spray",
-    "name": "ZONES",
-    "hero": null,
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": "Sometimes available in the Shop",
-    "productId": 2037434,
-    "imageUrl": "/images/heroes/ALL/Spray/ZONES.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "ESports",
-      "Season20",
-      "Shop"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": false,
-      "price": 100,
-      "purchaseUrl": null
-    }
-  },
-  {
     "guid": "000000004AE0.0A5",
     "slug": "zap",
     "heroSlug": "tracer",
@@ -72821,6 +72920,58 @@
       "enabled": true,
       "price": 25,
       "purchaseUrl": "https://battle.net/shop/en/checkout/buy/881646"
+    }
+  },
+  {
+    "guid": "00000000847C.0A5",
+    "slug": "zero-system",
+    "heroSlug": "mercy",
+    "typeSlug": "spray",
+    "name": "ZERO System",
+    "hero": "Mercy",
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": null,
+    "productId": 1935743,
+    "imageUrl": "/images/heroes/Mercy/Spray/ZERO%20System.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "Season16"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": false,
+      "price": 0,
+      "purchaseUrl": null
+    }
+  },
+  {
+    "guid": "0000000095A2.0A5",
+    "slug": "zeta-division",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "ZETA DIVISION",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": "Sometimes available in the Shop",
+    "productId": 1961696,
+    "imageUrl": "/images/heroes/ALL/Spray/ZETA%20DIVISION.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "ESports",
+      "Season17",
+      "Shop"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": false,
+      "price": 0,
+      "purchaseUrl": null
     }
   },
   {
@@ -72979,6 +73130,33 @@
     }
   },
   {
+    "guid": "00000000BCDB.0A5",
+    "slug": "zones",
+    "heroSlug": "universal",
+    "typeSlug": "spray",
+    "name": "ZONES",
+    "hero": null,
+    "type": "Spray",
+    "rarity": "Common",
+    "description": null,
+    "availableIn": "Sometimes available in the Shop",
+    "productId": 2037434,
+    "imageUrl": "/images/heroes/ALL/Spray/ZONES.png",
+    "videoUrl": null,
+    "audioUrl": null,
+    "categories": [
+      "ESports",
+      "Season20",
+      "Shop"
+    ],
+    "updatedAt": "2026-09-12T06:26:24.523Z",
+    "shopStatus": {
+      "enabled": false,
+      "price": 100,
+      "purchaseUrl": null
+    }
+  },
+  {
     "guid": "000000007EAD.0A5",
     "slug": "zuko-and-shaw",
     "heroSlug": "genji",
@@ -73027,184 +73205,6 @@
       "enabled": true,
       "price": 25,
       "purchaseUrl": "https://battle.net/shop/en/checkout/buy/877728"
-    }
-  },
-  {
-    "guid": "00000000063E.0A5",
-    "slug": "happy",
-    "heroSlug": "mei",
-    "typeSlug": "spray",
-    "name": "^_^",
-    "hero": "Mei",
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": null,
-    "productId": 876804,
-    "imageUrl": "/images/heroes/Mei/Spray/%5E_%5E.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "Base"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": true,
-      "price": 25,
-      "purchaseUrl": "https://battle.net/shop/en/checkout/buy/876804"
-    }
-  },
-  {
-    "guid": "00000000100B.0A5",
-    "slug": "happy",
-    "heroSlug": "orisa",
-    "typeSlug": "spray",
-    "name": "^_^",
-    "hero": "Orisa",
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": null,
-    "productId": 878552,
-    "imageUrl": "/images/heroes/Orisa/Spray/%5E_%5E.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "Base"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": true,
-      "price": 25,
-      "purchaseUrl": "https://battle.net/shop/en/checkout/buy/878552"
-    }
-  },
-  {
-    "guid": "000000000606.0A5",
-    "slug": "e54",
-    "heroSlug": "bastion",
-    "typeSlug": "spray",
-    "name": "e54",
-    "hero": "Bastion",
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": null,
-    "productId": 876766,
-    "imageUrl": "/images/heroes/Bastion/Spray/e54.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "Base"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": true,
-      "price": 25,
-      "purchaseUrl": "https://battle.net/shop/en/checkout/buy/876766"
-    }
-  },
-  {
-    "guid": "00000000B7F6.0A5",
-    "slug": "exo-l2pus-ashe",
-    "heroSlug": "ashe",
-    "typeSlug": "spray",
-    "name": "exo-L2PUS Ashe",
-    "hero": "Ashe",
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": "Sometimes available in the Shop",
-    "productId": 2027156,
-    "imageUrl": "/images/heroes/Ashe/Spray/exo-L2PUS%20Ashe.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "Season20",
-      "Shop"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": false,
-      "price": 100,
-      "purchaseUrl": null
-    }
-  },
-  {
-    "guid": "00000000B7F7.0A5",
-    "slug": "exo-pant6ra",
-    "heroSlug": "vendetta",
-    "typeSlug": "spray",
-    "name": "exo-PANT6RA",
-    "hero": "Vendetta",
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": "Sometimes available in the Shop",
-    "productId": 2027153,
-    "imageUrl": "/images/heroes/Vendetta/Spray/exo-PANT6RA.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "Season20",
-      "Shop"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": false,
-      "price": 100,
-      "purchaseUrl": null
-    }
-  },
-  {
-    "guid": "00000000B7F8.0A5",
-    "slug": "exo-vu7pes",
-    "heroSlug": "kiriko",
-    "typeSlug": "spray",
-    "name": "exo-VU7PES",
-    "hero": "Kiriko",
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": "Sometimes available in the Shop",
-    "productId": 2027157,
-    "imageUrl": "/images/heroes/Kiriko/Spray/exo-VU7PES.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "Season20",
-      "Shop"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": false,
-      "price": 100,
-      "purchaseUrl": null
-    }
-  },
-  {
-    "guid": "000000000CE0.0A5",
-    "slug": "hax0red",
-    "heroSlug": "sombra",
-    "typeSlug": "spray",
-    "name": "hax0red",
-    "hero": "Sombra",
-    "type": "Spray",
-    "rarity": "Common",
-    "description": null,
-    "availableIn": null,
-    "productId": 878159,
-    "imageUrl": "/images/heroes/Sombra/Spray/hax0red.png",
-    "videoUrl": null,
-    "audioUrl": null,
-    "categories": [
-      "Base"
-    ],
-    "updatedAt": "2026-09-12T06:26:24.523Z",
-    "shopStatus": {
-      "enabled": true,
-      "price": 25,
-      "purchaseUrl": "https://battle.net/shop/en/checkout/buy/878159"
     }
   },
   {
