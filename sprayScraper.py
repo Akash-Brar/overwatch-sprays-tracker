@@ -1,6 +1,8 @@
 import re
 import requests
 from bs4 import BeautifulSoup
+import json
+import time
 
 HEROS_URL = "https://overwatch.weirdgloop.org/w/Heroes"
 SPRAYS_URL = "https://overwatch.weirdgloop.org/w/Sprays"
@@ -37,17 +39,60 @@ def get_heros():
 
     return heros_data
 
-def get_sprays(heros):
-    response = requests.get(SPRAYS_URL)
+def get_sprays():
+    BASE = "https://overhub.gg/v1/cosmetics"
+    HEADERS = {
+        "Accept": "*/*",
+        "Referer": "https://overhub.gg/cosmetics?type=Spray",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+                    "AppleWebKit/605.1.15 (KHTML, like Gecko) "
+                    "Version/18.6 Safari/605.1.15",
+    }
 
-    if response.status_code != 200:
-        raise Exception(f"Failed to fetch sprays. Status code: {response.status_code}")
+    PAGE_SIZE = 100   # server max
+    all_sprays = []
+    page = 1
 
-    soup = BeautifulSoup(response.content, "html.parser")
-    tables_list = soup.find_all("table", class_="wikitable")
+    while True:
+        params = {
+            "type": "Spray",
+            "sort": "name",
+            "page": page,
+            "pageSize": PAGE_SIZE,
+        }
+        r = requests.get(BASE, params=params, headers=HEADERS, timeout=30)
+        r.raise_for_status()
+        data = r.json()
 
-    sprays_data = {}
-    category = None
-    sub_category = None
-    for table in tables_list:
-        table = table.find("tbody").find_all("tr")
+        items = data.get("items", [])
+        total = data.get("total")
+        total_pages = data.get("totalPages")
+
+        print(f"page {page}/{total_pages}: got {len(items)} items (total={total})")
+
+        all_sprays.extend(items)
+
+        if not items:
+            break
+        if total is not None and len(all_sprays) >= total:
+            break
+        if total_pages is not None and page >= total_pages:
+            break
+
+        page += 1
+        time.sleep(0.25)   # be polite; bump to 0.5-1.0 if you get 429s
+
+    # Safety de-dupe on guid
+    seen = set()
+    unique = [s for s in all_sprays if not (s["guid"] in seen or seen.add(s["guid"]))]
+
+    with open("sprays.json", "w", encoding="utf-8") as f:
+        json.dump(unique, f, ensure_ascii=False, indent=2)
+
+    print(f"\nSaved {len(unique)} unique sprays to sprays.json")
+
+
+
+if __name__ == "__main__":
+    # heros = get_heros()
+    get_sprays()
