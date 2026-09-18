@@ -1,0 +1,450 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 24px;
+    background: #0f1320;
+    color: #e8ecf5;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+#sprays-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+/* Category section */
+.spray-category {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.spray-category h2 {
+    margin: 0;
+    font-size: 1.6rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #2a3350;
+    color: #ffffff;
+}
+
+/* Grid of sprays */
+.spray-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 16px;
+}
+
+/* Card */
+.spray-card {
+    display: flex;
+    flex-direction: column;
+    background: #1a2036;
+    border: 1px solid #2a3350;
+    border-radius: 10px;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.15s ease, border-color 0.15s ease,
+                box-shadow 0.15s ease;
+    cursor: pointer;
+    padding: 0;
+    font: inherit;
+    text-align: left;
+    appearance: none;
+}
+
+.spray-card:hover {
+    transform: translateY(-3px);
+    border-color: #4a7dff;
+    box-shadow: 0 8px 20px rgba(74, 125, 255, 0.25);
+}
+
+.spray-card:focus-visible {
+    outline: 2px solid #4a7dff;
+    outline-offset: 2px;
+}
+
+/* Image area */
+.spray-card__image {
+    aspect-ratio: 1 / 1;
+    background: #0f1320;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+}
+
+.spray-card__image img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    image-rendering: -webkit-optimize-contrast;
+}
+
+.spray-card__image--empty {
+    color: #4a5578;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+/* Card body */
+.spray-card__body {
+    padding: 10px 12px 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    flex: 1;
+}
+
+.spray-card__name {
+    font-size: 0.95rem;
+    font-weight: 600;
+    line-height: 1.25;
+    color: #ffffff;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.spray-card__hero {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: #7f8cb3;
+    font-weight: 600;
+}
+
+/* ===== Modal ===== */
+.modal-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(6, 9, 18, 0.75);
+    backdrop-filter: blur(4px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    z-index: 1000;
+    animation: fade-in 0.15s ease-out;
+}
+
+@keyframes fade-in {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.modal {
+    background: #1a2036;
+    border: 1px solid #2a3350;
+    border-radius: 14px;
+    width: 100%;
+    max-width: 640px;
+    max-height: 90vh;
+    overflow: auto;
+    position: relative;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.6);
+    animation: modal-in 0.18s ease-out;
+}
+
+@keyframes modal-in {
+    from { transform: translateY(12px) scale(0.98); opacity: 0; }
+    to   { transform: translateY(0) scale(1); opacity: 1; }
+}
+
+.modal__close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    border: 1px solid #2a3350;
+    background: #0f1320;
+    color: #b3bcd6;
+    font-size: 1.2rem;
+    line-height: 1;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.15s, color 0.15s, border-color 0.15s;
+    z-index: 1;
+}
+
+.modal__close:hover {
+    background: #ff4d5e;
+    color: #ffffff;
+    border-color: #ff4d5e;
+}
+
+.modal__layout {
+    display: grid;
+    grid-template-columns: 240px 1fr;
+    gap: 0;
+}
+
+@media (max-width: 560px) {
+    .modal__layout {
+        grid-template-columns: 1fr;
+    }
+}
+
+.modal__image {
+    background: #0f1320;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    aspect-ratio: 1 / 1;
+}
+
+.modal__image img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.modal__image--empty {
+    color: #4a5578;
+    font-size: 0.85rem;
+}
+
+.modal__content {
+    padding: 22px 22px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.modal__title {
+    margin: 0;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 1.2;
+}
+
+.modal__grid {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    gap: 8px 16px;
+    font-size: 0.9rem;
+}
+
+.modal__label {
+    color: #7f8cb3;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-size: 0.72rem;
+    padding-top: 2px;
+}
+
+.modal__value {
+    color: #e8ecf5;
+    line-height: 1.4;
+    word-break: break-word;
+}
+
+.modal__categories {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.modal__tag {
+    display: inline-block;
+    padding: 3px 9px;
+    border-radius: 999px;
+    background: #0f1320;
+    border: 1px solid #2a3350;
+    color: #b3bcd6;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+/* Prevent body scroll when modal open */
+body.modal-open {
+    overflow: hidden;
+}
+
+/* ===== Owned state on card ===== */
+.spray-card {
+    position: relative;
+}
+
+.spray-card--owned {
+    border-color: #3ddc84;
+    box-shadow: 0 0 0 1px rgba(61, 220, 132, 0.35) inset;
+}
+
+.spray-card__owned {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 26px;
+    height: 26px;
+    border-radius: 6px;
+    background: rgba(15, 19, 32, 0.85);
+    border: 1px solid #2a3350;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 1;
+    transition: background 0.15s, border-color 0.15s;
+}
+
+.spray-card__owned:hover {
+    border-color: #4a7dff;
+}
+
+.spray-card__owned input {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.spray-card__owned-mark {
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: transparent;
+    line-height: 1;
+    user-select: none;
+}
+
+.spray-card__owned input:checked + .spray-card__owned-mark {
+    color: #3ddc84;
+}
+
+.spray-card--owned .spray-card__owned {
+    border-color: #3ddc84;
+    background: rgba(61, 220, 132, 0.15);
+}
+
+/* ===== Modal checkbox ===== */
+.modal__checkbox {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    color: #e8ecf5;
+    user-select: none;
+}
+
+.modal__checkbox input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    accent-color: #3ddc84;
+    cursor: pointer;
+}
+
+.modal__hint {
+    font-size: 0.78rem;
+    color: #7f8cb3;
+    margin-top: -6px;
+}
+
+/* ===== Hero picker ===== */
+.hero-picker__controls {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+
+.hero-picker__search {
+    flex: 1;
+    padding: 8px 10px;
+    border-radius: 8px;
+    border: 1px solid #2a3350;
+    background: #0f1320;
+    color: #e8ecf5;
+    font: inherit;
+    font-size: 0.85rem;
+    outline: none;
+    transition: border-color 0.15s;
+}
+
+.hero-picker__search:focus {
+    border-color: #4a7dff;
+}
+
+.hero-picker__btn {
+    padding: 8px 14px;
+    border-radius: 8px;
+    border: 1px solid #2a3350;
+    background: #0f1320;
+    color: #b3bcd6;
+    font: inherit;
+    font-size: 0.85rem;
+    cursor: pointer;
+    transition: background 0.15s, border-color 0.15s, color 0.15s;
+    white-space: nowrap;
+}
+
+.hero-picker__btn:hover {
+    background: #232a44;
+    color: #ffffff;
+    border-color: #4a7dff;
+}
+
+.hero-picker {
+    max-height: 220px;
+    overflow-y: auto;
+    border: 1px solid #2a3350;
+    border-radius: 8px;
+    padding: 6px;
+    background: #0f1320;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 2px;
+}
+
+.hero-picker__item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 5px 8px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    color: #d6dcef;
+    user-select: none;
+    transition: background 0.12s;
+}
+
+.hero-picker__item:hover {
+    background: #1a2036;
+}
+
+.hero-picker__item input[type="checkbox"] {
+    accent-color: #4a7dff;
+    cursor: pointer;
+}
+
+.hero-picker__count {
+    font-size: 0.78rem;
+    color: #7f8cb3;
+}
+
+/* Nice scrollbar for hero list */
+.hero-picker::-webkit-scrollbar {
+    width: 8px;
+}
+.hero-picker::-webkit-scrollbar-thumb {
+    background: #2a3350;
+    border-radius: 4px;
+}
+.hero-picker::-webkit-scrollbar-track {
+    background: transparent;
+}
