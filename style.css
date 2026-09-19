@@ -285,51 +285,17 @@ body.modal-open {
 
 .spray-card--owned {
     border-color: #3ddc84;
-    box-shadow: 0 0 0 1px rgba(61, 220, 132, 0.35) inset;
+    background: linear-gradient(180deg, #16261f 0%, #1a2036 100%);
+    box-shadow:
+        0 0 0 1px rgba(61, 220, 132, 0.45) inset,
+        0 4px 14px rgba(61, 220, 132, 0.15);
 }
 
-.spray-card__owned {
-    position: absolute;
-    top: 8px;
-    right: 8px;
-    width: 26px;
-    height: 26px;
-    border-radius: 6px;
-    background: rgba(15, 19, 32, 0.85);
-    border: 1px solid #2a3350;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    z-index: 1;
-    transition: background 0.15s, border-color 0.15s;
-}
-
-.spray-card__owned:hover {
-    border-color: #4a7dff;
-}
-
-.spray-card__owned input {
-    position: absolute;
-    opacity: 0;
-    pointer-events: none;
-}
-
-.spray-card__owned-mark {
-    font-size: 0.85rem;
-    font-weight: 700;
-    color: transparent;
-    line-height: 1;
-    user-select: none;
-}
-
-.spray-card__owned input:checked + .spray-card__owned-mark {
-    color: #3ddc84;
-}
-
-.spray-card--owned .spray-card__owned {
-    border-color: #3ddc84;
-    background: rgba(61, 220, 132, 0.15);
+.spray-card--owned:hover {
+    border-color: #4affa0;
+    box-shadow:
+        0 0 0 1px rgba(61, 220, 132, 0.7) inset,
+        0 8px 20px rgba(61, 220, 132, 0.3);
 }
 
 /* ===== Modal checkbox ===== */
