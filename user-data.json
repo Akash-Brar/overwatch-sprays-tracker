@@ -1,6 +1,6 @@
 {
   "0000000001E1.0A5": {
-    "owned": false
+    "owned": true
   },
   "000000000AB9.0A5": {
     "owned": true
@@ -13,5 +13,16 @@
   },
   "00000000247B.0A5": {
     "owned": false
+  },
+  "000000004C4A.0A5": {
+    "unassignedHeroes": [
+      "Orisa",
+      "Widowmaker"
+    ]
+  },
+  "000000004C4C.0A5": {
+    "unassignedHeroes": [
+      "Cassidy"
+    ]
   }
 }

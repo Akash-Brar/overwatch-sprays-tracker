@@ -2,6 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const spraysContainer = document.getElementById('sprays-container');
     const toolbar = document.getElementById('toolbar');
     const toolbarSpacer = document.getElementById('toolbar-spacer');
+    const cardRefs = new Map();
 
     // --- State ---
     let allSprays = [];          // full sorted list
@@ -388,17 +389,36 @@ document.addEventListener('DOMContentLoaded', () => {
         hero.textContent = item.hero || 'Universal';
         body.appendChild(hero);
 
-        // If universal spray has assigned heroes, show a small badge
-        if (item.heroSlug === 'universal' && entry.unassignedHeroes && entry.unassignedHeroes.length > 0) {
-            const badge = document.createElement('div');
+        // Badge — only for universal sprays. Always created; visibility
+        // and text are driven by updateCardBadge().
+        let badge = null;
+        if (item.heroSlug === 'universal') {
+            badge = document.createElement('div');
             badge.className = 'spray-card__badge';
-            badge.textContent = `${entry.unassignedHeroes.length} hero${entry.unassignedHeroes.length === 1 ? '' : 'es'}`;
             body.appendChild(badge);
+            updateCardBadge(badge, item);
         }
 
         card.appendChild(body);
         card.addEventListener('click', () => openModal(item));
+
+        // Register so the modal can update the badge live
+        cardRefs.set(item.guid, { card, badge });
+
         return card;
+    }
+
+    function updateCardBadge(badgeEl, item) {
+        if (!badgeEl) return;
+        const entry = getEntry(item.guid);
+        const n = (entry.unassignedHeroes || []).length;
+        if (n === 0) {
+            badgeEl.style.display = 'none';
+            badgeEl.textContent = '';
+        } else {
+            badgeEl.style.display = '';
+            badgeEl.textContent = `${n} hero${n === 1 ? '' : 'es'}`;
+        }
     }
 
     // ===== Modal =====
@@ -547,6 +567,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
             const persist = () => {
                 setEntry(item.guid, { unassignedHeroes: [...assignedHeroes].sort() });
+                const refs = cardRefs.get(item.guid);
+                if (refs) updateCardBadge(refs.badge, item);
             };
 
             const rebuildList = (filter = '') => {
@@ -698,6 +720,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Clear
         spraysContainer.innerHTML = '';
+        cardRefs.clear();
 
         if (filtered.length === 0) {
             const empty = document.createElement('div');
