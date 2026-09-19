@@ -491,6 +491,7 @@ document.addEventListener('DOMContentLoaded', () => {
         ownedInput.checked = !!entry.owned;
         ownedInput.addEventListener('change', () => {
             setEntry(item.guid, { owned: ownedInput.checked });
+            render();
         });
 
         const ownedLabel = document.createElement('span');
@@ -645,13 +646,23 @@ document.addEventListener('DOMContentLoaded', () => {
     function render() {
         const filtered = allSprays.filter(matchesFilters);
 
-        // Group by primary category (preserving sorted order)
+        // Group by primary category, then within each category sort:
+        // owned first (A-Z), then unowned (A-Z).
         const groups = new Map();
         for (const item of filtered) {
             const rawPrimary = (item.categories && item.categories[0]) || '';
             const cat = mapCategory(rawPrimary);
             if (!groups.has(cat)) groups.set(cat, []);
             groups.get(cat).push(item);
+        }
+
+        // Within each category, partition owned vs. unowned and concat.
+        // Both partitions are already alphabetical because allSprays is
+        // pre-sorted by name, and Array.filter preserves order.
+        for (const [cat, items] of groups) {
+            const owned = items.filter(it => getEntry(it.guid).owned);
+            const unowned = items.filter(it => !getEntry(it.guid).owned);
+            groups.set(cat, [...owned, ...unowned]);
         }
 
         spraysContainer.innerHTML = '';
