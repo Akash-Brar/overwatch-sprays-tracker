@@ -1,36 +1,66 @@
 document.addEventListener('DOMContentLoaded', () => {
     const spraysContainer = document.getElementById('sprays-container');
+    const toolbar = document.getElementById('toolbar');
+    const toolbarSpacer = document.getElementById('toolbar-spacer');
 
-    // Cache of user data, keyed by guid
-    let userData = {};
+    // --- State ---
+    let allSprays = [];          // full sorted list
+    let userData = {};           // keyed by guid
+    let allHeroes = [];          // distinct hero names
+    let allCategories = [];      // distinct display category names
 
-    // List of all known heroes (derived from the sprays data)
-    let allHeroes = [];
+    // Active filters
+    const filters = {
+        search: '',
+        category: '',   // display category name, '' = all
+        hero: '',       // hero name, '' = all, '__universal__' = universal items
+    };
 
-    // Save timer (debounce)
     let saveTimer = null;
 
     Promise.all([
         fetch('sprays.json').then(r => r.json()),
-        fetch('/api/user-data').then(r => r.ok ? r.json() : {}).catch(() => ({})),
+        fetch('/api/user-data')
+            .then(r => r.ok ? r.json() : {})
+            .catch(() => ({})),
     ])
         .then(([sprays, saved]) => {
             userData = saved || {};
+            allSprays = applySort(sprays);
 
-            // Build the hero list from every item that has a hero
+            // Build hero + category lists from the data
             const heroSet = new Set();
-            for (const item of sprays) {
+            const catSet = new Set();
+            for (const item of allSprays) {
                 if (item.hero && item.heroSlug !== 'universal') {
                     heroSet.add(item.hero);
                 }
+                const rawPrimary = (item.categories && item.categories[0]) || '';
+                catSet.add(mapCategory(rawPrimary));
             }
             allHeroes = [...heroSet].sort((a, b) => a.localeCompare(b));
+            allCategories = [...catSet].sort((a, b) => {
+                const aS = seasonSortKey(a);
+                const bS = seasonSortKey(b);
+                if (!aS && bS) return -1;
+                if (aS && !bS) return 1;
+                if (!aS && !bS) return a.localeCompare(b);
+                const go = { 'season': 0, 'year-season': 1 };
+                if (go[aS[0]] !== go[bS[0]]) return go[aS[0]] - go[bS[0]];
+                for (let i = 1; i < Math.max(aS.length, bS.length); i++) {
+                    const av = aS[i] ?? 0;
+                    const bv = bS[i] ?? 0;
+                    if (av !== bv) return av - bv;
+                }
+                return 0;
+            });
 
-            const sorted = applySort(sprays);
-            renderSprays(sorted);
+            buildToolbar();
+            render();
         })
         .catch(error => console.error('Error loading data:', error));
 
+    // ===== Category mapping / sort (unchanged) =====
     const CATEGORY_MAP = {
         'Achievements': 'Accomplishments',
         'BCRF': 'Charity',
@@ -43,63 +73,50 @@ document.addEventListener('DOMContentLoaded', () => {
         'SummerGames': 'Summer Games',
         'Winter': 'Winter Wonderland',
     };
-
     const IMAGE_BASE = 'https://overhub.gg';
 
     function mapCategory(raw) {
         if (CATEGORY_MAP[raw]) return CATEGORY_MAP[raw];
-
         let m = raw.match(/^(\d{4})\s*Season(\d+)$/);
         if (m) return `${m[1]} Season ${m[2]}`;
-
         m = raw.match(/^Season(\d+)$/);
         if (m) return `Season ${m[1]}`;
-
         return raw;
     }
 
     function seasonSortKey(display) {
         let m = display.match(/^Season (\d+)$/);
         if (m) return ['season', parseInt(m[1], 10)];
-
         m = display.match(/^(\d{4}) Season (\d+)$/);
         if (m) return ['year-season', parseInt(m[1], 10), parseInt(m[2], 10)];
-
         return null;
     }
 
     function applySort(data) {
         const withPrimary = data.map(item => {
-            const rawPrimary = item.categories && item.categories.length > 0
-                ? item.categories[0]
-                : '';
+            const rawPrimary = (item.categories && item.categories[0]) || '';
             return { item, primary: mapCategory(rawPrimary) };
         });
 
         withPrimary.sort((a, b) => {
-            const aSeason = seasonSortKey(a.primary);
-            const bSeason = seasonSortKey(b.primary);
+            const aS = seasonSortKey(a.primary);
+            const bS = seasonSortKey(b.primary);
 
-            if (!aSeason && !bSeason) {
+            if (!aS && !bS) {
                 const cmp = a.primary.localeCompare(b.primary);
                 if (cmp !== 0) return cmp;
-            } else if (!aSeason && bSeason) {
-                return -1;
-            } else if (aSeason && !bSeason) {
-                return 1;
-            } else {
-                const groupOrder = { 'season': 0, 'year-season': 1 };
-                if (groupOrder[aSeason[0]] !== groupOrder[bSeason[0]]) {
-                    return groupOrder[aSeason[0]] - groupOrder[bSeason[0]];
-                }
-                if (aSeason[0] === 'season') {
-                    if (aSeason[1] !== bSeason[1]) return aSeason[1] - bSeason[1];
+            } else if (!aS && bS) return -1;
+            else if (aS && !bS) return 1;
+            else {
+                const go = { 'season': 0, 'year-season': 1 };
+                if (go[aS[0]] !== go[bS[0]]) return go[aS[0]] - go[bS[0]];
+                if (aS[0] === 'season') {
+                    if (aS[1] !== bS[1]) return aS[1] - bS[1];
                 } else {
-                    if (aSeason[1] !== bSeason[1]) return aSeason[1] - bSeason[1];
-                    if (aSeason[2] !== bSeason[2]) return aSeason[2] - bSeason[2];
+                    if (aS[1] !== bS[1]) return aS[1] - bS[1];
+                    if (aS[2] !== bS[2]) return aS[2] - bS[2];
                 }
             }
-
             return a.item.name.trim().localeCompare(b.item.name.trim(), undefined, {
                 sensitivity: 'base'
             });
@@ -114,14 +131,11 @@ document.addEventListener('DOMContentLoaded', () => {
         return IMAGE_BASE + imageUrl;
     }
 
-    // ===== User data helpers =====
-    function getEntry(guid) {
-        return userData[guid] || {};
-    }
+    // ===== User data =====
+    function getEntry(guid) { return userData[guid] || {}; }
 
     function setEntry(guid, patch) {
-        const existing = userData[guid] || {};
-        userData[guid] = { ...existing, ...patch };
+        userData[guid] = { ...(userData[guid] || {}), ...patch };
         scheduleSave();
     }
 
@@ -141,6 +155,193 @@ document.addEventListener('DOMContentLoaded', () => {
         } catch (err) {
             console.error('Failed to save user data:', err);
         }
+    }
+
+    // ===== Toolbar =====
+    function buildToolbar() {
+        toolbar.innerHTML = '';
+
+        // Search input
+        const searchWrap = document.createElement('div');
+        searchWrap.className = 'toolbar__field toolbar__field--search';
+
+        const searchLabel = document.createElement('label');
+        searchLabel.className = 'toolbar__label';
+        searchLabel.textContent = 'Search';
+        searchLabel.htmlFor = 'filter-search';
+
+        const searchInput = document.createElement('input');
+        searchInput.type = 'search';
+        searchInput.id = 'filter-search';
+        searchInput.placeholder = 'Name, hero, category…';
+        searchInput.className = 'toolbar__input';
+        searchInput.value = filters.search;
+
+        let searchTimer = null;
+        searchInput.addEventListener('input', () => {
+            clearTimeout(searchTimer);
+            searchTimer = setTimeout(() => {
+                filters.search = searchInput.value.trim().toLowerCase();
+                render();
+            }, 120);
+        });
+
+        searchWrap.appendChild(searchLabel);
+        searchWrap.appendChild(searchInput);
+        toolbar.appendChild(searchWrap);
+
+        // Category select
+        const catWrap = document.createElement('div');
+        catWrap.className = 'toolbar__field';
+
+        const catLabel = document.createElement('label');
+        catLabel.className = 'toolbar__label';
+        catLabel.textContent = 'Category';
+        catLabel.htmlFor = 'filter-category';
+
+        const catSelect = document.createElement('select');
+        catSelect.id = 'filter-category';
+        catSelect.className = 'toolbar__select';
+
+        const allOpt = document.createElement('option');
+        allOpt.value = '';
+        allOpt.textContent = 'All categories';
+        catSelect.appendChild(allOpt);
+
+        for (const c of allCategories) {
+            const o = document.createElement('option');
+            o.value = c;
+            o.textContent = c;
+            catSelect.appendChild(o);
+        }
+        catSelect.value = filters.category;
+        catSelect.addEventListener('change', () => {
+            filters.category = catSelect.value;
+            render();
+        });
+
+        catWrap.appendChild(catLabel);
+        catWrap.appendChild(catSelect);
+        toolbar.appendChild(catWrap);
+
+        // Hero select
+        const heroWrap = document.createElement('div');
+        heroWrap.className = 'toolbar__field';
+
+        const heroLabel = document.createElement('label');
+        heroLabel.className = 'toolbar__label';
+        heroLabel.textContent = 'Hero';
+        heroLabel.htmlFor = 'filter-hero';
+
+        const heroSelect = document.createElement('select');
+        heroSelect.id = 'filter-hero';
+        heroSelect.className = 'toolbar__select';
+
+        const allHeroOpt = document.createElement('option');
+        allHeroOpt.value = '';
+        allHeroOpt.textContent = 'All heroes';
+        heroSelect.appendChild(allHeroOpt);
+
+        const universalOpt = document.createElement('option');
+        universalOpt.value = '__universal__';
+        universalOpt.textContent = 'Universal';
+        heroSelect.appendChild(universalOpt);
+
+        for (const h of allHeroes) {
+            const o = document.createElement('option');
+            o.value = h;
+            o.textContent = h;
+            heroSelect.appendChild(o);
+        }
+        heroSelect.value = filters.hero;
+        heroSelect.addEventListener('change', () => {
+            filters.hero = heroSelect.value;
+            render();
+        });
+
+        heroWrap.appendChild(heroLabel);
+        heroWrap.appendChild(heroSelect);
+        toolbar.appendChild(heroWrap);
+
+        // Clear button
+        const clearBtn = document.createElement('button');
+        clearBtn.type = 'button';
+        clearBtn.className = 'toolbar__clear';
+        clearBtn.textContent = 'Clear filters';
+        clearBtn.addEventListener('click', () => {
+            filters.search = '';
+            filters.category = '';
+            filters.hero = '';
+            searchInput.value = '';
+            catSelect.value = '';
+            heroSelect.value = '';
+            render();
+        });
+        toolbar.appendChild(clearBtn);
+
+        // Result count (updated during render)
+        const count = document.createElement('div');
+        count.className = 'toolbar__count';
+        count.id = 'toolbar-count';
+        toolbar.appendChild(count);
+
+        const syncSpacer = () => {
+            toolbarSpacer.style.height = toolbar.offsetHeight + 'px';
+        };
+        syncSpacer();
+
+        if (typeof ResizeObserver !== 'undefined') {
+            // Re-observe each time the toolbar is rebuilt (safe to call repeatedly)
+            const ro = new ResizeObserver(syncSpacer);
+            ro.observe(toolbar);
+            // Store on the element so it gets GC'd if toolbar is rebuilt
+            toolbar.__ro = ro;
+        } else {
+            window.addEventListener('resize', syncSpacer);
+        }
+    }
+
+    // ===== Filtering =====
+    function matchesFilters(item) {
+        // Category
+        if (filters.category) {
+            const rawPrimary = (item.categories && item.categories[0]) || '';
+            if (mapCategory(rawPrimary) !== filters.category) return false;
+        }
+
+        // Hero
+        if (filters.hero) {
+            if (filters.hero === '__universal__') {
+                if (item.heroSlug !== 'universal') return false;
+            } else if (item.hero !== filters.hero) {
+                const entry = getEntry(item.guid);
+                const assigned = entry.unassignedHeroes || [];
+
+                const matchesOwnHero = item.hero === filters.hero;
+                const matchesAssigned = assigned.includes(filters.hero);
+
+                if (!matchesOwnHero && !matchesAssigned) return false;
+            }
+        }
+
+        // Search (name, hero, categories, unassigned heroes)
+        if (filters.search) {
+            const q = filters.search;
+            const name = (item.name || '').toLowerCase();
+            const hero = (item.hero || 'universal').toLowerCase();
+            const cats = (item.categories || []).map(mapCategory).join(' ').toLowerCase();
+            const entry = getEntry(item.guid);
+            const unassigned = (entry.unassignedHeroes || []).join(' ').toLowerCase();
+
+            if (!name.includes(q) &&
+                !hero.includes(q) &&
+                !cats.includes(q) &&
+                !unassigned.includes(q)) {
+                return false;
+            }
+        }
+
+        return true;
     }
 
     // ===== Card =====
@@ -174,7 +375,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         card.appendChild(imageWrap);
 
-        // Owned checkbox in the corner
+        // Owned checkbox
         const ownedWrap = document.createElement('label');
         ownedWrap.className = 'spray-card__owned';
         ownedWrap.title = 'Mark as owned';
@@ -182,11 +383,8 @@ document.addEventListener('DOMContentLoaded', () => {
         const ownedInput = document.createElement('input');
         ownedInput.type = 'checkbox';
         ownedInput.checked = !!entry.owned;
-        ownedInput.addEventListener('click', (e) => {
-            // Don't bubble up to the card button and open the modal
-            e.stopPropagation();
-        });
-        ownedInput.addEventListener('change', (e) => {
+        ownedInput.addEventListener('click', e => e.stopPropagation());
+        ownedInput.addEventListener('change', e => {
             e.stopPropagation();
             setEntry(item.guid, { owned: ownedInput.checked });
             card.classList.toggle('spray-card--owned', ownedInput.checked);
@@ -213,10 +411,16 @@ document.addEventListener('DOMContentLoaded', () => {
         hero.textContent = item.hero || 'Universal';
         body.appendChild(hero);
 
+        // If universal spray has assigned heroes, show a small badge
+        if (item.heroSlug === 'universal' && entry.unassignedHeroes && entry.unassignedHeroes.length > 0) {
+            const badge = document.createElement('div');
+            badge.className = 'spray-card__badge';
+            badge.textContent = `${entry.unassignedHeroes.length} hero${entry.unassignedHeroes.length === 1 ? '' : 'es'}`;
+            body.appendChild(badge);
+        }
+
         card.appendChild(body);
-
         card.addEventListener('click', () => openModal(item));
-
         return card;
     }
 
@@ -232,7 +436,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const overlay = document.createElement('div');
         overlay.className = 'modal-overlay';
-        overlay.addEventListener('click', (e) => {
+        overlay.addEventListener('click', e => {
             if (e.target === overlay) closeModal();
         });
 
@@ -288,11 +492,9 @@ document.addEventListener('DOMContentLoaded', () => {
             const l = document.createElement('div');
             l.className = 'modal__label';
             l.textContent = label;
-
             const v = document.createElement('div');
             v.className = 'modal__value';
             v.textContent = value;
-
             grid.appendChild(l);
             grid.appendChild(v);
         };
@@ -303,7 +505,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         content.appendChild(grid);
 
-        // Owned checkbox (modal)
+        // Owned
         const ownedRow = document.createElement('label');
         ownedRow.className = 'modal__checkbox';
 
@@ -321,7 +523,7 @@ document.addEventListener('DOMContentLoaded', () => {
         ownedRow.appendChild(ownedLabel);
         content.appendChild(ownedRow);
 
-        // Unassigned Heroes (only for universal sprays)
+        // Unassigned Heroes (universal only)
         if (isUniversal) {
             const heading = document.createElement('div');
             heading.className = 'modal__label';
@@ -372,10 +574,8 @@ document.addEventListener('DOMContentLoaded', () => {
             const rebuildList = (filter = '') => {
                 heroList.innerHTML = '';
                 const q = filter.trim().toLowerCase();
-
                 for (const heroName of allHeroes) {
                     if (q && !heroName.toLowerCase().includes(q)) continue;
-
                     const label = document.createElement('label');
                     label.className = 'hero-picker__item';
 
@@ -399,7 +599,6 @@ document.addEventListener('DOMContentLoaded', () => {
             };
 
             search.addEventListener('input', () => rebuildList(search.value));
-
             selectAllBtn.addEventListener('click', () => {
                 assignedHeroes.clear();
                 rebuildList(search.value);
@@ -448,7 +647,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
         document.body.classList.add('modal-open');
         modalEl = overlay;
-
         closeBtn.focus();
         document.addEventListener('keydown', onKeyDown);
     }
@@ -467,18 +665,37 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // ===== Render =====
-    function renderSprays(sprays) {
+    function render() {
+        const filtered = allSprays.filter(matchesFilters);
+
+        // Group by primary category (preserving sorted order)
         const groups = new Map();
-        for (const item of sprays) {
-            const rawPrimary = item.categories && item.categories.length > 0
-                ? item.categories[0]
-                : '';
+        for (const item of filtered) {
+            const rawPrimary = (item.categories && item.categories[0]) || '';
             const cat = mapCategory(rawPrimary);
             if (!groups.has(cat)) groups.set(cat, []);
             groups.get(cat).push(item);
         }
 
         spraysContainer.innerHTML = '';
+
+        // Update count
+        const countEl = document.getElementById('toolbar-count');
+        if (countEl) {
+            const shown = filtered.length;
+            const total = allSprays.length;
+            countEl.textContent = shown === total
+                ? `${total} items`
+                : `${shown} of ${total} items`;
+        }
+
+        if (filtered.length === 0) {
+            const empty = document.createElement('div');
+            empty.className = 'empty-state';
+            empty.textContent = 'No sprays match your filters.';
+            spraysContainer.appendChild(empty);
+            return;
+        }
 
         for (const [category, items] of groups) {
             const section = document.createElement('section');
@@ -498,5 +715,7 @@ document.addEventListener('DOMContentLoaded', () => {
             section.appendChild(grid);
             spraysContainer.appendChild(section);
         }
+
+        if (toolbar.__syncSpacer) toolbar.__syncSpacer();
     }
 });

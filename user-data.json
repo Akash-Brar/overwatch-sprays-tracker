@@ -1,0 +1,17 @@
+{
+  "0000000001E1.0A5": {
+    "owned": false
+  },
+  "000000000AB9.0A5": {
+    "owned": false
+  },
+  "000000004C4B.0A5": {
+    "owned": false,
+    "unassignedHeroes": [
+      "Ashe"
+    ]
+  },
+  "00000000247B.0A5": {
+    "owned": false
+  }
+}

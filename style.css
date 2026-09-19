@@ -4,7 +4,7 @@
 
 body {
     margin: 0;
-    padding: 24px;
+    padding: 0 24px 24px;
     background: #0f1320;
     color: #e8ecf5;
     font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
@@ -16,6 +16,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 48px;
+    padding-top: 24px;
 }
 
 /* Category section */
@@ -447,4 +448,146 @@ body.modal-open {
 }
 .hero-picker::-webkit-scrollbar-track {
     background: transparent;
+}
+
+/* ===== Toolbar ===== */
+.toolbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 50;
+
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr auto;
+    gap: 16px;
+    align-items: end;
+
+    padding: 14px 24px 16px;
+
+    background: #131830;
+    border-bottom: 1px solid #2a3350;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
+
+    /* NO max-width, NO border-radius — this is the "full length" part */
+}
+
+/* The toolbar has a result-count row at the bottom; measure its height with
+   a spacer element that sits in the normal flow. The spacer's height is set
+   dynamically by JS so it always matches, even when the toolbar wraps. */
+.toolbar-spacer {
+    height: 0;
+}
+
+@media (max-width: 900px) {
+    .toolbar {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 560px) {
+    .toolbar {
+        grid-template-columns: 1fr;
+    }
+}
+
+.toolbar__field {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    min-width: 0;
+}
+
+.toolbar__label {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #7f8cb3;
+    font-weight: 600;
+}
+
+.toolbar__input,
+.toolbar__select {
+    width: 100%;
+    padding: 9px 12px;
+    border-radius: 8px;
+    border: 1px solid #2a3350;
+    background: #0f1320;
+    color: #e8ecf5;
+    font: inherit;
+    font-size: 0.9rem;
+    outline: none;
+    transition: border-color 0.15s;
+    appearance: none;
+}
+
+.toolbar__select {
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12'><path d='M2 4l4 4 4-4' stroke='%237f8cb3' stroke-width='1.5' fill='none' stroke-linecap='round'/></svg>");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 12px;
+    padding-right: 30px;
+}
+
+.toolbar__input:focus,
+.toolbar__select:focus {
+    border-color: #4a7dff;
+}
+
+.toolbar__clear {
+    padding: 9px 16px;
+    border-radius: 8px;
+    border: 1px solid #2a3350;
+    background: #0f1320;
+    color: #b3bcd6;
+    font: inherit;
+    font-size: 0.85rem;
+    cursor: pointer;
+    transition: background 0.15s, border-color 0.15s, color 0.15s;
+    white-space: nowrap;
+}
+
+.toolbar__clear:hover {
+    background: #232a44;
+    color: #ffffff;
+    border-color: #4a7dff;
+}
+
+.toolbar__count {
+    grid-column: 1 / -1;
+    font-size: 0.78rem;
+    color: #7f8cb3;
+    text-align: right;
+    padding-top: 6px;
+    border-top: 1px solid #2a3350;
+    margin-top: 6px;
+}
+
+/* ===== Empty state ===== */
+.empty-state {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 60px 20px;
+    text-align: center;
+    color: #7f8cb3;
+    font-size: 1rem;
+    background: #1a2036;
+    border: 1px dashed #2a3350;
+    border-radius: 12px;
+}
+
+/* ===== Hero badge on universal cards ===== */
+.spray-card__badge {
+    display: inline-block;
+    align-self: flex-start;
+    margin-top: 4px;
+    padding: 2px 8px;
+    border-radius: 999px;
+    background: #4a7dff1a;
+    border: 1px solid #4a7dff55;
+    color: #8fa9ff;
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.03em;
 }
