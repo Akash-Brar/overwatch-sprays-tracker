@@ -375,29 +375,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         card.appendChild(imageWrap);
 
-        // Owned checkbox
-        const ownedWrap = document.createElement('label');
-        ownedWrap.className = 'spray-card__owned';
-        ownedWrap.title = 'Mark as owned';
-
-        const ownedInput = document.createElement('input');
-        ownedInput.type = 'checkbox';
-        ownedInput.checked = !!entry.owned;
-        ownedInput.addEventListener('click', e => e.stopPropagation());
-        ownedInput.addEventListener('change', e => {
-            e.stopPropagation();
-            setEntry(item.guid, { owned: ownedInput.checked });
-            card.classList.toggle('spray-card--owned', ownedInput.checked);
-        });
-
-        const ownedCheck = document.createElement('span');
-        ownedCheck.className = 'spray-card__owned-mark';
-        ownedCheck.textContent = '✓';
-
-        ownedWrap.appendChild(ownedInput);
-        ownedWrap.appendChild(ownedCheck);
-        card.appendChild(ownedWrap);
-
         const body = document.createElement('div');
         body.className = 'spray-card__body';
 
