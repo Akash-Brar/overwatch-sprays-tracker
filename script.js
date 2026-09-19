@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', () => {
         })
         .catch(error => console.error('Error loading data:', error));
 
-    // ===== Category mapping / sort (unchanged) =====
+    // ===== Category mapping / sort =====
     const CATEGORY_MAP = {
         'Achievements': 'Accomplishments',
         'BCRF': 'Charity',
@@ -643,11 +643,35 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // ===== Render =====
+    let renderToken = 0;          // cancels stale renders when filters change
+    let observedSections = null;  // IntersectionObserver for lazy images
+
+    function setupImageObserver() {
+        if (observedSections) observedSections.disconnect();
+        if (typeof IntersectionObserver === 'undefined') return;
+
+        observedSections = new IntersectionObserver((entries) => {
+            for (const entry of entries) {
+                if (entry.isIntersecting) {
+                    const section = entry.target;
+                    // Swap data-src on any images inside this section
+                    const imgs = section.querySelectorAll('img[data-src]');
+                    for (const img of imgs) {
+                        img.src = img.dataset.src;
+                        delete img.dataset.src;
+                    }
+                    observedSections.unobserve(section);
+                }
+            }
+        }, {
+            rootMargin: '400px 0px',   // start loading a bit before it's visible
+        });
+    }
+
     function render() {
         const filtered = allSprays.filter(matchesFilters);
 
-        // Group by primary category, then within each category sort:
-        // owned first (A-Z), then unowned (A-Z).
+        // Build groups (owned-first within each category)
         const groups = new Map();
         for (const item of filtered) {
             const rawPrimary = (item.categories && item.categories[0]) || '';
@@ -655,17 +679,11 @@ document.addEventListener('DOMContentLoaded', () => {
             if (!groups.has(cat)) groups.set(cat, []);
             groups.get(cat).push(item);
         }
-
-        // Within each category, partition owned vs. unowned and concat.
-        // Both partitions are already alphabetical because allSprays is
-        // pre-sorted by name, and Array.filter preserves order.
         for (const [cat, items] of groups) {
             const owned = items.filter(it => getEntry(it.guid).owned);
             const unowned = items.filter(it => !getEntry(it.guid).owned);
             groups.set(cat, [...owned, ...unowned]);
         }
-
-        spraysContainer.innerHTML = '';
 
         // Update count
         const countEl = document.getElementById('toolbar-count');
@@ -676,6 +694,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 ? `${total} items`
                 : `${shown} of ${total} items`;
         }
+        if (toolbar.__syncSpacer) toolbar.__syncSpacer();
+
+        // Clear
+        spraysContainer.innerHTML = '';
 
         if (filtered.length === 0) {
             const empty = document.createElement('div');
@@ -685,25 +707,68 @@ document.addEventListener('DOMContentLoaded', () => {
             return;
         }
 
-        for (const [category, items] of groups) {
-            const section = document.createElement('section');
-            section.className = 'spray-category';
+        // Bump token so an in-flight chunked render stops if a new render starts
+        const myToken = ++renderToken;
 
-            const heading = document.createElement('h2');
-            heading.textContent = category;
-            section.appendChild(heading);
+        // Prepare the observer for lazy images
+        setupImageObserver();
 
-            const grid = document.createElement('div');
-            grid.className = 'spray-grid';
+        // Chunked render
+        const categoryEntries = [...groups.entries()];
+        const CATEGORIES_PER_CHUNK = 3;   // tune this
+        let index = 0;
 
-            for (const item of items) {
-                grid.appendChild(createCard(item));
+        const renderNextChunk = () => {
+            if (myToken !== renderToken) return;  // stale
+
+            const end = Math.min(index + CATEGORIES_PER_CHUNK, categoryEntries.length);
+            const fragment = document.createDocumentFragment();
+
+            for (; index < end; index++) {
+                const [category, items] = categoryEntries[index];
+                fragment.appendChild(buildCategorySection(category, items));
             }
 
-            section.appendChild(grid);
-            spraysContainer.appendChild(section);
+            spraysContainer.appendChild(fragment);
+
+            if (index < categoryEntries.length) {
+                // Yield to the browser so the current frame can paint and
+                // the user can interact. `requestIdleCallback` if available,
+                // else fall back to a rAF + setTimeout.
+                if (typeof requestIdleCallback !== 'undefined') {
+                    requestIdleCallback(renderNextChunk, { timeout: 200 });
+                } else {
+                    requestAnimationFrame(() => setTimeout(renderNextChunk, 0));
+                }
+            }
+        };
+
+        renderNextChunk();
+    }
+
+    function buildCategorySection(category, items) {
+        const section = document.createElement('section');
+        section.className = 'spray-category';
+
+        const heading = document.createElement('h2');
+        heading.textContent = category;
+        section.appendChild(heading);
+
+        const grid = document.createElement('div');
+        grid.className = 'spray-grid';
+
+        for (const item of items) {
+            grid.appendChild(createCard(item));
         }
 
-        if (toolbar.__syncSpacer) toolbar.__syncSpacer();
+        section.appendChild(grid);
+
+        // Lazy image loading: observe the section; when it's near the
+        // viewport, swap data-src into src for all its images.
+        if (observedSections) {
+            observedSections.observe(section);
+        }
+
+        return section;
     }
 });
