@@ -280,11 +280,17 @@ document.addEventListener('DOMContentLoaded', () => {
         });
         toolbar.appendChild(clearBtn);
 
-        // Result count (updated during render)
+        // Count
         const count = document.createElement('div');
         count.className = 'toolbar__count';
         count.id = 'toolbar-count';
         toolbar.appendChild(count);
+
+        // Owned counter (per-hero)
+        const ownedCounter = document.createElement('div');
+        ownedCounter.className = 'toolbar__owned-counter';
+        ownedCounter.id = 'owned-counter';
+        toolbar.insertBefore(ownedCounter, count);
 
         const syncSpacer = () => {
             toolbarSpacer.style.height = toolbar.offsetHeight + 'px';
@@ -300,6 +306,81 @@ document.addEventListener('DOMContentLoaded', () => {
         } else {
             window.addEventListener('resize', syncSpacer);
         }
+    }
+
+    function heroesForItem(item) {
+        if (item.heroSlug === 'universal') {
+            const entry = getEntry(item.guid);
+            return entry.unassignedHeroes || [];
+        }
+        return item.hero ? [item.hero] : [];
+    }
+
+    function computeOwnedStats(heroName) {
+        let owned = 0;
+        let total = 0;
+
+        for (const item of allSprays) {
+            const heroes = heroesForItem(item);
+
+            if (heroName) {
+                if (!heroes.includes(heroName)) continue;
+            } else {
+                if (heroes.length === 0) continue;
+            }
+
+            total += 1;
+            if (getEntry(item.guid).owned) owned += 1;
+        }
+
+        return { owned, total };
+    }
+
+        function updateOwnedCounter() {
+        const el = document.getElementById('owned-counter');
+        if (!el) return;
+
+        // filters.hero is '', '__universal__', or a hero name
+        let label;
+        let heroName = null;
+
+        if (filters.hero === '__universal__') {
+            label = 'All universal sprays';
+        } else if (filters.hero) {
+            label = filters.hero;
+            heroName = filters.hero;
+        } else {
+            label = 'All heroes';
+        }
+
+        let { owned, total } = computeOwnedStats(heroName);
+
+        if (filters.hero === '__universal__') {
+            owned = 0;
+            total = 0;
+            for (const item of allSprays) {
+                if (item.heroSlug !== 'universal') continue;
+                total += 1;
+                if (getEntry(item.guid).owned) owned += 1;
+            }
+        }
+
+        const pct = total === 0 ? 0 : Math.round((owned / total) * 100);
+
+        el.innerHTML = '';
+        const text = document.createElement('span');
+        text.className = 'owned-counter__text';
+        text.textContent = `${label}: ${owned} / ${total} owned (${pct}%)`;
+
+        const bar = document.createElement('div');
+        bar.className = 'owned-counter__bar';
+        const fill = document.createElement('div');
+        fill.className = 'owned-counter__fill';
+        fill.style.width = pct + '%';
+        bar.appendChild(fill);
+
+        el.appendChild(text);
+        el.appendChild(bar);
     }
 
     // ===== Filtering =====
@@ -511,7 +592,8 @@ document.addEventListener('DOMContentLoaded', () => {
         ownedInput.checked = !!entry.owned;
         ownedInput.addEventListener('change', () => {
             setEntry(item.guid, { owned: ownedInput.checked });
-            render();
+            updateOwnedCounter();
+            if (filters.hero) render();
         });
 
         const ownedLabel = document.createElement('span');
@@ -717,6 +799,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 : `${shown} of ${total} items`;
         }
         if (toolbar.__syncSpacer) toolbar.__syncSpacer();
+
+        updateOwnedCounter();
 
         // Clear
         spraysContainer.innerHTML = '';
