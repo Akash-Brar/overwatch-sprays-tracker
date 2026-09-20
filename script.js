@@ -162,6 +162,16 @@ document.addEventListener('DOMContentLoaded', () => {
     function buildToolbar() {
         toolbar.innerHTML = '';
 
+        const titleRow = document.createElement('div');
+        titleRow.className = 'toolbar__title';
+
+        const titleText = document.createElement('h1');
+        titleText.className = 'toolbar__title-text';
+        titleText.textContent = 'Overwatch Sprays Tracker';
+        titleRow.appendChild(titleText);
+
+        toolbar.appendChild(titleRow);
+
         // Search input
         const searchWrap = document.createElement('div');
         searchWrap.className = 'toolbar__field toolbar__field--search';
@@ -280,17 +290,21 @@ document.addEventListener('DOMContentLoaded', () => {
         });
         toolbar.appendChild(clearBtn);
 
-        // Count
-        const count = document.createElement('div');
-        count.className = 'toolbar__count';
-        count.id = 'toolbar-count';
-        toolbar.appendChild(count);
+        // Counters
+        const statsRow = document.createElement('div');
+        statsRow.className = 'toolbar__stats';
 
-        // Owned counter (per-hero)
-        const ownedCounter = document.createElement('div');
-        ownedCounter.className = 'toolbar__owned-counter';
+        const ownedCounter = document.createElement('span');
+        ownedCounter.className = 'toolbar__stats-owned';
         ownedCounter.id = 'owned-counter';
-        toolbar.insertBefore(ownedCounter, count);
+        statsRow.appendChild(ownedCounter);
+
+        const countEl = document.createElement('span');
+        countEl.className = 'toolbar__stats-total';
+        countEl.id = 'toolbar-count';
+        statsRow.appendChild(countEl);
+
+        toolbar.appendChild(statsRow);
 
         const syncSpacer = () => {
             toolbarSpacer.style.height = toolbar.offsetHeight + 'px';
@@ -336,11 +350,10 @@ document.addEventListener('DOMContentLoaded', () => {
         return { owned, total };
     }
 
-        function updateOwnedCounter() {
+    function updateOwnedCounter() {
         const el = document.getElementById('owned-counter');
         if (!el) return;
 
-        // filters.hero is '', '__universal__', or a hero name
         let label;
         let heroName = null;
 
@@ -366,21 +379,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         const pct = total === 0 ? 0 : Math.round((owned / total) * 100);
-
-        el.innerHTML = '';
-        const text = document.createElement('span');
-        text.className = 'owned-counter__text';
-        text.textContent = `${label}: ${owned} / ${total} owned (${pct}%)`;
-
-        const bar = document.createElement('div');
-        bar.className = 'owned-counter__bar';
-        const fill = document.createElement('div');
-        fill.className = 'owned-counter__fill';
-        fill.style.width = pct + '%';
-        bar.appendChild(fill);
-
-        el.appendChild(text);
-        el.appendChild(bar);
+        el.textContent = `${label}: ${owned} / ${total} owned (${pct}%)`;
     }
 
     // ===== Filtering =====
