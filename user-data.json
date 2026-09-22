@@ -6,24 +6,26 @@
     "owned": true
   },
   "000000004C4B.0A5": {
-    "owned": false,
+    "owned": true,
     "unassignedHeroes": [
       "Ashe"
     ]
   },
   "00000000247B.0A5": {
-    "owned": false
+    "owned": true
   },
   "000000004C4A.0A5": {
     "unassignedHeroes": [
       "Orisa",
       "Widowmaker"
-    ]
+    ],
+    "owned": true
   },
   "000000004C4C.0A5": {
     "unassignedHeroes": [
       "Cassidy"
-    ]
+    ],
+    "owned": true
   },
   "000000004866.0A5": {
     "unassignedHeroes": [
@@ -103,139 +105,85 @@
     ]
   },
   "000000004BA8.0A5": {
-    "unassignedHeroes": [
-      "Tracer"
-    ]
+    "unassignedHeroes": []
   },
   "000000004EC3.0A5": {
-    "unassignedHeroes": [
-      "Reinhardt"
-    ]
+    "unassignedHeroes": []
   },
   "000000004BA9.0A5": {
-    "unassignedHeroes": [
-      "Tracer"
-    ]
+    "unassignedHeroes": []
   },
   "000000004EC4.0A5": {
-    "unassignedHeroes": [
-      "Reinhardt"
-    ]
+    "unassignedHeroes": []
   },
   "000000004A90.0A5": {
-    "unassignedHeroes": [
-      "Lúcio"
-    ]
+    "unassignedHeroes": []
   },
   "000000004D97.0A5": {
-    "unassignedHeroes": [
-      "Wrecking Ball"
-    ]
+    "unassignedHeroes": []
   },
   "000000004A91.0A5": {
-    "unassignedHeroes": [
-      "Lúcio"
-    ]
+    "unassignedHeroes": []
   },
   "000000004D94.0A5": {
-    "unassignedHeroes": [
-      "Wrecking Ball"
-    ]
+    "unassignedHeroes": []
   },
   "00000000495F.0A5": {
-    "unassignedHeroes": [
-      "Tracer"
-    ]
+    "unassignedHeroes": []
   },
   "000000004960.0A5": {
-    "unassignedHeroes": [
-      "Tracer"
-    ]
+    "unassignedHeroes": []
   },
   "000000004A0B.0A5": {
-    "unassignedHeroes": [
-      "Genji"
-    ]
+    "unassignedHeroes": []
   },
   "000000004A0A.0A5": {
-    "unassignedHeroes": [
-      "Genji"
-    ]
+    "unassignedHeroes": []
   },
   "0000000048A8.0A5": {
-    "unassignedHeroes": [
-      "Tracer"
-    ]
+    "unassignedHeroes": []
   },
   "0000000049ED.0A5": {
-    "unassignedHeroes": [
-      "Moira"
-    ]
+    "unassignedHeroes": []
   },
   "000000004A8B.0A5": {
-    "unassignedHeroes": [
-      "Torbjörn"
-    ]
+    "unassignedHeroes": []
   },
   "000000004AEF.0A5": {
-    "unassignedHeroes": [
-      "Sombra"
-    ]
+    "unassignedHeroes": []
   },
   "000000004BF5.0A5": {
-    "unassignedHeroes": [
-      "Junkrat"
-    ]
+    "unassignedHeroes": []
   },
   "000000004C3B.0A5": {
-    "unassignedHeroes": [
-      "Mei"
-    ]
+    "unassignedHeroes": []
   },
   "000000004C98.0A5": {
-    "unassignedHeroes": [
-      "Baptiste"
-    ]
+    "unassignedHeroes": []
   },
   "000000004D68.0A5": {
-    "unassignedHeroes": [
-      "Roadhog"
-    ]
+    "unassignedHeroes": []
   },
   "000000004D92.0A5": {
-    "unassignedHeroes": [
-      "D.Va"
-    ]
+    "unassignedHeroes": []
   },
   "000000004E30.0A5": {
-    "unassignedHeroes": [
-      "Soldier: 76"
-    ]
+    "unassignedHeroes": []
   },
   "000000004EE0.0A5": {
-    "unassignedHeroes": [
-      "Lúcio"
-    ]
+    "unassignedHeroes": []
   },
   "000000004FD9.0A5": {
-    "unassignedHeroes": [
-      "Ashe"
-    ]
+    "unassignedHeroes": []
   },
   "0000000050D7.0A5": {
-    "unassignedHeroes": [
-      "Widowmaker"
-    ]
+    "unassignedHeroes": []
   },
   "00000000510A.0A5": {
-    "unassignedHeroes": [
-      "Reinhardt"
-    ]
+    "unassignedHeroes": []
   },
   "000000005415.0A5": {
-    "unassignedHeroes": [
-      "Genji"
-    ]
+    "unassignedHeroes": []
   },
   "000000000C86.0A5": {
     "unassignedHeroes": [
@@ -245,40 +193,47 @@
   "000000004B2C.0A5": {
     "unassignedHeroes": [
       "Zenyatta"
-    ]
+    ],
+    "owned": true
   },
   "000000000C70.0A5": {
     "unassignedHeroes": [
       "Roadhog"
-    ]
+    ],
+    "owned": true
   },
   "000000000C3A.0A5": {
     "unassignedHeroes": [
       "Junkrat"
-    ]
+    ],
+    "owned": true
   },
   "000000005646.0A5": {
     "unassignedHeroes": [
       "Junkrat",
       "Sombra"
-    ]
+    ],
+    "owned": true
   },
   "000000000CAB.0A5": {
     "unassignedHeroes": [
       "Junkrat"
-    ]
+    ],
+    "owned": true
   },
   "0000000012E2.0A5": {
     "unassignedHeroes": [
       "Junkrat"
-    ]
+    ],
+    "owned": true
   },
   "000000000C4D.0A5": {
     "unassignedHeroes": [
       "Junkrat",
       "Lúcio",
       "Roadhog"
-    ]
+    ],
+    "owned": true
   },
   "000000004B2F.0A5": {
     "unassignedHeroes": [
@@ -288,7 +243,8 @@
   "000000004B2B.0A5": {
     "unassignedHeroes": [
       "Ashe"
-    ]
+    ],
+    "owned": true
   },
   "0000000012E0.0A5": {
     "unassignedHeroes": [
@@ -303,7 +259,8 @@
   "0000000012DD.0A5": {
     "unassignedHeroes": [
       "Reaper"
-    ]
+    ],
+    "owned": true
   },
   "0000000012E1.0A5": {
     "unassignedHeroes": [
@@ -313,7 +270,8 @@
   "000000004B2D.0A5": {
     "unassignedHeroes": [
       "Tracer"
-    ]
+    ],
+    "owned": true
   },
   "000000004B30.0A5": {
     "unassignedHeroes": [
@@ -333,95 +291,112 @@
   "000000002542.0A5": {
     "unassignedHeroes": [
       "Reaper"
-    ]
+    ],
+    "owned": true
   },
   "000000000B13.0A5": {
     "unassignedHeroes": [
       "Genji"
-    ]
+    ],
+    "owned": true
   },
   "00000000C0FE.0A5": {
     "unassignedHeroes": [
       "D.Va"
-    ]
+    ],
+    "owned": true
   },
   "00000000C6EE.0A5": {
     "unassignedHeroes": [
       "Anran",
       "Emre",
       "Sierra"
-    ]
+    ],
+    "owned": true
   },
   "000000007089.0A5": {
     "unassignedHeroes": [
       "Bastion"
-    ]
+    ],
+    "owned": true
   },
   "0000000077C6.0A5": {
     "unassignedHeroes": [
       "Mauga"
-    ]
+    ],
+    "owned": true
   },
   "0000000070C7.0A5": {
     "unassignedHeroes": [
       "Hanzo"
-    ]
+    ],
+    "owned": true
   },
   "000000007F31.0A5": {
     "unassignedHeroes": [
       "Brigitte"
-    ]
+    ],
+    "owned": true
   },
   "00000000A6CB.0A5": {
     "unassignedHeroes": [
       "D.Va"
-    ]
+    ],
+    "owned": true
   },
   "0000000077CC.0A5": {
     "unassignedHeroes": [
       "Bastion"
-    ]
+    ],
+    "owned": true
   },
   "000000006C08.0A5": {
     "unassignedHeroes": [
       "Lifeweaver"
-    ]
+    ],
+    "owned": true
   },
   "00000000D08D.0A5": {
     "unassignedHeroes": [
       "D.Mon",
       "D.Va"
-    ]
+    ],
+    "owned": true
   },
   "00000000A80A.0A5": {
     "unassignedHeroes": [
       "D.Va"
-    ]
+    ],
+    "owned": true
   },
   "000000007B81.0A5": {
     "unassignedHeroes": [
       "Brigitte"
-    ]
+    ],
+    "owned": true
   },
   "000000007B82.0A5": {
     "unassignedHeroes": [
       "Torbjörn"
-    ]
+    ],
+    "owned": true
   },
   "0000000066A7.0A5": {
     "unassignedHeroes": [
       "Winston"
-    ]
+    ],
+    "owned": true
   },
   "0000000066A6.0A5": {
     "unassignedHeroes": [
       "Winston"
-    ]
+    ],
+    "owned": true
   },
   "000000008CC2.0A5": {
     "unassignedHeroes": [
       "Kiriko",
-      "Moira"
+      "Sombra"
     ],
     "owned": true
   },
@@ -441,80 +416,94 @@
     "unassignedHeroes": [
       "Lifeweaver",
       "Symmetra"
-    ]
+    ],
+    "owned": true
   },
   "00000000C108.0A5": {
     "unassignedHeroes": [
       "Bastion",
       "Ramattra",
       "Zenyatta"
-    ]
+    ],
+    "owned": true
   },
   "00000000A80D.0A5": {
     "unassignedHeroes": [
       "Hazard"
-    ]
+    ],
+    "owned": true
   },
   "000000007093.0A5": {
     "unassignedHeroes": [
       "Torbjörn"
-    ]
+    ],
+    "owned": true
   },
   "00000000D08C.0A5": {
     "unassignedHeroes": [
       "D.Mon",
       "D.Va"
-    ]
+    ],
+    "owned": true
   },
   "000000007B8E.0A5": {
     "unassignedHeroes": [
       "Lifeweaver"
-    ]
+    ],
+    "owned": true
   },
   "0000000083A8.0A5": {
     "unassignedHeroes": [
       "Mei"
-    ]
+    ],
+    "owned": true
   },
   "000000007092.0A5": {
     "unassignedHeroes": [
       "Ana",
       "Genji"
-    ]
+    ],
+    "owned": true
   },
   "00000000854F.0A5": {
     "unassignedHeroes": [
       "Kiriko"
-    ]
+    ],
+    "owned": true
   },
   "0000000083A7.0A5": {
     "unassignedHeroes": [
       "Juno",
       "Mei"
-    ]
+    ],
+    "owned": true
   },
   "00000000CCE6.0A5": {
     "unassignedHeroes": [
       "Emre",
       "Freja"
-    ]
+    ],
+    "owned": true
   },
   "00000000CCE5.0A5": {
     "unassignedHeroes": [
       "Genji",
       "Mizuki",
       "Widowmaker"
-    ]
+    ],
+    "owned": true
   },
   "00000000854E.0A5": {
     "unassignedHeroes": [
       "Widowmaker"
-    ]
+    ],
+    "owned": true
   },
   "00000000C6E3.0A5": {
     "unassignedHeroes": [
       "Kiriko"
-    ]
+    ],
+    "owned": true
   },
   "00000000C6E7.0A5": {
     "unassignedHeroes": [
@@ -535,31 +524,36 @@
     "unassignedHeroes": [
       "Echo",
       "Winston"
-    ]
+    ],
+    "owned": true
   },
   "0000000068D4.0A5": {
     "unassignedHeroes": [
       "Ana",
       "Echo",
       "Winston"
-    ]
+    ],
+    "owned": true
   },
   "0000000068D6.0A5": {
     "unassignedHeroes": [
       "Baptiste",
       "Mei",
       "Ramattra"
-    ]
+    ],
+    "owned": true
   },
   "00000000D1FD.0A5": {
     "unassignedHeroes": [
       "Tracer"
-    ]
+    ],
+    "owned": true
   },
   "00000000D1FE.0A5": {
     "unassignedHeroes": [
       "Kiriko"
-    ]
+    ],
+    "owned": true
   },
   "00000000D1FF.0A5": {
     "unassignedHeroes": [
@@ -570,30 +564,35 @@
   "00000000D1FC.0A5": {
     "unassignedHeroes": [
       "Cassidy"
-    ]
+    ],
+    "owned": true
   },
   "000000007094.0A5": {
     "unassignedHeroes": [
       "Illari"
-    ]
+    ],
+    "owned": true
   },
   "00000000C107.0A5": {
     "unassignedHeroes": [
       "Anran",
       "Wuyang"
-    ]
+    ],
+    "owned": true
   },
   "000000007576.0A5": {
     "unassignedHeroes": [
       "D.Va",
       "Lúcio",
       "Tracer"
-    ]
+    ],
+    "owned": true
   },
   "000000007352.0A5": {
     "unassignedHeroes": [
       "Sojourn"
-    ]
+    ],
+    "owned": true
   },
   "00000000D1FB.0A5": {
     "unassignedHeroes": [
@@ -603,22 +602,26 @@
   "0000000077CD.0A5": {
     "unassignedHeroes": [
       "Venture"
-    ]
+    ],
+    "owned": true
   },
   "0000000071ED.0A5": {
     "unassignedHeroes": [
       "Ashe"
-    ]
+    ],
+    "owned": true
   },
   "0000000071EE.0A5": {
     "unassignedHeroes": [
       "Cassidy"
-    ]
+    ],
+    "owned": true
   },
   "0000000083A9.0A5": {
     "unassignedHeroes": [
       "Mei"
-    ]
+    ],
+    "owned": true
   },
   "0000000095F1.0A5": {
     "unassignedHeroes": [
@@ -626,10 +629,13 @@
       "Kiriko",
       "Mei"
     ],
-    "owned": true
+    "owned": false
   },
   "00000000961A.0A5": {
-    "owned": true
+    "owned": false,
+    "unassignedHeroes": [
+      "Doomfist"
+    ]
   },
   "000000000CEF.0A5": {
     "owned": true
@@ -644,7 +650,8 @@
     "unassignedHeroes": [
       "Ramattra",
       "Zenyatta"
-    ]
+    ],
+    "owned": true
   },
   "00000000D1FA.0A5": {
     "unassignedHeroes": [
@@ -665,17 +672,20 @@
   "000000006284.0A5": {
     "unassignedHeroes": [
       "Mercy"
-    ]
+    ],
+    "owned": true
   },
   "00000000A6CF.0A5": {
     "unassignedHeroes": [
       "Wuyang"
-    ]
+    ],
+    "owned": true
   },
   "00000000D1F4.0A5": {
     "unassignedHeroes": [
       "Reinhardt"
-    ]
+    ],
+    "owned": true
   },
   "0000000066A8.0A5": {
     "unassignedHeroes": [
@@ -687,17 +697,20 @@
     "unassignedHeroes": [
       "Anran",
       "Wuyang"
-    ]
+    ],
+    "owned": true
   },
   "000000001A74.0A5": {
     "unassignedHeroes": [
       "D.Va"
-    ]
+    ],
+    "owned": true
   },
   "000000004EA9.0A5": {
     "unassignedHeroes": [
       "Baptiste"
-    ]
+    ],
+    "owned": true
   },
   "000000004E34.0A5": {
     "unassignedHeroes": [
@@ -717,12 +730,14 @@
   "000000004D81.0A5": {
     "unassignedHeroes": [
       "Reinhardt"
-    ]
+    ],
+    "owned": true
   },
   "000000004E2D.0A5": {
     "unassignedHeroes": [
       "Sombra"
-    ]
+    ],
+    "owned": true
   },
   "00000000565C.0A5": {
     "unassignedHeroes": [
@@ -731,7 +746,8 @@
       "Tracer",
       "Winston",
       "Zenyatta"
-    ]
+    ],
+    "owned": true
   },
   "000000005664.0A5": {
     "unassignedHeroes": [
@@ -740,59 +756,70 @@
       "Junker Queen",
       "Lúcio",
       "Sojourn"
-    ]
+    ],
+    "owned": true
   },
   "000000005665.0A5": {
     "unassignedHeroes": [
       "Junker Queen",
       "Sojourn"
-    ]
+    ],
+    "owned": true
   },
   "00000000511B.0A5": {
-    "unassignedHeroes": []
+    "unassignedHeroes": [],
+    "owned": true
   },
   "0000000060B8.0A5": {
     "unassignedHeroes": [
       "Genji",
       "Tracer"
-    ]
+    ],
+    "owned": true
   },
   "000000006735.0A5": {
     "unassignedHeroes": [
       "Sojourn"
-    ]
+    ],
+    "owned": true
   },
   "000000006736.0A5": {
     "unassignedHeroes": [
       "Kiriko",
       "Lúcio"
-    ]
+    ],
+    "owned": true
   },
   "000000006238.0A5": {
     "unassignedHeroes": [
       "Reinhardt",
       "Tracer"
-    ]
+    ],
+    "owned": true
   },
   "00000000623A.0A5": {
     "unassignedHeroes": [
       "D.Va"
-    ]
+    ],
+    "owned": true
   },
   "00000000623B.0A5": {
     "unassignedHeroes": [
       "Wrecking Ball"
-    ]
+    ],
+    "owned": true
   },
   "000000006A27.0A5": {
     "unassignedHeroes": [
       "Pharah"
-    ]
+    ],
+    "owned": true
   },
   "000000006233.0A5": {
     "unassignedHeroes": [
       "Pharah"
-    ]
+    ],
+    "owned": true
   },
   "000000004ADE.0A5": {
     "unassignedHeroes": [
@@ -805,7 +832,8 @@
       "Brigitte",
       "Reinhardt",
       "Torbjörn"
-    ]
+    ],
+    "owned": true
   },
   "000000001A72.0A5": {
     "unassignedHeroes": [
@@ -819,7 +847,8 @@
     "unassignedHeroes": [
       "Tracer",
       "Wrecking Ball"
-    ]
+    ],
+    "owned": true
   },
   "000000002A97.0A5": {
     "unassignedHeroes": [
@@ -827,7 +856,8 @@
       "Mei",
       "Mercy",
       "Soldier: 76"
-    ]
+    ],
+    "owned": true
   },
   "000000002A96.0A5": {
     "unassignedHeroes": [
@@ -846,17 +876,20 @@
   "000000004FCC.0A5": {
     "unassignedHeroes": [
       "Sigma"
-    ]
+    ],
+    "owned": true
   },
   "000000004C57.0A5": {
     "unassignedHeroes": [
       "Doomfist"
-    ]
+    ],
+    "owned": true
   },
   "000000004C53.0A5": {
     "unassignedHeroes": [
       "Sombra"
-    ]
+    ],
+    "owned": true
   },
   "000000004C54.0A5": {
     "unassignedHeroes": [
@@ -878,13 +911,15 @@
     "unassignedHeroes": [
       "Genji",
       "Tracer"
-    ]
+    ],
+    "owned": true
   },
   "0000000047CD.0A5": {
     "unassignedHeroes": [
       "Genji",
       "Tracer"
-    ]
+    ],
+    "owned": true
   },
   "000000004C1D.0A5": {
     "unassignedHeroes": [
@@ -900,17 +935,20 @@
   "000000004C55.0A5": {
     "unassignedHeroes": [
       "Zenyatta"
-    ]
+    ],
+    "owned": true
   },
   "00000000120E.0A5": {
     "unassignedHeroes": [
       "Pharah"
-    ]
+    ],
+    "owned": true
   },
   "000000001210.0A5": {
     "unassignedHeroes": [
       "Reaper"
-    ]
+    ],
+    "owned": true
   },
   "000000004A88.0A5": {
     "unassignedHeroes": [
@@ -920,12 +958,14 @@
   "000000004A87.0A5": {
     "unassignedHeroes": [
       "Junkrat"
-    ]
+    ],
+    "owned": true
   },
   "00000000120F.0A5": {
     "unassignedHeroes": [
       "Zenyatta"
-    ]
+    ],
+    "owned": true
   },
   "0000000029C6.0A5": {
     "unassignedHeroes": [
@@ -937,71 +977,84 @@
     "unassignedHeroes": [
       "Junkrat",
       "Roadhog"
-    ]
+    ],
+    "owned": true
   },
   "0000000029C5.0A5": {
     "unassignedHeroes": [
       "Mei"
-    ]
+    ],
+    "owned": true
   },
   "00000000253D.0A5": {
     "unassignedHeroes": [
       "Mei"
-    ]
+    ],
+    "owned": true
   },
   "000000004BFB.0A5": {
     "unassignedHeroes": [
       "Ana",
       "Torbjörn",
       "Zenyatta"
-    ]
+    ],
+    "owned": true
   },
   "000000004BF9.0A5": {
     "unassignedHeroes": [
       "Junkrat"
-    ]
+    ],
+    "owned": true
   },
   "00000000253F.0A5": {
     "unassignedHeroes": [
       "Mei"
-    ]
+    ],
+    "owned": true
   },
   "0000000043C2.0A5": {
     "unassignedHeroes": [
       "Sombra",
       "Tracer"
-    ]
+    ],
+    "owned": true
   },
   "000000004387.0A5": {
     "unassignedHeroes": [
       "Sigma"
-    ]
+    ],
+    "owned": true
   },
   "000000004385.0A5": {
     "unassignedHeroes": [
       "Doomfist"
-    ]
+    ],
+    "owned": true
   },
   "000000004386.0A5": {
     "unassignedHeroes": [
       "Cassidy"
-    ]
+    ],
+    "owned": true
   },
   "000000004BFA.0A5": {
     "unassignedHeroes": [
       "Reinhardt",
       "Roadhog"
-    ]
+    ],
+    "owned": true
   },
   "0000000043C4.0A5": {
     "unassignedHeroes": [
       "Zarya"
-    ]
+    ],
+    "owned": true
   },
   "0000000043C3.0A5": {
     "unassignedHeroes": [
       "Reaper"
-    ]
+    ],
+    "owned": true
   },
   "000000000D7B.0A5": {
     "unassignedHeroes": [
@@ -1011,7 +1064,8 @@
   "000000000D7D.0A5": {
     "unassignedHeroes": [
       "Cassidy"
-    ]
+    ],
+    "owned": true
   },
   "000000000D79.0A5": {
     "unassignedHeroes": [
@@ -1021,7 +1075,8 @@
   "000000000D78.0A5": {
     "unassignedHeroes": [
       "Mei"
-    ]
+    ],
+    "owned": true
   },
   "000000000D7A.0A5": {
     "unassignedHeroes": [
@@ -1036,28 +1091,33 @@
   "0000000013A4.0A5": {
     "unassignedHeroes": [
       "Winston"
-    ]
+    ],
+    "owned": true
   },
   "0000000013A3.0A5": {
     "unassignedHeroes": [
       "Mei"
-    ]
+    ],
+    "owned": true
   },
   "00000000253E.0A5": {
     "unassignedHeroes": [
       "Winston"
-    ]
+    ],
+    "owned": true
   },
   "000000005FBF.0A5": {
     "unassignedHeroes": [
       "Lifeweaver"
-    ]
+    ],
+    "owned": true
   },
   "0000000061CD.0A5": {
     "unassignedHeroes": [
       "Lifeweaver",
       "Tracer"
-    ]
+    ],
+    "owned": true
   },
   "00000000658D.0A5": {
     "unassignedHeroes": [
@@ -1070,29 +1130,34 @@
       "Torbjörn",
       "Tracer",
       "Winston"
-    ]
+    ],
+    "owned": true
   },
   "000000002971.0A5": {
     "unassignedHeroes": [
       "Baptiste",
       "Mauga"
-    ]
+    ],
+    "owned": true
   },
   "000000002970.0A5": {
     "unassignedHeroes": [
       "Mauga"
-    ]
+    ],
+    "owned": true
   },
   "000000006B46.0A5": {
     "unassignedHeroes": [
       "Reaper"
-    ]
+    ],
+    "owned": true
   },
   "000000006E1E.0A5": {
     "unassignedHeroes": [
       "Sombra",
       "Widowmaker"
-    ]
+    ],
+    "owned": true
   },
   "00000000755F.0A5": {
     "unassignedHeroes": [
@@ -1105,35 +1170,42 @@
     "unassignedHeroes": [
       "Mercy",
       "Orisa",
-      "Winston"
+      "Tracer",
+      "Winston",
+      "Zenyatta"
     ]
   },
   "00000000A6AB.0A5": {
     "unassignedHeroes": [
       "Kiriko"
-    ]
+    ],
+    "owned": true
   },
   "00000000ABD0.0A5": {
     "unassignedHeroes": [
       "D.Va"
-    ]
+    ],
+    "owned": true
   },
   "00000000ABD1.0A5": {
     "unassignedHeroes": [
       "Zenyatta"
-    ]
+    ],
+    "owned": true
   },
   "00000000ABC7.0A5": {
     "unassignedHeroes": [
       "D.Va",
       "Zenyatta"
-    ]
+    ],
+    "owned": true
   },
   "00000000ABCA.0A5": {
     "unassignedHeroes": [
       "D.Va",
       "Zenyatta"
-    ]
+    ],
+    "owned": true
   },
   "00000000ACCC.0A5": {
     "unassignedHeroes": [
@@ -1143,32 +1215,38 @@
   "00000000B8E9.0A5": {
     "unassignedHeroes": [
       "Mauga"
-    ]
+    ],
+    "owned": true
   },
   "00000000B9CF.0A5": {
     "unassignedHeroes": [
       "Brigitte"
-    ]
+    ],
+    "owned": true
   },
   "00000000BFE3.0A5": {
     "unassignedHeroes": [
       "Vendetta"
-    ]
+    ],
+    "owned": true
   },
   "00000000BFE2.0A5": {
     "unassignedHeroes": [
       "Sojourn"
-    ]
+    ],
+    "owned": true
   },
   "00000000BFC6.0A5": {
     "unassignedHeroes": [
       "Vendetta"
-    ]
+    ],
+    "owned": true
   },
   "00000000C869.0A5": {
     "unassignedHeroes": [
       "Tracer"
-    ]
+    ],
+    "owned": true
   },
   "00000000C6BA.0A5": {
     "unassignedHeroes": [
@@ -1185,7 +1263,8 @@
     "unassignedHeroes": [
       "Genji",
       "Hanzo"
-    ]
+    ],
+    "owned": true
   },
   "00000000C6BB.0A5": {
     "unassignedHeroes": [
@@ -1206,44 +1285,52 @@
       "Lúcio",
       "Reinhardt",
       "Zarya"
-    ]
+    ],
+    "owned": true
   },
   "00000000C740.0A5": {
     "unassignedHeroes": [
       "Baptiste"
-    ]
+    ],
+    "owned": true
   },
   "00000000C743.0A5": {
     "unassignedHeroes": [
       "Hazard",
       "Juno",
       "Venture"
-    ]
+    ],
+    "owned": true
   },
   "00000000C741.0A5": {
     "unassignedHeroes": [
       "Ramattra"
-    ]
+    ],
+    "owned": true
   },
   "00000000C742.0A5": {
     "unassignedHeroes": [
       "D.Va"
-    ]
+    ],
+    "owned": true
   },
   "00000000C860.0A5": {
     "unassignedHeroes": [
       "Wuyang"
-    ]
+    ],
+    "owned": true
   },
   "00000000C73F.0A5": {
     "unassignedHeroes": [
       "Mercy"
-    ]
+    ],
+    "owned": true
   },
   "000000006613.0A5": {
     "unassignedHeroes": [
       "Reinhardt"
-    ]
+    ],
+    "owned": true
   },
   "00000000CB0A.0A5": {
     "unassignedHeroes": [
@@ -1253,12 +1340,14 @@
   "00000000CB08.0A5": {
     "unassignedHeroes": [
       "Shion"
-    ]
+    ],
+    "owned": true
   },
   "00000000CC1E.0A5": {
     "unassignedHeroes": [
       "Brigitte"
-    ]
+    ],
+    "owned": true
   },
   "00000000CDFA.0A5": {
     "unassignedHeroes": [
@@ -1280,5 +1369,5413 @@
       "Ashe",
       "Roadhog"
     ]
+  },
+  "0000000001D6.0A5": {
+    "owned": true
+  },
+  "0000000001E2.0A5": {
+    "owned": true
+  },
+  "0000000001E0.0A5": {
+    "owned": true
+  },
+  "0000000001D8.0A5": {
+    "owned": true
+  },
+  "0000000008E5.0A5": {
+    "owned": true
+  },
+  "000000000870.0A5": {
+    "owned": true
+  },
+  "0000000001DD.0A5": {
+    "owned": true
+  },
+  "0000000008DE.0A5": {
+    "owned": true
+  },
+  "0000000008DF.0A5": {
+    "owned": true
+  },
+  "00000000086E.0A5": {
+    "owned": true
+  },
+  "0000000001D2.0A5": {
+    "owned": true
+  },
+  "0000000008E2.0A5": {
+    "owned": true
+  },
+  "0000000001C4.0A5": {
+    "owned": true
+  },
+  "0000000008E3.0A5": {
+    "owned": true
+  },
+  "0000000001E5.0A5": {
+    "owned": true
+  },
+  "0000000008E4.0A5": {
+    "owned": true
+  },
+  "000000001178.0A5": {
+    "owned": true
+  },
+  "0000000049D4.0A5": {
+    "owned": true
+  },
+  "0000000049D5.0A5": {
+    "owned": true
+  },
+  "0000000018EB.0A5": {
+    "owned": true
+  },
+  "0000000010F1.0A5": {
+    "owned": true
+  },
+  "000000000C87.0A5": {
+    "owned": true
+  },
+  "000000000CAC.0A5": {
+    "owned": true
+  },
+  "000000000CAE.0A5": {
+    "owned": true
+  },
+  "000000000CB1.0A5": {
+    "owned": true
+  },
+  "000000000CAF.0A5": {
+    "owned": true
+  },
+  "000000004B7D.0A5": {
+    "owned": true
+  },
+  "000000000C4C.0A5": {
+    "owned": true
+  },
+  "000000002444.0A5": {
+    "owned": true
+  },
+  "000000005645.0A5": {
+    "owned": true
+  },
+  "000000006C75.0A5": {
+    "owned": true
+  },
+  "000000000F6C.0A5": {
+    "owned": true
+  },
+  "000000000F6B.0A5": {
+    "owned": true
+  },
+  "000000002543.0A5": {
+    "owned": true
+  },
+  "000000000EF1.0A5": {
+    "owned": true
+  },
+  "0000000016A2.0A5": {
+    "owned": true
+  },
+  "000000000F6F.0A5": {
+    "owned": true
+  },
+  "000000000F4B.0A5": {
+    "owned": true
+  },
+  "00000000696E.0A5": {
+    "owned": true
+  },
+  "00000000090B.0A5": {
+    "owned": true
+  },
+  "0000000001C5.0A5": {
+    "owned": true
+  },
+  "0000000001CC.0A5": {
+    "owned": true
+  },
+  "0000000001BF.0A5": {
+    "owned": true
+  },
+  "0000000001C1.0A5": {
+    "owned": true
+  },
+  "0000000001C8.0A5": {
+    "owned": true
+  },
+  "0000000001DE.0A5": {
+    "owned": true
+  },
+  "0000000001DB.0A5": {
+    "owned": true
+  },
+  "00000000008D.0A5": {
+    "owned": true
+  },
+  "0000000001D5.0A5": {
+    "owned": true
+  },
+  "0000000001D4.0A5": {
+    "owned": true
+  },
+  "0000000001C0.0A5": {
+    "owned": true
+  },
+  "0000000001DA.0A5": {
+    "owned": true
+  },
+  "0000000001D3.0A5": {
+    "owned": true
+  },
+  "000000000871.0A5": {
+    "owned": true
+  },
+  "0000000001D9.0A5": {
+    "owned": true
+  },
+  "0000000001DF.0A5": {
+    "owned": true
+  },
+  "0000000001C9.0A5": {
+    "owned": true
+  },
+  "0000000001E4.0A5": {
+    "owned": true
+  },
+  "0000000001C7.0A5": {
+    "owned": true
+  },
+  "000000005128.0A5": {
+    "owned": true
+  },
+  "00000000C0FF.0A5": {
+    "owned": true
+  },
+  "000000007086.0A5": {
+    "owned": true
+  },
+  "0000000095C3.0A5": {
+    "owned": true
+  },
+  "000000006A26.0A5": {
+    "owned": true
+  },
+  "0000000095C2.0A5": {
+    "owned": true
+  },
+  "0000000078F6.0A5": {
+    "owned": true
+  },
+  "0000000078F7.0A5": {
+    "owned": true
+  },
+  "000000007F33.0A5": {
+    "owned": true
+  },
+  "000000008CC0.0A5": {
+    "owned": true
+  },
+  "000000007B80.0A5": {
+    "owned": true
+  },
+  "00000000A80B.0A5": {
+    "owned": true
+  },
+  "00000000D1EF.0A5": {
+    "owned": true
+  },
+  "000000008CC3.0A5": {
+    "owned": true
+  },
+  "00000000699F.0A5": {
+    "owned": true
+  },
+  "00000000D08E.0A5": {
+    "owned": true
+  },
+  "000000007B8C.0A5": {
+    "owned": true
+  },
+  "000000006C14.0A5": {
+    "owned": true
+  },
+  "000000006E9A.0A5": {
+    "owned": true
+  },
+  "000000008060.0A5": {
+    "owned": true
+  },
+  "00000000809B.0A5": {
+    "owned": true
+  },
+  "00000000809D.0A5": {
+    "owned": true
+  },
+  "00000000809C.0A5": {
+    "owned": true
+  },
+  "00000000809E.0A5": {
+    "owned": true
+  },
+  "000000006234.0A5": {
+    "owned": true
+  },
+  "000000006BE2.0A5": {
+    "owned": true
+  },
+  "0000000078F3.0A5": {
+    "owned": true
+  },
+  "000000007B84.0A5": {
+    "owned": true
+  },
+  "0000000095C6.0A5": {
+    "owned": true
+  },
+  "00000000A809.0A5": {
+    "owned": true
+  },
+  "00000000A6CE.0A5": {
+    "owned": true
+  },
+  "0000000082F1.0A5": {
+    "owned": true
+  },
+  "00000000C6E4.0A5": {
+    "owned": true
+  },
+  "0000000082F2.0A5": {
+    "owned": true
+  },
+  "0000000083A5.0A5": {
+    "owned": true
+  },
+  "0000000082EF.0A5": {
+    "owned": true
+  },
+  "00000000CCE2.0A5": {
+    "owned": true
+  },
+  "00000000CCE4.0A5": {
+    "owned": true
+  },
+  "0000000095C5.0A5": {
+    "owned": true
+  },
+  "00000000A6CD.0A5": {
+    "owned": true
+  },
+  "0000000082F0.0A5": {
+    "owned": true
+  },
+  "00000000C6EB.0A5": {
+    "owned": true
+  },
+  "00000000D1F1.0A5": {
+    "owned": true
+  },
+  "00000000C6ED.0A5": {
+    "owned": true
+  },
+  "000000006844.0A5": {
+    "owned": true
+  },
+  "000000006846.0A5": {
+    "owned": true
+  },
+  "000000006847.0A5": {
+    "owned": true
+  },
+  "000000006848.0A5": {
+    "owned": true
+  },
+  "000000006849.0A5": {
+    "owned": true
+  },
+  "00000000C6EC.0A5": {
+    "owned": true
+  },
+  "00000000684A.0A5": {
+    "owned": true
+  },
+  "000000006851.0A5": {
+    "owned": true
+  },
+  "000000006854.0A5": {
+    "owned": true
+  },
+  "0000000068C6.0A5": {
+    "owned": true
+  },
+  "00000000D08B.0A5": {
+    "owned": true
+  },
+  "0000000068C7.0A5": {
+    "owned": true
+  },
+  "0000000068C8.0A5": {
+    "owned": true
+  },
+  "0000000068C9.0A5": {
+    "owned": true
+  },
+  "0000000068CA.0A5": {
+    "owned": true
+  },
+  "0000000068CB.0A5": {
+    "owned": true
+  },
+  "0000000068CC.0A5": {
+    "owned": true
+  },
+  "00000000D200.0A5": {
+    "owned": true
+  },
+  "0000000068C5.0A5": {
+    "owned": true
+  },
+  "000000007F32.0A5": {
+    "owned": true
+  },
+  "000000008C7B.0A5": {
+    "owned": true
+  },
+  "0000000078F4.0A5": {
+    "owned": true
+  },
+  "0000000078F5.0A5": {
+    "owned": true
+  },
+  "0000000095C1.0A5": {
+    "owned": true
+  },
+  "00000000A6C9.0A5": {
+    "owned": true
+  },
+  "00000000D1F2.0A5": {
+    "owned": true
+  },
+  "00000000CA88.0A5": {
+    "owned": true
+  },
+  "000000007577.0A5": {
+    "owned": true
+  },
+  "00000000A80C.0A5": {
+    "owned": true
+  },
+  "000000007578.0A5": {
+    "owned": true
+  },
+  "000000008CC1.0A5": {
+    "owned": true
+  },
+  "000000005FC5.0A5": {
+    "owned": true
+  },
+  "0000000083A4.0A5": {
+    "owned": true
+  },
+  "000000006235.0A5": {
+    "owned": true
+  },
+  "00000000511A.0A5": {
+    "owned": true
+  },
+  "00000000511C.0A5": {
+    "owned": true
+  },
+  "00000000511D.0A5": {
+    "owned": true
+  },
+  "00000000511F.0A5": {
+    "owned": true
+  },
+  "000000005121.0A5": {
+    "owned": true
+  },
+  "000000005122.0A5": {
+    "owned": true
+  },
+  "000000005123.0A5": {
+    "owned": true
+  },
+  "000000005124.0A5": {
+    "owned": true
+  },
+  "000000005125.0A5": {
+    "owned": true
+  },
+  "000000005126.0A5": {
+    "owned": true
+  },
+  "000000005127.0A5": {
+    "owned": true
+  },
+  "000000006737.0A5": {
+    "owned": true
+  },
+  "00000000491C.0A5": {
+    "owned": true
+  },
+  "00000000277E.0A5": {
+    "owned": true
+  },
+  "00000000491B.0A5": {
+    "owned": true
+  },
+  "0000000013FB.0A5": {
+    "owned": true
+  },
+  "00000000491A.0A5": {
+    "owned": true
+  },
+  "00000000277D.0A5": {
+    "owned": true
+  },
+  "000000004854.0A5": {
+    "owned": true
+  },
+  "0000000013F9.0A5": {
+    "owned": true
+  },
+  "0000000013F7.0A5": {
+    "owned": true
+  },
+  "00000000487A.0A5": {
+    "owned": true
+  },
+  "000000004391.0A5": {
+    "owned": true
+  },
+  "000000004855.0A5": {
+    "owned": true
+  },
+  "00000000277C.0A5": {
+    "owned": true
+  },
+  "000000004856.0A5": {
+    "owned": true
+  },
+  "00000000277B.0A5": {
+    "owned": true
+  },
+  "000000004857.0A5": {
+    "owned": true
+  },
+  "0000000013F5.0A5": {
+    "owned": true
+  },
+  "0000000016AB.0A5": {
+    "owned": true
+  },
+  "000000004919.0A5": {
+    "owned": true
+  },
+  "0000000013F3.0A5": {
+    "owned": true
+  },
+  "000000005F9F.0A5": {
+    "owned": true
+  },
+  "0000000048F7.0A5": {
+    "owned": true
+  },
+  "0000000013F1.0A5": {
+    "owned": true
+  },
+  "000000005F9E.0A5": {
+    "owned": true
+  },
+  "0000000013EF.0A5": {
+    "owned": true
+  },
+  "0000000048F6.0A5": {
+    "owned": true
+  },
+  "00000000438F.0A5": {
+    "owned": true
+  },
+  "000000005FB1.0A5": {
+    "owned": true
+  },
+  "000000004858.0A5": {
+    "owned": true
+  },
+  "0000000013EC.0A5": {
+    "owned": true
+  },
+  "000000004B0D.0A5": {
+    "owned": true
+  },
+  "0000000056DF.0A5": {
+    "owned": true
+  },
+  "0000000015F1.0A5": {
+    "owned": true
+  },
+  "000000005FB2.0A5": {
+    "owned": true
+  },
+  "0000000048F5.0A5": {
+    "owned": true
+  },
+  "00000000277A.0A5": {
+    "owned": true
+  },
+  "000000004853.0A5": {
+    "owned": true
+  },
+  "0000000013EA.0A5": {
+    "owned": true
+  },
+  "0000000013E5.0A5": {
+    "owned": true
+  },
+  "0000000048F4.0A5": {
+    "owned": true
+  },
+  "000000004390.0A5": {
+    "owned": true
+  },
+  "00000000487B.0A5": {
+    "owned": true
+  },
+  "0000000013E3.0A5": {
+    "owned": true
+  },
+  "000000005FA1.0A5": {
+    "owned": true
+  },
+  "000000005FA0.0A5": {
+    "owned": true
+  },
+  "00000000486C.0A5": {
+    "owned": true
+  },
+  "0000000013E7.0A5": {
+    "owned": true
+  },
+  "0000000048F3.0A5": {
+    "owned": true
+  },
+  "000000002778.0A5": {
+    "owned": true
+  },
+  "0000000048F2.0A5": {
+    "owned": true
+  },
+  "000000002779.0A5": {
+    "owned": true
+  },
+  "000000005FA2.0A5": {
+    "owned": true
+  },
+  "000000004852.0A5": {
+    "owned": true
+  },
+  "000000002777.0A5": {
+    "owned": true
+  },
+  "000000002787.0A5": {
+    "unassignedHeroes": [
+      "Ana"
+    ]
+  },
+  "000000000E52.0A5": {
+    "owned": true
+  },
+  "000000005DB9.0A5": {
+    "owned": true
+  },
+  "0000000061D4.0A5": {
+    "owned": true
+  },
+  "0000000061CE.0A5": {
+    "owned": true
+  },
+  "0000000061D3.0A5": {
+    "owned": true
+  },
+  "0000000061D0.0A5": {
+    "owned": true
+  },
+  "0000000061D2.0A5": {
+    "owned": true
+  },
+  "0000000061CF.0A5": {
+    "owned": true
+  },
+  "0000000061D1.0A5": {
+    "owned": true
+  },
+  "00000000658A.0A5": {
+    "owned": true
+  },
+  "00000000658C.0A5": {
+    "owned": true
+  },
+  "000000006589.0A5": {
+    "owned": true
+  },
+  "000000006588.0A5": {
+    "owned": true
+  },
+  "00000000655B.0A5": {
+    "owned": true
+  },
+  "000000006531.0A5": {
+    "owned": true
+  },
+  "00000000658B.0A5": {
+    "owned": true
+  },
+  "000000006532.0A5": {
+    "owned": true
+  },
+  "000000006641.0A5": {
+    "owned": true
+  },
+  "000000006642.0A5": {
+    "owned": true
+  },
+  "000000006645.0A5": {
+    "owned": true
+  },
+  "00000000673B.0A5": {
+    "owned": true
+  },
+  "00000000673C.0A5": {
+    "owned": true,
+    "unassignedHeroes": [
+      "Moira"
+    ]
+  },
+  "000000006644.0A5": {
+    "owned": true
+  },
+  "000000006643.0A5": {
+    "owned": true
+  },
+  "00000000677F.0A5": {
+    "owned": true
+  },
+  "00000000692E.0A5": {
+    "owned": true
+  },
+  "000000006B2A.0A5": {
+    "owned": true
+  },
+  "000000006B29.0A5": {
+    "owned": true
+  },
+  "000000006B2B.0A5": {
+    "owned": true
+  },
+  "000000006AA6.0A5": {
+    "owned": true
+  },
+  "000000006AA7.0A5": {
+    "owned": true
+  },
+  "000000006AA4.0A5": {
+    "owned": true
+  },
+  "000000006A73.0A5": {
+    "owned": true
+  },
+  "000000006AA5.0A5": {
+    "owned": true
+  },
+  "000000006FDE.0A5": {
+    "owned": true
+  },
+  "000000006E36.0A5": {
+    "owned": true
+  },
+  "0000000071BF.0A5": {
+    "owned": true
+  },
+  "0000000071C2.0A5": {
+    "owned": true
+  },
+  "0000000071C1.0A5": {
+    "owned": true
+  },
+  "00000000744C.0A5": {
+    "owned": true
+  },
+  "000000007726.0A5": {
+    "owned": true
+  },
+  "00000000744D.0A5": {
+    "owned": true
+  },
+  "000000007727.0A5": {
+    "owned": true
+  },
+  "000000007961.0A5": {
+    "owned": true
+  },
+  "000000007960.0A5": {
+    "owned": true
+  },
+  "000000007C70.0A5": {
+    "owned": true
+  },
+  "000000007E7F.0A5": {
+    "owned": true
+  },
+  "0000000083D4.0A5": {
+    "owned": true
+  },
+  "0000000081BE.0A5": {
+    "owned": true
+  },
+  "0000000081BF.0A5": {
+    "owned": true
+  },
+  "000000008AAC.0A5": {
+    "owned": true
+  },
+  "000000008AAD.0A5": {
+    "owned": true
+  },
+  "000000008E45.0A5": {
+    "owned": true
+  },
+  "000000008E6F.0A5": {
+    "owned": true
+  },
+  "000000008E43.0A5": {
+    "owned": true
+  },
+  "000000008DDD.0A5": {
+    "owned": true
+  },
+  "000000008E44.0A5": {
+    "owned": true
+  },
+  "00000000A042.0A5": {
+    "owned": true
+  },
+  "00000000A1FA.0A5": {
+    "owned": true
+  },
+  "00000000A04A.0A5": {
+    "owned": true
+  },
+  "00000000A043.0A5": {
+    "owned": true
+  },
+  "00000000B688.0A5": {
+    "owned": true
+  },
+  "00000000BBA9.0A5": {
+    "owned": true
+  },
+  "00000000C110.0A5": {
+    "owned": true
+  },
+  "00000000BFC7.0A5": {
+    "owned": true
+  },
+  "00000000C6C0.0A5": {
+    "owned": true
+  },
+  "00000000C493.0A5": {
+    "owned": true
+  },
+  "00000000C73A.0A5": {
+    "owned": true
+  },
+  "00000000C86E.0A5": {
+    "owned": true
+  },
+  "00000000C868.0A5": {
+    "owned": true
+  },
+  "00000000C866.0A5": {
+    "owned": true,
+    "unassignedHeroes": [
+      "Hazard"
+    ]
+  },
+  "00000000C86D.0A5": {
+    "owned": true
+  },
+  "00000000C6BE.0A5": {
+    "owned": true
+  },
+  "00000000C6BD.0A5": {
+    "owned": true
+  },
+  "00000000C6BF.0A5": {
+    "owned": true
+  },
+  "00000000C492.0A5": {
+    "owned": true
+  },
+  "00000000CCE1.0A5": {
+    "owned": true
+  },
+  "000000007E8D.0A5": {
+    "owned": true
+  },
+  "00000000CB09.0A5": {
+    "owned": true
+  },
+  "00000000C90C.0A5": {
+    "owned": true
+  },
+  "00000000CEBD.0A5": {
+    "owned": true
+  },
+  "00000000CEBC.0A5": {
+    "owned": true
+  },
+  "00000000CEBB.0A5": {
+    "owned": true
+  },
+  "00000000CC1C.0A5": {
+    "owned": true
+  },
+  "00000000CC1D.0A5": {
+    "owned": true,
+    "unassignedHeroes": [
+      "D.Va"
+    ]
+  },
+  "000000000AB8.0A5": {
+    "owned": true
+  },
+  "00000000106F.0A5": {
+    "owned": true
+  },
+  "000000004D0D.0A5": {
+    "owned": true
+  },
+  "00000000106D.0A5": {
+    "owned": true
+  },
+  "000000002AD8.0A5": {
+    "owned": true
+  },
+  "000000000C52.0A5": {
+    "owned": true
+  },
+  "000000000D59.0A5": {
+    "owned": true
+  },
+  "000000000A97.0A5": {
+    "owned": true
+  },
+  "000000000A95.0A5": {
+    "owned": true
+  },
+  "000000000A99.0A5": {
+    "owned": true
+  },
+  "000000000AA7.0A5": {
+    "owned": true
+  },
+  "000000000AA2.0A5": {
+    "owned": true
+  },
+  "000000000B2B.0A5": {
+    "owned": true
+  },
+  "000000000AB5.0A5": {
+    "owned": true
+  },
+  "000000000A94.0A5": {
+    "owned": true
+  },
+  "000000000A9F.0A5": {
+    "owned": true
+  },
+  "000000000AA0.0A5": {
+    "owned": true
+  },
+  "000000001196.0A5": {
+    "owned": true
+  },
+  "000000002788.0A5": {
+    "owned": true
+  },
+  "000000000AA5.0A5": {
+    "owned": true
+  },
+  "000000000AB7.0A5": {
+    "owned": true
+  },
+  "000000000AA1.0A5": {
+    "owned": true
+  },
+  "000000001594.0A5": {
+    "owned": true
+  },
+  "000000000A98.0A5": {
+    "owned": true
+  },
+  "000000000A9B.0A5": {
+    "owned": true
+  },
+  "000000000AB3.0A5": {
+    "owned": true
+  },
+  "000000002789.0A5": {
+    "owned": true
+  },
+  "000000004BEA.0A5": {
+    "owned": true
+  },
+  "0000000056D6.0A5": {
+    "owned": true
+  },
+  "000000006553.0A5": {
+    "owned": true
+  },
+  "00000000655A.0A5": {
+    "owned": true
+  },
+  "000000006559.0A5": {
+    "owned": true
+  },
+  "000000006935.0A5": {
+    "owned": true
+  },
+  "000000006E32.0A5": {
+    "owned": true
+  },
+  "00000000745D.0A5": {
+    "owned": true
+  },
+  "00000000795C.0A5": {
+    "owned": true
+  },
+  "0000000082F6.0A5": {
+    "owned": true
+  },
+  "000000008E3F.0A5": {
+    "owned": true
+  },
+  "00000000A1EC.0A5": {
+    "owned": true
+  },
+  "00000000C490.0A5": {
+    "owned": true
+  },
+  "00000000BCE2.0A5": {
+    "owned": true
+  },
+  "00000000C027.0A5": {
+    "owned": true
+  },
+  "00000000CC36.0A5": {
+    "owned": true
+  },
+  "00000000C33D.0A5": {
+    "owned": true
+  },
+  "00000000C86C.0A5": {
+    "owned": true
+  },
+  "00000000247A.0A5": {
+    "owned": true
+  },
+  "000000002903.0A5": {
+    "owned": true
+  },
+  "0000000049CF.0A5": {
+    "owned": true
+  },
+  "000000002904.0A5": {
+    "owned": true
+  },
+  "0000000028C8.0A5": {
+    "owned": true
+  },
+  "000000002AD7.0A5": {
+    "owned": true
+  },
+  "0000000024CB.0A5": {
+    "owned": true
+  },
+  "000000004C2A.0A5": {
+    "owned": true
+  },
+  "0000000024CA.0A5": {
+    "owned": true
+  },
+  "000000004F47.0A5": {
+    "owned": true
+  },
+  "00000000247C.0A5": {
+    "owned": true
+  },
+  "00000000246D.0A5": {
+    "owned": true
+  },
+  "00000000246A.0A5": {
+    "owned": true
+  },
+  "000000002476.0A5": {
+    "owned": true
+  },
+  "000000002472.0A5": {
+    "owned": true
+  },
+  "00000000247E.0A5": {
+    "owned": true
+  },
+  "000000002473.0A5": {
+    "owned": true
+  },
+  "000000002471.0A5": {
+    "owned": true
+  },
+  "000000002481.0A5": {
+    "owned": true
+  },
+  "00000000246B.0A5": {
+    "owned": true
+  },
+  "000000002479.0A5": {
+    "owned": true
+  },
+  "00000000246F.0A5": {
+    "owned": true
+  },
+  "000000002480.0A5": {
+    "owned": true
+  },
+  "000000002477.0A5": {
+    "owned": true
+  },
+  "00000000246E.0A5": {
+    "owned": true
+  },
+  "000000002469.0A5": {
+    "owned": true
+  },
+  "000000004D4E.0A5": {
+    "owned": true
+  },
+  "000000004D9E.0A5": {
+    "owned": true
+  },
+  "000000002987.0A5": {
+    "owned": true
+  },
+  "0000000022C6.0A5": {
+    "owned": true
+  },
+  "000000005DAF.0A5": {
+    "owned": true
+  },
+  "00000000601C.0A5": {
+    "owned": true
+  },
+  "00000000601B.0A5": {
+    "owned": true
+  },
+  "0000000071C4.0A5": {
+    "owned": true
+  },
+  "000000007555.0A5": {
+    "owned": true
+  },
+  "000000008AA9.0A5": {
+    "owned": true
+  },
+  "00000000A3AC.0A5": {
+    "owned": true
+  },
+  "00000000AABE.0A5": {
+    "owned": true
+  },
+  "00000000B7F5.0A5": {
+    "owned": true
+  },
+  "00000000B7F6.0A5": {
+    "owned": true
+  },
+  "00000000C48D.0A5": {
+    "owned": true
+  },
+  "0000000024D1.0A5": {
+    "owned": true
+  },
+  "000000002844.0A5": {
+    "owned": true
+  },
+  "000000002847.0A5": {
+    "owned": true
+  },
+  "0000000028C9.0A5": {
+    "owned": true
+  },
+  "000000002AD5.0A5": {
+    "owned": true
+  },
+  "000000002ADC.0A5": {
+    "owned": true
+  },
+  "000000004608.0A5": {
+    "owned": true
+  },
+  "00000000440E.0A5": {
+    "owned": true
+  },
+  "00000000283F.0A5": {
+    "owned": true
+  },
+  "000000002845.0A5": {
+    "owned": true
+  },
+  "000000002850.0A5": {
+    "owned": true
+  },
+  "00000000284D.0A5": {
+    "owned": true
+  },
+  "000000002975.0A5": {
+    "owned": true
+  },
+  "000000002843.0A5": {
+    "owned": true
+  },
+  "00000000284B.0A5": {
+    "owned": true
+  },
+  "00000000283C.0A5": {
+    "owned": true
+  },
+  "00000000283E.0A5": {
+    "owned": true
+  },
+  "00000000283D.0A5": {
+    "owned": true
+  },
+  "000000002838.0A5": {
+    "owned": true
+  },
+  "00000000283B.0A5": {
+    "owned": true
+  },
+  "000000002857.0A5": {
+    "owned": true
+  },
+  "00000000284C.0A5": {
+    "owned": true
+  },
+  "00000000284E.0A5": {
+    "owned": true
+  },
+  "000000002848.0A5": {
+    "owned": true
+  },
+  "000000002841.0A5": {
+    "owned": true
+  },
+  "000000002842.0A5": {
+    "owned": true
+  },
+  "000000002846.0A5": {
+    "owned": true
+  },
+  "000000002839.0A5": {
+    "owned": true
+  },
+  "00000000284A.0A5": {
+    "owned": true
+  },
+  "000000002976.0A5": {
+    "owned": true
+  },
+  "000000002973.0A5": {
+    "owned": true
+  },
+  "00000000296F.0A5": {
+    "owned": true
+  },
+  "000000002988.0A5": {
+    "owned": true
+  },
+  "000000003FAF.0A5": {
+    "owned": true
+  },
+  "000000003FAE.0A5": {
+    "owned": true
+  },
+  "000000004ECA.0A5": {
+    "owned": true
+  },
+  "000000006969.0A5": {
+    "owned": true
+  },
+  "000000007461.0A5": {
+    "owned": true
+  },
+  "0000000082F7.0A5": {
+    "owned": true
+  },
+  "00000000AAC6.0A5": {
+    "owned": true
+  },
+  "00000000BFC8.0A5": {
+    "owned": true
+  },
+  "000000000618.0A5": {
+    "owned": true
+  },
+  "0000000008DD.0A5": {
+    "owned": true
+  },
+  "000000001169.0A5": {
+    "owned": true
+  },
+  "000000001078.0A5": {
+    "owned": true
+  },
+  "000000004E3F.0A5": {
+    "owned": true
+  },
+  "000000000ED1.0A5": {
+    "owned": true
+  },
+  "000000000EE2.0A5": {
+    "owned": true
+  },
+  "00000000026F.0A5": {
+    "owned": true
+  },
+  "000000000600.0A5": {
+    "owned": true
+  },
+  "000000000602.0A5": {
+    "owned": true
+  },
+  "000000000603.0A5": {
+    "owned": true
+  },
+  "00000000060B.0A5": {
+    "owned": true
+  },
+  "00000000026B.0A5": {
+    "owned": true
+  },
+  "000000000268.0A5": {
+    "owned": true
+  },
+  "000000000605.0A5": {
+    "owned": true
+  },
+  "00000000060A.0A5": {
+    "owned": true
+  },
+  "00000000026D.0A5": {
+    "owned": true
+  },
+  "000000000265.0A5": {
+    "owned": true
+  },
+  "00000000018B.0A5": {
+    "owned": true
+  },
+  "000000000267.0A5": {
+    "owned": true
+  },
+  "000000000269.0A5": {
+    "owned": true
+  },
+  "00000000026E.0A5": {
+    "owned": true
+  },
+  "00000000026C.0A5": {
+    "owned": true
+  },
+  "000000000266.0A5": {
+    "owned": true
+  },
+  "000000000607.0A5": {
+    "owned": true
+  },
+  "000000000609.0A5": {
+    "owned": true
+  },
+  "0000000084DE.0A5": {
+    "owned": true
+  },
+  "000000000B75.0A5": {
+    "owned": true
+  },
+  "000000004A83.0A5": {
+    "owned": true
+  },
+  "000000000D14.0A5": {
+    "owned": true
+  },
+  "000000000D2F.0A5": {
+    "owned": true
+  },
+  "000000006013.0A5": {
+    "owned": true
+  },
+  "0000000064E9.0A5": {
+    "owned": true
+  },
+  "000000006AAB.0A5": {
+    "owned": true
+  },
+  "000000006AAA.0A5": {
+    "owned": true
+  },
+  "000000007EB3.0A5": {
+    "owned": true
+  },
+  "00000000C33C.0A5": {
+    "owned": true
+  },
+  "0000000016F3.0A5": {
+    "owned": true
+  },
+  "0000000016F4.0A5": {
+    "owned": true
+  },
+  "000000001972.0A5": {
+    "owned": true
+  },
+  "000000004B1B.0A5": {
+    "owned": true
+  },
+  "000000004E40.0A5": {
+    "owned": true
+  },
+  "00000000252B.0A5": {
+    "owned": true
+  },
+  "0000000016F9.0A5": {
+    "owned": true
+  },
+  "000000001703.0A5": {
+    "owned": true
+  },
+  "000000001705.0A5": {
+    "owned": true
+  },
+  "0000000016FD.0A5": {
+    "owned": true
+  },
+  "000000001709.0A5": {
+    "owned": true
+  },
+  "000000001706.0A5": {
+    "owned": true
+  },
+  "000000001701.0A5": {
+    "owned": true
+  },
+  "0000000016E7.0A5": {
+    "owned": true
+  },
+  "0000000016FC.0A5": {
+    "owned": true
+  },
+  "00000000170A.0A5": {
+    "owned": true
+  },
+  "000000001702.0A5": {
+    "owned": true
+  },
+  "0000000016F8.0A5": {
+    "owned": true
+  },
+  "000000001708.0A5": {
+    "owned": true
+  },
+  "000000002485.0A5": {
+    "owned": true
+  },
+  "000000004EBF.0A5": {
+    "owned": true
+  },
+  "000000006E2A.0A5": {
+    "owned": true
+  },
+  "000000006E29.0A5": {
+    "owned": true
+  },
+  "000000008AA4.0A5": {
+    "owned": true
+  },
+  "00000000570F.0A5": {
+    "owned": true
+  },
+  "00000000CC21.0A5": {
+    "owned": true
+  },
+  "0000000001B9.0A5": {
+    "owned": true
+  },
+  "0000000001B7.0A5": {
+    "owned": true
+  },
+  "000000001164.0A5": {
+    "owned": true
+  },
+  "00000000108F.0A5": {
+    "owned": true
+  },
+  "000000000C54.0A5": {
+    "owned": true
+  },
+  "000000000EC6.0A5": {
+    "owned": true
+  },
+  "000000000EDD.0A5": {
+    "owned": true
+  },
+  "000000004C12.0A5": {
+    "owned": true
+  },
+  "000000000554.0A5": {
+    "owned": true
+  },
+  "0000000001B1.0A5": {
+    "owned": true
+  },
+  "000000000556.0A5": {
+    "owned": true
+  },
+  "00000000055B.0A5": {
+    "owned": true
+  },
+  "0000000001B6.0A5": {
+    "owned": true
+  },
+  "0000000001BA.0A5": {
+    "owned": true
+  },
+  "000000000558.0A5": {
+    "owned": true
+  },
+  "000000000560.0A5": {
+    "owned": true
+  },
+  "0000000001B2.0A5": {
+    "owned": true
+  },
+  "0000000001B8.0A5": {
+    "owned": true
+  },
+  "00000000018C.0A5": {
+    "owned": true
+  },
+  "000000000563.0A5": {
+    "owned": true
+  },
+  "0000000001BB.0A5": {
+    "owned": true
+  },
+  "0000000001BE.0A5": {
+    "owned": true
+  },
+  "000000000561.0A5": {
+    "owned": true
+  },
+  "00000000055E.0A5": {
+    "owned": true
+  },
+  "00000000055F.0A5": {
+    "owned": true
+  },
+  "000000000555.0A5": {
+    "owned": true
+  },
+  "0000000001B4.0A5": {
+    "owned": true
+  },
+  "0000000015B2.0A5": {
+    "owned": true
+  },
+  "0000000001B3.0A5": {
+    "owned": true
+  },
+  "000000000568.0A5": {
+    "owned": true
+  },
+  "000000004DDA.0A5": {
+    "owned": true
+  },
+  "0000000047E5.0A5": {
+    "owned": true
+  },
+  "00000000696A.0A5": {
+    "owned": true
+  },
+  "000000000D0F.0A5": {
+    "owned": true
+  },
+  "000000005567.0A5": {
+    "owned": true
+  },
+  "000000005DB4.0A5": {
+    "owned": true
+  },
+  "000000007EB2.0A5": {
+    "owned": true
+  },
+  "000000007E82.0A5": {
+    "owned": true
+  },
+  "0000000082F8.0A5": {
+    "owned": true
+  },
+  "000000008E41.0A5": {
+    "owned": true
+  },
+  "00000000962A.0A5": {
+    "owned": true
+  },
+  "00000000AABB.0A5": {
+    "owned": true
+  },
+  "00000000B686.0A5": {
+    "owned": true
+  },
+  "00000000CC23.0A5": {
+    "owned": true
+  },
+  "00000000CAE2.0A5": {
+    "owned": true
+  },
+  "00000000CEBE.0A5": {
+    "owned": true
+  },
+  "000000000677.0A5": {
+    "owned": true
+  },
+  "000000000252.0A5": {
+    "owned": true
+  },
+  "00000000107A.0A5": {
+    "owned": true
+  },
+  "000000004B25.0A5": {
+    "owned": true
+  },
+  "000000000C5C.0A5": {
+    "owned": true
+  },
+  "000000000EE6.0A5": {
+    "owned": true
+  },
+  "0000000001EC.0A5": {
+    "owned": true
+  },
+  "000000001099.0A5": {
+    "owned": true
+  },
+  "000000000250.0A5": {
+    "owned": true
+  },
+  "000000000671.0A5": {
+    "owned": true
+  },
+  "0000000001ED.0A5": {
+    "owned": true
+  },
+  "000000000673.0A5": {
+    "owned": true
+  },
+  "000000000669.0A5": {
+    "owned": true
+  },
+  "000000000676.0A5": {
+    "owned": true
+  },
+  "000000000193.0A5": {
+    "owned": true
+  },
+  "00000000024F.0A5": {
+    "owned": false
+  },
+  "000000000670.0A5": {
+    "owned": true
+  },
+  "000000000253.0A5": {
+    "owned": true
+  },
+  "0000000001EE.0A5": {
+    "owned": true
+  },
+  "00000000066C.0A5": {
+    "owned": true
+  },
+  "000000000254.0A5": {
+    "owned": true
+  },
+  "00000000066F.0A5": {
+    "owned": true
+  },
+  "000000000256.0A5": {
+    "owned": true
+  },
+  "00000000A6C0.0A5": {
+    "owned": true
+  },
+  "000000001B04.0A5": {
+    "owned": true
+  },
+  "000000001AC0.0A5": {
+    "owned": true
+  },
+  "000000001B06.0A5": {
+    "owned": true
+  },
+  "000000001AC6.0A5": {
+    "owned": true
+  },
+  "000000001B05.0A5": {
+    "owned": true
+  },
+  "000000001B01.0A5": {
+    "owned": true
+  },
+  "000000000B57.0A5": {
+    "owned": true
+  },
+  "000000004EC9.0A5": {
+    "owned": true
+  },
+  "000000005DBF.0A5": {
+    "owned": true
+  },
+  "000000006018.0A5": {
+    "owned": true
+  },
+  "000000007967.0A5": {
+    "owned": true
+  },
+  "000000007EB8.0A5": {
+    "owned": true
+  },
+  "00000000847F.0A5": {
+    "owned": true
+  },
+  "000000008E3B.0A5": {
+    "owned": true
+  },
+  "000000007448.0A5": {
+    "owned": true
+  },
+  "00000000C0C0.0A5": {
+    "owned": true
+  },
+  "00000000CEBF.0A5": {
+    "owned": true
+  },
+  "00000000CC1F.0A5": {
+    "owned": true
+  },
+  "00000000BF0A.0A5": {
+    "owned": true
+  },
+  "00000000CC34.0A5": {
+    "owned": true
+  },
+  "00000000C341.0A5": {
+    "owned": true
+  },
+  "0000000011C6.0A5": {
+    "owned": true
+  },
+  "0000000011CB.0A5": {
+    "owned": true
+  },
+  "00000000196B.0A5": {
+    "owned": true
+  },
+  "0000000012DC.0A5": {
+    "owned": true
+  },
+  "0000000015EB.0A5": {
+    "owned": true
+  },
+  "0000000011CA.0A5": {
+    "owned": true
+  },
+  "0000000011C5.0A5": {
+    "owned": true
+  },
+  "0000000015B6.0A5": {
+    "owned": true
+  },
+  "0000000011C3.0A5": {
+    "owned": true
+  },
+  "0000000011C2.0A5": {
+    "owned": true
+  },
+  "0000000011CF.0A5": {
+    "owned": true
+  },
+  "0000000011C9.0A5": {
+    "owned": true
+  },
+  "0000000011D2.0A5": {
+    "owned": true
+  },
+  "0000000011C7.0A5": {
+    "owned": true
+  },
+  "0000000011BC.0A5": {
+    "owned": true
+  },
+  "0000000011D1.0A5": {
+    "owned": true
+  },
+  "0000000011BE.0A5": {
+    "owned": true
+  },
+  "0000000011D0.0A5": {
+    "owned": true
+  },
+  "0000000011C4.0A5": {
+    "owned": true
+  },
+  "000000001275.0A5": {
+    "owned": true
+  },
+  "0000000011BD.0A5": {
+    "owned": true
+  },
+  "0000000011C0.0A5": {
+    "owned": true
+  },
+  "0000000061D5.0A5": {
+    "owned": true
+  },
+  "000000001232.0A5": {
+    "owned": true
+  },
+  "000000001391.0A5": {
+    "owned": true
+  },
+  "000000006031.0A5": {
+    "owned": true
+  },
+  "00000000601E.0A5": {
+    "owned": true
+  },
+  "000000006012.0A5": {
+    "owned": true
+  },
+  "000000006E26.0A5": {
+    "owned": true
+  },
+  "000000006E27.0A5": {
+    "owned": true
+  },
+  "000000007457.0A5": {
+    "owned": true
+  },
+  "000000008D73.0A5": {
+    "owned": true
+  },
+  "00000000AB3D.0A5": {
+    "owned": true
+  },
+  "00000000B685.0A5": {
+    "owned": true
+  },
+  "00000000C872.0A5": {
+    "owned": true
+  },
+  "0000000048FF.0A5": {
+    "owned": true
+  },
+  "000000004900.0A5": {
+    "owned": true
+  },
+  "000000004D09.0A5": {
+    "owned": true
+  },
+  "0000000049C3.0A5": {
+    "owned": true
+  },
+  "000000004CDD.0A5": {
+    "owned": true
+  },
+  "000000004B1C.0A5": {
+    "owned": true
+  },
+  "000000004B29.0A5": {
+    "owned": true
+  },
+  "000000004E41.0A5": {
+    "owned": true
+  },
+  "000000004C2E.0A5": {
+    "owned": true
+  },
+  "000000004C2D.0A5": {
+    "owned": true
+  },
+  "000000004C2C.0A5": {
+    "owned": true
+  },
+  "000000004901.0A5": {
+    "owned": true
+  },
+  "00000000490A.0A5": {
+    "owned": true
+  },
+  "0000000048FA.0A5": {
+    "owned": true
+  },
+  "0000000048D2.0A5": {
+    "owned": true
+  },
+  "0000000048FC.0A5": {
+    "owned": true
+  },
+  "0000000048FD.0A5": {
+    "owned": true
+  },
+  "0000000048D3.0A5": {
+    "owned": true
+  },
+  "0000000048FB.0A5": {
+    "owned": true
+  },
+  "000000004902.0A5": {
+    "owned": true
+  },
+  "000000004904.0A5": {
+    "owned": true
+  },
+  "000000004908.0A5": {
+    "owned": true
+  },
+  "000000004907.0A5": {
+    "owned": true
+  },
+  "000000004903.0A5": {
+    "owned": true
+  },
+  "000000004909.0A5": {
+    "owned": true
+  },
+  "00000000490C.0A5": {
+    "owned": true
+  },
+  "000000004906.0A5": {
+    "owned": true
+  },
+  "0000000048CF.0A5": {
+    "owned": true
+  },
+  "0000000048F9.0A5": {
+    "owned": true
+  },
+  "00000000490B.0A5": {
+    "owned": true
+  },
+  "00000000490D.0A5": {
+    "owned": true
+  },
+  "000000004938.0A5": {
+    "owned": true
+  },
+  "00000000493B.0A5": {
+    "owned": true
+  },
+  "00000000493A.0A5": {
+    "owned": true
+  },
+  "000000004936.0A5": {
+    "owned": true
+  },
+  "000000004939.0A5": {
+    "owned": true
+  },
+  "000000004937.0A5": {
+    "owned": true
+  },
+  "000000004A85.0A5": {
+    "owned": true
+  },
+  "000000004BE3.0A5": {
+    "owned": true
+  },
+  "000000004BE2.0A5": {
+    "owned": true
+  },
+  "0000000061FB.0A5": {
+    "owned": true
+  },
+  "000000006622.0A5": {
+    "owned": true
+  },
+  "0000000082F9.0A5": {
+    "owned": true
+  },
+  "000000007450.0A5": {
+    "owned": true
+  },
+  "00000000AB5E.0A5": {
+    "owned": true
+  },
+  "00000000C48A.0A5": {
+    "owned": true
+  },
+  "00000000BC94.0A5": {
+    "owned": true
+  },
+  "00000000BC95.0A5": {
+    "owned": true
+  },
+  "00000000CC33.0A5": {
+    "owned": true
+  },
+  "00000000C343.0A5": {
+    "owned": true
+  },
+  "00000000C342.0A5": {
+    "owned": true
+  },
+  "00000000C870.0A5": {
+    "owned": true
+  },
+  "00000000C73D.0A5": {
+    "owned": true
+  },
+  "00000000851D.0A5": {
+    "owned": true
+  },
+  "00000000851E.0A5": {
+    "owned": true
+  },
+  "0000000084AE.0A5": {
+    "owned": true
+  },
+  "0000000084B0.0A5": {
+    "owned": true
+  },
+  "0000000084AF.0A5": {
+    "owned": true
+  },
+  "0000000084C2.0A5": {
+    "owned": true
+  },
+  "00000000A6B4.0A5": {
+    "owned": true
+  },
+  "000000008D71.0A5": {
+    "owned": true
+  },
+  "00000000847E.0A5": {
+    "owned": true
+  },
+  "00000000B9D1.0A5": {
+    "owned": true
+  },
+  "00000000B68A.0A5": {
+    "owned": true
+  },
+  "0000000082FE.0A5": {
+    "owned": true
+  },
+  "00000000073F.0A5": {
+    "owned": true
+  },
+  "0000000002D6.0A5": {
+    "owned": true
+  },
+  "000000001174.0A5": {
+    "owned": true
+  },
+  "000000004CE0.0A5": {
+    "owned": true
+  },
+  "000000001085.0A5": {
+    "owned": true
+  },
+  "000000004B26.0A5": {
+    "owned": true
+  },
+  "000000000ED4.0A5": {
+    "owned": true
+  },
+  "0000000015C2.0A5": {
+    "owned": true
+  },
+  "000000000727.0A5": {
+    "owned": true
+  },
+  "0000000002D1.0A5": {
+    "owned": true
+  },
+  "000000000192.0A5": {
+    "owned": true
+  },
+  "0000000002D8.0A5": {
+    "owned": true
+  },
+  "0000000002D9.0A5": {
+    "owned": true
+  },
+  "0000000002D0.0A5": {
+    "owned": true
+  },
+  "00000000073E.0A5": {
+    "owned": true
+  },
+  "00000000073D.0A5": {
+    "owned": true
+  },
+  "0000000002D5.0A5": {
+    "owned": true
+  },
+  "000000000730.0A5": {
+    "owned": true
+  },
+  "000000000728.0A5": {
+    "owned": true
+  },
+  "0000000002D3.0A5": {
+    "owned": true
+  },
+  "0000000002D2.0A5": {
+    "owned": true
+  },
+  "00000000072C.0A5": {
+    "owned": true
+  },
+  "00000000072E.0A5": {
+    "owned": true
+  },
+  "00000000073C.0A5": {
+    "owned": true
+  },
+  "00000000072B.0A5": {
+    "owned": true
+  },
+  "000000000B76.0A5": {
+    "owned": true
+  },
+  "000000004EC8.0A5": {
+    "owned": true
+  },
+  "000000000D1E.0A5": {
+    "owned": true
+  },
+  "000000000D3A.0A5": {
+    "owned": true
+  },
+  "000000005DC1.0A5": {
+    "owned": true
+  },
+  "0000000061FF.0A5": {
+    "owned": true
+  },
+  "000000006BA8.0A5": {
+    "owned": true
+  },
+  "0000000071AC.0A5": {
+    "owned": true
+  },
+  "000000008AAE.0A5": {
+    "owned": true
+  },
+  "000000008E3E.0A5": {
+    "owned": true
+  },
+  "000000008D72.0A5": {
+    "owned": true
+  },
+  "00000000AB40.0A5": {
+    "owned": true
+  },
+  "00000000B689.0A5": {
+    "owned": true
+  },
+  "000000000542.0A5": {
+    "owned": true
+  },
+  "0000000001A9.0A5": {
+    "owned": true
+  },
+  "000000001163.0A5": {
+    "owned": true
+  },
+  "000000001074.0A5": {
+    "owned": true
+  },
+  "000000004B27.0A5": {
+    "owned": true
+  },
+  "000000000EC5.0A5": {
+    "owned": true
+  },
+  "000000000530.0A5": {
+    "owned": true
+  },
+  "000000000531.0A5": {
+    "owned": true
+  },
+  "0000000001AB.0A5": {
+    "owned": true
+  },
+  "00000000052D.0A5": {
+    "owned": true
+  },
+  "00000000053F.0A5": {
+    "owned": true
+  },
+  "0000000001AC.0A5": {
+    "owned": true
+  },
+  "000000000186.0A5": {
+    "owned": true
+  },
+  "0000000015B1.0A5": {
+    "owned": true
+  },
+  "000000000532.0A5": {
+    "owned": true
+  },
+  "00000000052B.0A5": {
+    "owned": true
+  },
+  "0000000001AA.0A5": {
+    "owned": true
+  },
+  "0000000001A5.0A5": {
+    "owned": true
+  },
+  "0000000001A4.0A5": {
+    "owned": true
+  },
+  "00000000052A.0A5": {
+    "owned": true
+  },
+  "0000000001AD.0A5": {
+    "owned": true
+  },
+  "0000000001A3.0A5": {
+    "owned": true
+  },
+  "00000000052F.0A5": {
+    "owned": true
+  },
+  "0000000001A6.0A5": {
+    "owned": true
+  },
+  "0000000001A7.0A5": {
+    "owned": true
+  },
+  "0000000001B0.0A5": {
+    "owned": true
+  },
+  "000000004BB1.0A5": {
+    "owned": true
+  },
+  "000000000B77.0A5": {
+    "owned": true
+  },
+  "000000004D7B.0A5": {
+    "owned": true
+  },
+  "000000000D0E.0A5": {
+    "owned": true
+  },
+  "000000005DC2.0A5": {
+    "owned": true
+  },
+  "000000005FDA.0A5": {
+    "owned": true
+  },
+  "00000000671E.0A5": {
+    "owned": true
+  },
+  "00000000671D.0A5": {
+    "owned": true
+  },
+  "000000006BB3.0A5": {
+    "owned": true
+  },
+  "0000000081C1.0A5": {
+    "owned": true
+  },
+  "000000008472.0A5": {
+    "owned": true
+  },
+  "00000000A040.0A5": {
+    "owned": true
+  },
+  "000000007E84.0A5": {
+    "owned": true
+  },
+  "000000007E69.0A5": {
+    "owned": true
+  },
+  "000000007E6B.0A5": {
+    "owned": true
+  },
+  "000000007E74.0A5": {
+    "owned": false
+  },
+  "000000007E73.0A5": {
+    "owned": true
+  },
+  "000000007E25.0A5": {
+    "owned": true
+  },
+  "000000007E2A.0A5": {
+    "owned": true
+  },
+  "000000007E23.0A5": {
+    "owned": true
+  },
+  "00000000A6B2.0A5": {
+    "owned": true
+  },
+  "000000007ECB.0A5": {
+    "owned": true
+  },
+  "000000007E7D.0A5": {
+    "owned": true
+  },
+  "000000008300.0A5": {
+    "owned": true
+  },
+  "0000000080CB.0A5": {
+    "owned": true
+  },
+  "00000000A1EE.0A5": {
+    "owned": true
+  },
+  "00000000650A.0A5": {
+    "owned": true
+  },
+  "00000000650B.0A5": {
+    "owned": true
+  },
+  "0000000064F4.0A5": {
+    "owned": true
+  },
+  "0000000064F7.0A5": {
+    "owned": true
+  },
+  "000000006555.0A5": {
+    "owned": true
+  },
+  "0000000064F6.0A5": {
+    "owned": true
+  },
+  "000000006590.0A5": {
+    "owned": true
+  },
+  "000000006556.0A5": {
+    "owned": true
+  },
+  "000000006558.0A5": {
+    "owned": true
+  },
+  "00000000732F.0A5": {
+    "owned": true
+  },
+  "00000000696C.0A5": {
+    "owned": true
+  },
+  "00000000655E.0A5": {
+    "owned": true
+  },
+  "000000006647.0A5": {
+    "owned": true
+  },
+  "000000006646.0A5": {
+    "owned": true
+  },
+  "000000006BA7.0A5": {
+    "owned": true
+  },
+  "000000007451.0A5": {
+    "owned": true
+  },
+  "000000008E40.0A5": {
+    "owned": true
+  },
+  "00000000B680.0A5": {
+    "owned": true
+  },
+  "00000000C73B.0A5": {
+    "owned": true
+  },
+  "00000000C865.0A5": {
+    "owned": true
+  },
+  "00000000C48C.0A5": {
+    "owned": true
+  },
+  "00000000C903.0A5": {
+    "owned": true
+  },
+  "00000000C015.0A5": {
+    "owned": true
+  },
+  "00000000CC3A.0A5": {
+    "owned": true
+  },
+  "00000000C33E.0A5": {
+    "owned": true
+  },
+  "00000000C863.0A5": {
+    "owned": true
+  },
+  "00000000C864.0A5": {
+    "owned": true
+  },
+  "00000000C73E.0A5": {
+    "owned": true
+  },
+  "0000000051F8.0A5": {
+    "owned": true
+  },
+  "0000000051F9.0A5": {
+    "owned": true
+  },
+  "000000006972.0A5": {
+    "owned": true
+  },
+  "0000000051FD.0A5": {
+    "owned": true
+  },
+  "000000005201.0A5": {
+    "owned": true
+  },
+  "000000005202.0A5": {
+    "owned": true
+  },
+  "0000000051FA.0A5": {
+    "owned": true
+  },
+  "0000000051FF.0A5": {
+    "owned": true
+  },
+  "000000005203.0A5": {
+    "owned": true
+  },
+  "000000005204.0A5": {
+    "owned": true
+  },
+  "0000000051FB.0A5": {
+    "owned": true
+  },
+  "00000000629C.0A5": {
+    "owned": true
+  },
+  "0000000056FD.0A5": {
+    "owned": true
+  },
+  "0000000056FC.0A5": {
+    "owned": true
+  },
+  "000000005DBA.0A5": {
+    "owned": true
+  },
+  "0000000061D8.0A5": {
+    "owned": true
+  },
+  "00000000693C.0A5": {
+    "owned": true
+  },
+  "00000000692F.0A5": {
+    "owned": true
+  },
+  "000000006BAE.0A5": {
+    "owned": true
+  },
+  "000000007962.0A5": {
+    "owned": true
+  },
+  "000000007E7E.0A5": {
+    "owned": true
+  },
+  "0000000005C2.0A5": {
+    "owned": true
+  },
+  "0000000005C1.0A5": {
+    "owned": true
+  },
+  "000000004D1F.0A5": {
+    "owned": true
+  },
+  "000000001166.0A5": {
+    "owned": true
+  },
+  "00000000487F.0A5": {
+    "owned": true
+  },
+  "000000001073.0A5": {
+    "owned": true
+  },
+  "000000000C55.0A5": {
+    "owned": true
+  },
+  "000000002ADD.0A5": {
+    "owned": true
+  },
+  "000000000EDF.0A5": {
+    "owned": true
+  },
+  "000000000EC8.0A5": {
+    "owned": true
+  },
+  "000000004C8B.0A5": {
+    "owned": true
+  },
+  "000000000210.0A5": {
+    "owned": true
+  },
+  "000000000215.0A5": {
+    "owned": true
+  },
+  "0000000005B2.0A5": {
+    "owned": true
+  },
+  "0000000005B7.0A5": {
+    "owned": true
+  },
+  "000000000214.0A5": {
+    "owned": true
+  },
+  "00000000020E.0A5": {
+    "owned": true
+  },
+  "0000000005AB.0A5": {
+    "owned": true
+  },
+  "0000000005B3.0A5": {
+    "owned": true
+  },
+  "0000000015B4.0A5": {
+    "owned": true
+  },
+  "000000000191.0A5": {
+    "owned": true
+  },
+  "00000000020C.0A5": {
+    "owned": true
+  },
+  "0000000005B5.0A5": {
+    "owned": true
+  },
+  "0000000005B6.0A5": {
+    "owned": true
+  },
+  "00000000020B.0A5": {
+    "owned": true
+  },
+  "00000000020F.0A5": {
+    "owned": true
+  },
+  "000000000216.0A5": {
+    "owned": true
+  },
+  "0000000005B0.0A5": {
+    "owned": true
+  },
+  "000000000213.0A5": {
+    "owned": true
+  },
+  "00000000020D.0A5": {
+    "owned": true
+  },
+  "000000000B55.0A5": {
+    "owned": true
+  },
+  "000000000D11.0A5": {
+    "owned": true
+  },
+  "000000004BE9.0A5": {
+    "owned": true
+  },
+  "000000006931.0A5": {
+    "owned": true
+  },
+  "000000006932.0A5": {
+    "owned": true
+  },
+  "000000008E42.0A5": {
+    "owned": true
+  },
+  "00000000C86F.0A5": {
+    "owned": true
+  },
+  "00000000CD4E.0A5": {
+    "owned": true
+  },
+  "0000000076A1.0A5": {
+    "owned": true
+  },
+  "0000000076A0.0A5": {
+    "owned": true
+  },
+  "000000007904.0A5": {
+    "owned": true
+  },
+  "00000000767E.0A5": {
+    "owned": true
+  },
+  "00000000767D.0A5": {
+    "owned": true
+  },
+  "000000007685.0A5": {
+    "owned": true
+  },
+  "00000000767F.0A5": {
+    "owned": true
+  },
+  "00000000767C.0A5": {
+    "owned": true
+  },
+  "000000007680.0A5": {
+    "owned": true
+  },
+  "000000007681.0A5": {
+    "owned": true
+  },
+  "000000007684.0A5": {
+    "owned": true
+  },
+  "000000007683.0A5": {
+    "owned": true
+  },
+  "0000000082F3.0A5": {
+    "owned": true
+  },
+  "00000000A6B3.0A5": {
+    "owned": true
+  },
+  "000000007ECA.0A5": {
+    "owned": true
+  },
+  "000000007A28.0A5": {
+    "owned": true
+  },
+  "000000007EB9.0A5": {
+    "owned": true
+  },
+  "0000000082FD.0A5": {
+    "owned": true
+  },
+  "000000008476.0A5": {
+    "owned": true
+  },
+  "000000008AA2.0A5": {
+    "owned": true
+  },
+  "000000008D6B.0A5": {
+    "owned": true
+  },
+  "00000000A1EB.0A5": {
+    "owned": true
+  },
+  "00000000B7F3.0A5": {
+    "owned": true
+  },
+  "00000000BF6F.0A5": {
+    "owned": true
+  },
+  "00000000C0C1.0A5": {
+    "owned": true
+  },
+  "00000000C86B.0A5": {
+    "owned": true
+  },
+  "00000000C86A.0A5": {
+    "owned": true
+  },
+  "0000000054ED.0A5": {
+    "owned": true
+  },
+  "0000000054FF.0A5": {
+    "owned": true
+  },
+  "000000007354.0A5": {
+    "owned": true
+  },
+  "00000000696F.0A5": {
+    "owned": true
+  },
+  "0000000054F0.0A5": {
+    "owned": true
+  },
+  "0000000054F7.0A5": {
+    "owned": true
+  },
+  "0000000054F6.0A5": {
+    "owned": true
+  },
+  "0000000054F5.0A5": {
+    "owned": true
+  },
+  "0000000054EF.0A5": {
+    "owned": true
+  },
+  "0000000054F3.0A5": {
+    "owned": true
+  },
+  "0000000054F2.0A5": {
+    "owned": true
+  },
+  "0000000054F4.0A5": {
+    "owned": true
+  },
+  "0000000054F9.0A5": {
+    "owned": true
+  },
+  "00000000629B.0A5": {
+    "owned": true
+  },
+  "0000000056FF.0A5": {
+    "owned": true
+  },
+  "000000005712.0A5": {
+    "owned": true
+  },
+  "0000000061FD.0A5": {
+    "owned": true
+  },
+  "000000006BAF.0A5": {
+    "owned": true
+  },
+  "000000007A43.0A5": {
+    "owned": true
+  },
+  "000000007A25.0A5": {
+    "owned": true
+  },
+  "000000007B39.0A5": {
+    "owned": true
+  },
+  "0000000080C9.0A5": {
+    "owned": true
+  },
+  "0000000081C0.0A5": {
+    "owned": true
+  },
+  "000000008475.0A5": {
+    "owned": true
+  },
+  "000000008471.0A5": {
+    "owned": true
+  },
+  "00000000A045.0A5": {
+    "owned": true
+  },
+  "00000000A1EF.0A5": {
+    "owned": true
+  },
+  "00000000AB3F.0A5": {
+    "owned": true
+  },
+  "00000000B7F8.0A5": {
+    "owned": true
+  },
+  "00000000C0BF.0A5": {
+    "owned": true
+  },
+  "00000000C73C.0A5": {
+    "owned": true
+  },
+  "00000000CD51.0A5": {
+    "owned": true
+  },
+  "000000005F71.0A5": {
+    "owned": true
+  },
+  "000000005F72.0A5": {
+    "owned": true
+  },
+  "000000006974.0A5": {
+    "owned": true
+  },
+  "000000005FCE.0A5": {
+    "owned": true
+  },
+  "000000005FCB.0A5": {
+    "owned": true
+  },
+  "000000005FCF.0A5": {
+    "owned": true
+  },
+  "000000005FF2.0A5": {
+    "owned": true
+  },
+  "000000005FE9.0A5": {
+    "owned": true
+  },
+  "000000005FC9.0A5": {
+    "owned": true
+  },
+  "00000000629D.0A5": {
+    "owned": true
+  },
+  "00000000696B.0A5": {
+    "owned": true
+  },
+  "000000005FCD.0A5": {
+    "owned": true
+  },
+  "00000000601F.0A5": {
+    "owned": true
+  },
+  "000000005FC0.0A5": {
+    "owned": true
+  },
+  "0000000061D9.0A5": {
+    "owned": true
+  },
+  "0000000064F2.0A5": {
+    "owned": true
+  },
+  "00000000671B.0A5": {
+    "owned": true
+  },
+  "000000006BAD.0A5": {
+    "owned": true
+  },
+  "0000000071AD.0A5": {
+    "owned": true
+  },
+  "000000007EB5.0A5": {
+    "owned": true
+  },
+  "000000008AAA.0A5": {
+    "owned": true
+  },
+  "000000009628.0A5": {
+    "owned": true
+  },
+  "00000000A041.0A5": {
+    "owned": true
+  },
+  "00000000C6C1.0A5": {
+    "owned": true
+  },
+  "00000000C48F.0A5": {
+    "owned": true
+  },
+  "00000000CD52.0A5": {
+    "owned": true
+  },
+  "0000000005ED.0A5": {
+    "owned": true
+  },
+  "000000000247.0A5": {
+    "owned": true
+  },
+  "000000001167.0A5": {
+    "owned": true
+  },
+  "000000001076.0A5": {
+    "owned": true
+  },
+  "000000002ADB.0A5": {
+    "owned": true
+  },
+  "000000004E43.0A5": {
+    "owned": true
+  },
+  "000000000C56.0A5": {
+    "owned": true
+  },
+  "000000000EE0.0A5": {
+    "owned": true
+  },
+  "000000000ED7.0A5": {
+    "owned": true
+  },
+  "000000004669.0A5": {
+    "owned": true
+  },
+  "0000000005DE.0A5": {
+    "owned": true
+  },
+  "000000000244.0A5": {
+    "owned": true
+  },
+  "0000000005E7.0A5": {
+    "owned": true
+  },
+  "0000000015B5.0A5": {
+    "owned": true
+  },
+  "0000000005DC.0A5": {
+    "owned": true
+  },
+  "0000000005D7.0A5": {
+    "owned": true
+  },
+  "0000000005E9.0A5": {
+    "owned": true
+  },
+  "00000000024C.0A5": {
+    "owned": true
+  },
+  "00000000018F.0A5": {
+    "owned": true
+  },
+  "0000000005E1.0A5": {
+    "owned": true
+  },
+  "000000000249.0A5": {
+    "owned": true
+  },
+  "000000000245.0A5": {
+    "owned": true
+  },
+  "0000000005DD.0A5": {
+    "owned": true
+  },
+  "00000000024B.0A5": {
+    "owned": true
+  },
+  "000000000248.0A5": {
+    "owned": true
+  },
+  "000000000243.0A5": {
+    "owned": true
+  },
+  "000000000242.0A5": {
+    "owned": true
+  },
+  "000000000A48.0A5": {
+    "owned": true
+  },
+  "0000000005E3.0A5": {
+    "owned": true
+  },
+  "000000000BDE.0A5": {
+    "owned": true
+  },
+  "000000000D12.0A5": {
+    "owned": true
+  },
+  "000000005FDC.0A5": {
+    "owned": true
+  },
+  "000000005FDB.0A5": {
+    "owned": true
+  },
+  "000000006937.0A5": {
+    "owned": true
+  },
+  "000000006936.0A5": {
+    "owned": true
+  },
+  "0000000071AF.0A5": {
+    "owned": true
+  },
+  "0000000082FA.0A5": {
+    "owned": true
+  },
+  "00000000854B.0A5": {
+    "owned": true
+  },
+  "00000000C0BE.0A5": {
+    "owned": true
+  },
+  "00000000BFCC.0A5": {
+    "owned": true
+  },
+  "00000000CD4F.0A5": {
+    "owned": true
+  },
+  "00000000692D.0A5": {
+    "owned": true
+  },
+  "000000006923.0A5": {
+    "owned": true
+  },
+  "000000006975.0A5": {
+    "owned": true
+  },
+  "00000000692C.0A5": {
+    "owned": true
+  },
+  "000000006927.0A5": {
+    "owned": true
+  },
+  "000000006929.0A5": {
+    "owned": true
+  },
+  "00000000692B.0A5": {
+    "owned": true
+  },
+  "000000006925.0A5": {
+    "owned": true
+  },
+  "000000006928.0A5": {
+    "owned": true
+  },
+  "000000006926.0A5": {
+    "owned": true
+  },
+  "000000006924.0A5": {
+    "owned": true
+  },
+  "00000000732E.0A5": {
+    "owned": true
+  },
+  "00000000696D.0A5": {
+    "owned": true
+  },
+  "000000006939.0A5": {
+    "owned": true
+  },
+  "000000006938.0A5": {
+    "owned": true
+  },
+  "000000006BA5.0A5": {
+    "owned": true
+  },
+  "000000007E7C.0A5": {
+    "owned": true
+  },
+  "000000008AAB.0A5": {
+    "owned": true
+  },
+  "00000000BFC5.0A5": {
+    "owned": true
+  },
+  "000000000643.0A5": {
+    "owned": true
+  },
+  "00000000025D.0A5": {
+    "owned": true
+  },
+  "000000004875.0A5": {
+    "owned": true
+  },
+  "000000000EE1.0A5": {
+    "owned": true
+  },
+  "000000000ED8.0A5": {
+    "owned": true
+  },
+  "00000000063F.0A5": {
+    "owned": true
+  },
+  "0000000001E8.0A5": {
+    "owned": true
+  },
+  "0000000001E7.0A5": {
+    "owned": true
+  },
+  "00000000025E.0A5": {
+    "owned": true
+  },
+  "00000000025B.0A5": {
+    "owned": true
+  },
+  "000000000A4A.0A5": {
+    "owned": true
+  },
+  "00000000025C.0A5": {
+    "owned": true
+  },
+  "000000000194.0A5": {
+    "owned": true
+  },
+  "000000000632.0A5": {
+    "owned": true
+  },
+  "000000000639.0A5": {
+    "owned": true
+  },
+  "000000000261.0A5": {
+    "owned": true
+  },
+  "00000000062C.0A5": {
+    "owned": true
+  },
+  "000000000263.0A5": {
+    "owned": true
+  },
+  "00000000063C.0A5": {
+    "owned": true
+  },
+  "0000000001E6.0A5": {
+    "owned": true
+  },
+  "00000000025A.0A5": {
+    "owned": true
+  },
+  "00000000025F.0A5": {
+    "owned": true
+  },
+  "000000000260.0A5": {
+    "owned": true
+  },
+  "0000000084DC.0A5": {
+    "owned": true
+  },
+  "000000004DA1.0A5": {
+    "owned": true
+  },
+  "000000000B74.0A5": {
+    "owned": true
+  },
+  "000000004BE7.0A5": {
+    "owned": true
+  },
+  "000000000D13.0A5": {
+    "owned": true
+  },
+  "000000005DBE.0A5": {
+    "owned": true
+  },
+  "000000006965.0A5": {
+    "owned": true
+  },
+  "000000006BB1.0A5": {
+    "owned": true
+  },
+  "00000000795E.0A5": {
+    "owned": true
+  },
+  "000000007E7B.0A5": {
+    "owned": true
+  },
+  "000000007ECD.0A5": {
+    "owned": true
+  },
+  "0000000080CE.0A5": {
+    "owned": true
+  },
+  "0000000081BD.0A5": {
+    "owned": true
+  },
+  "00000000BFCA.0A5": {
+    "owned": true
+  },
+  "00000000051F.0A5": {
+    "owned": true
+  },
+  "000000000520.0A5": {
+    "owned": true
+  },
+  "0000000049D0.0A5": {
+    "owned": true
+  },
+  "000000001162.0A5": {
+    "owned": true
+  },
+  "000000004CE5.0A5": {
+    "owned": true
+  },
+  "000000000EDB.0A5": {
+    "owned": true
+  },
+  "000000004F46.0A5": {
+    "owned": true
+  },
+  "00000000050E.0A5": {
+    "owned": true
+  },
+  "000000000519.0A5": {
+    "owned": true
+  },
+  "000000000198.0A5": {
+    "owned": true
+  },
+  "0000000015B0.0A5": {
+    "owned": true
+  },
+  "000000003F93.0A5": {
+    "owned": true
+  },
+  "000000000517.0A5": {
+    "owned": true
+  },
+  "000000000518.0A5": {
+    "owned": true
+  },
+  "000000000185.0A5": {
+    "owned": true
+  },
+  "000000003F94.0A5": {
+    "owned": true
+  },
+  "0000000001A0.0A5": {
+    "owned": true
+  },
+  "00000000051A.0A5": {
+    "owned": true
+  },
+  "00000000019D.0A5": {
+    "owned": true
+  },
+  "0000000001A2.0A5": {
+    "owned": true
+  },
+  "00000000019C.0A5": {
+    "owned": true
+  },
+  "00000000050D.0A5": {
+    "owned": true
+  },
+  "00000000050C.0A5": {
+    "owned": true
+  },
+  "00000000019B.0A5": {
+    "owned": true
+  },
+  "000000009635.0A5": {
+    "owned": true
+  },
+  "000000003FAB.0A5": {
+    "owned": true
+  },
+  "000000003FA7.0A5": {
+    "owned": true
+  },
+  "000000003FA9.0A5": {
+    "owned": true
+  },
+  "000000000D28.0A5": {
+    "owned": true
+  },
+  "000000000D0D.0A5": {
+    "owned": true
+  },
+  "000000005713.0A5": {
+    "owned": true
+  },
+  "00000000601A.0A5": {
+    "owned": true
+  },
+  "0000000061D6.0A5": {
+    "owned": true
+  },
+  "000000006964.0A5": {
+    "owned": true
+  },
+  "000000006BB4.0A5": {
+    "owned": true
+  },
+  "000000006E22.0A5": {
+    "owned": true
+  },
+  "000000006F2C.0A5": {
+    "owned": true
+  },
+  "000000006E23.0A5": {
+    "owned": true
+  },
+  "00000000755B.0A5": {
+    "owned": true
+  },
+  "000000007969.0A5": {
+    "owned": true
+  },
+  "000000007A46.0A5": {
+    "owned": true
+  },
+  "000000007EB1.0A5": {
+    "owned": true
+  },
+  "0000000080CC.0A5": {
+    "owned": true
+  },
+  "00000000847C.0A5": {
+    "owned": true
+  },
+  "000000009626.0A5": {
+    "owned": true
+  },
+  "00000000ABCB.0A5": {
+    "owned": true
+  },
+  "00000000B7F4.0A5": {
+    "owned": true
+  },
+  "00000000BFC9.0A5": {
+    "owned": true
+  },
+  "00000000C0BD.0A5": {
+    "owned": true
+  },
+  "00000000CD4D.0A5": {
+    "owned": true
+  },
+  "00000000CC38.0A5": {
+    "owned": true
+  },
+  "00000000C340.0A5": {
+    "owned": true
+  },
+  "00000000130D.0A5": {
+    "owned": true
+  },
+  "000000001309.0A5": {
+    "owned": true
+  },
+  "000000004D20.0A5": {
+    "owned": true
+  },
+  "000000001971.0A5": {
+    "owned": true
+  },
+  "0000000018DC.0A5": {
+    "owned": true
+  },
+  "000000002404.0A5": {
+    "owned": true
+  },
+  "0000000015EC.0A5": {
+    "owned": true
+  },
+  "0000000015E7.0A5": {
+    "owned": true
+  },
+  "00000000466B.0A5": {
+    "owned": true
+  },
+  "000000001310.0A5": {
+    "owned": true
+  },
+  "000000001314.0A5": {
+    "owned": true
+  },
+  "000000001313.0A5": {
+    "owned": true
+  },
+  "000000001318.0A5": {
+    "owned": true
+  },
+  "000000001306.0A5": {
+    "owned": true
+  },
+  "000000001307.0A5": {
+    "owned": true
+  },
+  "000000001304.0A5": {
+    "owned": true
+  },
+  "000000001319.0A5": {
+    "owned": true
+  },
+  "00000000130C.0A5": {
+    "owned": true
+  },
+  "00000000130F.0A5": {
+    "owned": true
+  },
+  "00000000130E.0A5": {
+    "owned": true
+  },
+  "000000001305.0A5": {
+    "owned": true
+  },
+  "000000001316.0A5": {
+    "owned": false
+  },
+  "00000000131E.0A5": {
+    "owned": true
+  },
+  "00000000131D.0A5": {
+    "owned": true
+  },
+  "00000000131C.0A5": {
+    "owned": true
+  },
+  "000000001317.0A5": {
+    "owned": true
+  },
+  "000000001A6A.0A5": {
+    "owned": true
+  },
+  "000000004BE4.0A5": {
+    "owned": true
+  },
+  "000000001395.0A5": {
+    "owned": true
+  },
+  "0000000055E5.0A5": {
+    "owned": true
+  },
+  "000000005DB2.0A5": {
+    "owned": true
+  },
+  "000000005DB0.0A5": {
+    "owned": true
+  },
+  "000000006723.0A5": {
+    "owned": true
+  },
+  "000000006AAE.0A5": {
+    "owned": true
+  },
+  "000000006AAD.0A5": {
+    "owned": true
+  },
+  "000000006BAC.0A5": {
+    "owned": true
+  },
+  "000000006AA9.0A5": {
+    "owned": true
+  },
+  "000000007E80.0A5": {
+    "owned": true
+  },
+  "000000008AA5.0A5": {
+    "owned": true
+  },
+  "00000000AB5C.0A5": {
+    "owned": true
+  },
+  "00000000BFCB.0A5": {
+    "owned": true
+  },
+  "00000000C488.0A5": {
+    "owned": true
+  },
+  "00000000CC22.0A5": {
+    "owned": true
+  },
+  "000000001010.0A5": {
+    "owned": true
+  },
+  "000000001003.0A5": {
+    "owned": true
+  },
+  "00000000108E.0A5": {
+    "owned": true
+  },
+  "000000004C29.0A5": {
+    "owned": true
+  },
+  "00000000100B.0A5": {
+    "owned": true
+  },
+  "000000001012.0A5": {
+    "owned": true
+  },
+  "00000000100F.0A5": {
+    "owned": true
+  },
+  "000000001013.0A5": {
+    "owned": true
+  },
+  "000000001009.0A5": {
+    "owned": true
+  },
+  "000000001005.0A5": {
+    "owned": true
+  },
+  "000000001000.0A5": {
+    "owned": true
+  },
+  "000000001016.0A5": {
+    "owned": true
+  },
+  "000000001004.0A5": {
+    "owned": true
+  },
+  "0000000015AF.0A5": {
+    "owned": true
+  },
+  "000000001002.0A5": {
+    "owned": true
+  },
+  "000000000FFF.0A5": {
+    "owned": true
+  },
+  "000000001014.0A5": {
+    "owned": true
+  },
+  "000000001008.0A5": {
+    "owned": true
+  },
+  "00000000100E.0A5": {
+    "owned": true
+  },
+  "000000001006.0A5": {
+    "owned": true
+  },
+  "00000000100D.0A5": {
+    "owned": true
+  },
+  "000000001017.0A5": {
+    "owned": true
+  },
+  "000000001001.0A5": {
+    "owned": true
+  },
+  "000000004A84.0A5": {
+    "owned": true
+  },
+  "000000001233.0A5": {
+    "owned": true
+  },
+  "000000001394.0A5": {
+    "owned": true
+  },
+  "000000004ECB.0A5": {
+    "owned": true
+  },
+  "000000001393.0A5": {
+    "owned": true
+  },
+  "000000006930.0A5": {
+    "owned": true
+  },
+  "000000006BB5.0A5": {
+    "owned": true
+  },
+  "0000000081C3.0A5": {
+    "owned": true
+  },
+  "0000000081C4.0A5": {
+    "owned": true
+  },
+  "0000000007C1.0A5": {
+    "owned": true
+  },
+  "0000000007C0.0A5": {
+    "owned": true
+  },
+  "00000000487C.0A5": {
+    "owned": true
+  },
+  "000000001090.0A5": {
+    "owned": true
+  },
+  "000000002405.0A5": {
+    "owned": true
+  },
+  "000000000ECC.0A5": {
+    "owned": true
+  },
+  "0000000002B4.0A5": {
+    "owned": true
+  },
+  "0000000007B1.0A5": {
+    "owned": true
+  },
+  "0000000015C0.0A5": {
+    "owned": true
+  },
+  "0000000007B4.0A5": {
+    "owned": true
+  },
+  "0000000002B6.0A5": {
+    "owned": true
+  },
+  "0000000002B8.0A5": {
+    "owned": true
+  },
+  "0000000002B5.0A5": {
+    "owned": true
+  },
+  "0000000002B1.0A5": {
+    "owned": true
+  },
+  "0000000007B2.0A5": {
+    "owned": true
+  },
+  "0000000002B7.0A5": {
+    "owned": true
+  },
+  "0000000007B7.0A5": {
+    "owned": true
+  },
+  "0000000002B0.0A5": {
+    "owned": true
+  },
+  "0000000002AF.0A5": {
+    "owned": true
+  },
+  "0000000007AF.0A5": {
+    "owned": true
+  },
+  "0000000002B9.0A5": {
+    "owned": true
+  },
+  "0000000007B3.0A5": {
+    "owned": true
+  },
+  "000000000B5A.0A5": {
+    "owned": true
+  },
+  "000000004D7A.0A5": {
+    "owned": true
+  },
+  "000000000D1B.0A5": {
+    "owned": true
+  },
+  "000000000D37.0A5": {
+    "owned": true
+  },
+  "00000000655C.0A5": {
+    "owned": true
+  },
+  "0000000082FB.0A5": {
+    "owned": true
+  },
+  "00000000A048.0A5": {
+    "owned": true
+  },
+  "00000000CC20.0A5": {
+    "owned": true
+  },
+  "00000000569A.0A5": {
+    "owned": true
+  },
+  "000000005698.0A5": {
+    "owned": true
+  },
+  "000000006973.0A5": {
+    "owned": true
+  },
+  "000000005699.0A5": {
+    "owned": true
+  },
+  "000000005697.0A5": {
+    "owned": true
+  },
+  "000000005690.0A5": {
+    "owned": true
+  },
+  "00000000568D.0A5": {
+    "owned": true
+  },
+  "000000005694.0A5": {
+    "owned": true
+  },
+  "00000000568C.0A5": {
+    "owned": true
+  },
+  "00000000568B.0A5": {
+    "owned": true
+  },
+  "0000000062A5.0A5": {
+    "owned": true
+  },
+  "000000005700.0A5": {
+    "owned": true
+  },
+  "000000006BAA.0A5": {
+    "owned": true
+  },
+  "00000000847D.0A5": {
+    "owned": true
+  },
+  "00000000ABCF.0A5": {
+    "owned": true
+  },
+  "00000000C28F.0A5": {
+    "owned": true
+  },
+  "000000000760.0A5": {
+    "owned": true
+  },
+  "000000001082.0A5": {
+    "owned": true
+  },
+  "000000000C5D.0A5": {
+    "owned": true
+  },
+  "000000000EE8.0A5": {
+    "owned": true
+  },
+  "00000000074B.0A5": {
+    "owned": true
+  },
+  "00000000029F.0A5": {
+    "owned": true
+  },
+  "00000000074A.0A5": {
+    "owned": true
+  },
+  "000000000292.0A5": {
+    "owned": true
+  },
+  "000000000297.0A5": {
+    "owned": true
+  },
+  "000000000757.0A5": {
+    "owned": true
+  },
+  "00000000029A.0A5": {
+    "owned": true
+  },
+  "000000000181.0A5": {
+    "owned": true
+  },
+  "000000000295.0A5": {
+    "owned": true
+  },
+  "000000000759.0A5": {
+    "owned": true
+  },
+  "000000000756.0A5": {
+    "owned": true
+  },
+  "000000000752.0A5": {
+    "owned": true
+  },
+  "0000000015BE.0A5": {
+    "owned": true
+  },
+  "00000000075A.0A5": {
+    "owned": true
+  },
+  "000000000758.0A5": {
+    "owned": true
+  },
+  "000000000293.0A5": {
+    "owned": true
+  },
+  "000000004FCF.0A5": {
+    "owned": true
+  },
+  "000000004FCB.0A5": {
+    "owned": true
+  },
+  "000000004FCE.0A5": {
+    "owned": true
+  },
+  "0000000047E6.0A5": {
+    "owned": true
+  },
+  "000000004FCD.0A5": {
+    "owned": true
+  },
+  "000000000B58.0A5": {
+    "owned": true
+  },
+  "000000004388.0A5": {
+    "owned": true
+  },
+  "000000000D19.0A5": {
+    "owned": true
+  },
+  "000000006934.0A5": {
+    "owned": true
+  },
+  "000000006933.0A5": {
+    "owned": true
+  },
+  "00000000744B.0A5": {
+    "owned": true
+  },
+  "000000007A44.0A5": {
+    "owned": true
+  },
+  "000000007A27.0A5": {
+    "owned": true
+  },
+  "0000000082FC.0A5": {
+    "owned": true
+  },
+  "000000008D74.0A5": {
+    "owned": true
+  },
+  "00000000ABC8.0A5": {
+    "owned": true
+  },
+  "00000000B683.0A5": {
+    "owned": true
+  },
+  "0000000006EF.0A5": {
+    "owned": true
+  },
+  "00000000027C.0A5": {
+    "owned": true
+  },
+  "000000001079.0A5": {
+    "owned": true
+  },
+  "000000004E42.0A5": {
+    "owned": true
+  },
+  "000000000EE5.0A5": {
+    "owned": true
+  },
+  "000000000ECD.0A5": {
+    "owned": true
+  },
+  "000000000278.0A5": {
+    "owned": true
+  },
+  "000000000283.0A5": {
+    "owned": true
+  },
+  "000000000282.0A5": {
+    "owned": true
+  },
+  "000000000279.0A5": {
+    "owned": true
+  },
+  "0000000015BB.0A5": {
+    "owned": false
+  },
+  "00000000027E.0A5": {
+    "owned": true
+  },
+  "000000000277.0A5": {
+    "owned": true
+  },
+  "0000000006D7.0A5": {
+    "owned": true
+  },
+  "0000000006DD.0A5": {
+    "owned": true
+  },
+  "000000000280.0A5": {
+    "owned": true
+  },
+  "00000000027B.0A5": {
+    "owned": true
+  },
+  "00000000027A.0A5": {
+    "owned": true
+  },
+  "000000000184.0A5": {
+    "owned": true
+  },
+  "0000000006EE.0A5": {
+    "owned": true
+  },
+  "00000000027D.0A5": {
+    "owned": true
+  },
+  "00000000027F.0A5": {
+    "owned": true
+  },
+  "0000000006DB.0A5": {
+    "owned": true
+  },
+  "0000000006DF.0A5": {
+    "owned": true
+  },
+  "000000000B56.0A5": {
+    "owned": true
+  },
+  "000000004BE8.0A5": {
+    "owned": true
+  },
+  "000000000D16.0A5": {
+    "owned": true
+  },
+  "000000000D32.0A5": {
+    "owned": true
+  },
+  "0000000061FE.0A5": {
+    "owned": true
+  },
+  "000000006E33.0A5": {
+    "owned": true
+  },
+  "000000007A26.0A5": {
+    "owned": true
+  },
+  "000000007E78.0A5": {
+    "owned": true
+  },
+  "000000008E3D.0A5": {
+    "owned": true
+  },
+  "00000000A1E9.0A5": {
+    "owned": true
+  },
+  "00000000AB5D.0A5": {
+    "owned": true
+  },
+  "000000000795.0A5": {
+    "owned": true
+  },
+  "000000000794.0A5": {
+    "owned": true
+  },
+  "000000001170.0A5": {
+    "owned": true
+  },
+  "00000000487E.0A5": {
+    "owned": true
+  },
+  "000000004E1D.0A5": {
+    "owned": true
+  },
+  "000000000C5E.0A5": {
+    "owned": true
+  },
+  "000000000EE9.0A5": {
+    "owned": true
+  },
+  "000000000ED3.0A5": {
+    "owned": true
+  },
+  "0000000008E0.0A5": {
+    "owned": true
+  },
+  "0000000015BF.0A5": {
+    "owned": true
+  },
+  "00000000078A.0A5": {
+    "owned": true
+  },
+  "0000000002A1.0A5": {
+    "owned": true
+  },
+  "00000000078C.0A5": {
+    "owned": true
+  },
+  "0000000002A6.0A5": {
+    "owned": true
+  },
+  "0000000002A8.0A5": {
+    "owned": true
+  },
+  "0000000002A2.0A5": {
+    "owned": true
+  },
+  "000000000792.0A5": {
+    "owned": true
+  },
+  "000000000190.0A5": {
+    "owned": true
+  },
+  "00000000078D.0A5": {
+    "owned": true
+  },
+  "000000000785.0A5": {
+    "owned": true
+  },
+  "000000000781.0A5": {
+    "owned": true
+  },
+  "0000000002A7.0A5": {
+    "owned": true
+  },
+  "0000000002AB.0A5": {
+    "owned": true
+  },
+  "0000000002A4.0A5": {
+    "owned": true
+  },
+  "000000000787.0A5": {
+    "owned": true
+  },
+  "0000000002A9.0A5": {
+    "owned": true
+  },
+  "0000000002A5.0A5": {
+    "owned": true
+  },
+  "000000000789.0A5": {
+    "owned": true
+  },
+  "000000000B59.0A5": {
+    "owned": true
+  },
+  "000000000D1A.0A5": {
+    "owned": true
+  },
+  "000000004BEB.0A5": {
+    "owned": true
+  },
+  "000000000D36.0A5": {
+    "owned": true
+  },
+  "000000006963.0A5": {
+    "owned": true
+  },
+  "000000006AAC.0A5": {
+    "owned": true
+  },
+  "0000000071BE.0A5": {
+    "owned": true
+  },
+  "000000007963.0A5": {
+    "owned": true
+  },
+  "00000000CD53.0A5": {
+    "owned": true
+  },
+  "00000000C8CE.0A5": {
+    "owned": true
+  },
+  "00000000C8CF.0A5": {
+    "owned": true
+  },
+  "00000000C8CC.0A5": {
+    "owned": true
+  },
+  "00000000C8CD.0A5": {
+    "owned": true
+  },
+  "00000000CC39.0A5": {
+    "owned": true
+  },
+  "00000000C91D.0A5": {
+    "owned": true
+  },
+  "00000000D16C.0A5": {
+    "owned": true
+  },
+  "00000000C55B.0A5": {
+    "owned": true
+  },
+  "00000000C55A.0A5": {
+    "owned": true
+  },
+  "00000000CC37.0A5": {
+    "owned": true
+  },
+  "00000000C588.0A5": {
+    "owned": true
+  },
+  "00000000C867.0A5": {
+    "owned": true
+  },
+  "000000002A3D.0A5": {
+    "owned": true
+  },
+  "000000002A3C.0A5": {
+    "owned": true
+  },
+  "0000000049C5.0A5": {
+    "owned": true
+  },
+  "0000000049C4.0A5": {
+    "owned": true
+  },
+  "000000004414.0A5": {
+    "owned": true
+  },
+  "000000002AD4.0A5": {
+    "owned": true
+  },
+  "000000004609.0A5": {
+    "owned": true
+  },
+  "000000002A44.0A5": {
+    "owned": true
+  },
+  "000000002A3F.0A5": {
+    "owned": true
+  },
+  "000000002A41.0A5": {
+    "owned": true
+  },
+  "000000002A4A.0A5": {
+    "owned": true
+  },
+  "000000002A3E.0A5": {
+    "owned": true
+  },
+  "000000002A42.0A5": {
+    "owned": true
+  },
+  "000000002A46.0A5": {
+    "owned": true
+  },
+  "000000002A53.0A5": {
+    "owned": true
+  },
+  "000000002A39.0A5": {
+    "owned": true
+  },
+  "000000002A48.0A5": {
+    "owned": true
+  },
+  "000000002A51.0A5": {
+    "owned": true
+  },
+  "000000002A4F.0A5": {
+    "owned": true
+  },
+  "000000002A43.0A5": {
+    "owned": true
+  },
+  "000000002A4C.0A5": {
+    "owned": true
+  },
+  "000000002A45.0A5": {
+    "owned": true
+  },
+  "000000002A52.0A5": {
+    "owned": true
+  },
+  "000000002A40.0A5": {
+    "owned": true
+  },
+  "000000004D9D.0A5": {
+    "owned": true
+  },
+  "000000004A86.0A5": {
+    "owned": true
+  },
+  "000000003FB0.0A5": {
+    "owned": true
+  },
+  "000000003FB1.0A5": {
+    "owned": true
+  },
+  "000000006016.0A5": {
+    "owned": true
+  },
+  "000000006015.0A5": {
+    "owned": true
+  },
+  "000000006014.0A5": {
+    "owned": true
+  },
+  "000000006BB0.0A5": {
+    "owned": true
+  },
+  "0000000076F6.0A5": {
+    "owned": true
+  },
+  "000000008474.0A5": {
+    "owned": true
+  },
+  "0000000051E7.0A5": {
+    "owned": true
+  },
+  "000000006971.0A5": {
+    "owned": true
+  },
+  "0000000051EF.0A5": {
+    "owned": true
+  },
+  "0000000051F2.0A5": {
+    "owned": true
+  },
+  "0000000051ED.0A5": {
+    "owned": true
+  },
+  "0000000051E8.0A5": {
+    "owned": true
+  },
+  "0000000051EE.0A5": {
+    "owned": true
+  },
+  "0000000051F0.0A5": {
+    "owned": true
+  },
+  "0000000051F1.0A5": {
+    "owned": true
+  },
+  "0000000051E9.0A5": {
+    "owned": true
+  },
+  "00000000629E.0A5": {
+    "owned": true
+  },
+  "0000000056F5.0A5": {
+    "owned": true
+  },
+  "000000006017.0A5": {
+    "owned": true
+  },
+  "0000000061DA.0A5": {
+    "owned": true
+  },
+  "000000006967.0A5": {
+    "owned": true
+  },
+  "000000006BA9.0A5": {
+    "owned": true
+  },
+  "000000006E2F.0A5": {
+    "owned": true
+  },
+  "0000000071BD.0A5": {
+    "owned": true
+  },
+  "00000000795D.0A5": {
+    "owned": true
+  },
+  "000000007E81.0A5": {
+    "owned": true
+  },
+  "00000000A33B.0A5": {
+    "owned": true
+  },
+  "0000000051EB.0A5": {
+    "owned": true
+  },
+  "00000000CC26.0A5": {
+    "owned": true
+  },
+  "0000000002C4.0A5": {
+    "owned": true
+  },
+  "0000000007F1.0A5": {
+    "owned": true
+  },
+  "000000001172.0A5": {
+    "owned": true
+  },
+  "00000000107F.0A5": {
+    "owned": true
+  },
+  "000000004CE2.0A5": {
+    "owned": true
+  },
+  "000000002406.0A5": {
+    "owned": true
+  },
+  "000000000C62.0A5": {
+    "owned": true
+  },
+  "000000000ED5.0A5": {
+    "owned": true
+  },
+  "000000004F49.0A5": {
+    "owned": true
+  },
+  "0000000007EE.0A5": {
+    "owned": true
+  },
+  "0000000002C9.0A5": {
+    "owned": true
+  },
+  "0000000002C5.0A5": {
+    "owned": true
+  },
+  "0000000007E6.0A5": {
+    "owned": true
+  },
+  "0000000007DC.0A5": {
+    "owned": true
+  },
+  "00000000018E.0A5": {
+    "owned": true
+  },
+  "0000000015C3.0A5": {
+    "owned": true
+  },
+  "0000000002C8.0A5": {
+    "owned": true
+  },
+  "0000000007E7.0A5": {
+    "owned": true
+  },
+  "0000000002BE.0A5": {
+    "owned": true
+  },
+  "0000000007E4.0A5": {
+    "owned": true
+  },
+  "0000000002C2.0A5": {
+    "owned": true
+  },
+  "0000000007E3.0A5": {
+    "owned": true
+  },
+  "0000000007DB.0A5": {
+    "owned": true
+  },
+  "0000000002C7.0A5": {
+    "owned": true
+  },
+  "0000000084DD.0A5": {
+    "owned": true
+  },
+  "00000000278B.0A5": {
+    "owned": true
+  },
+  "000000000BA0.0A5": {
+    "owned": true
+  },
+  "000000000D1C.0A5": {
+    "owned": true
+  },
+  "000000000D38.0A5": {
+    "owned": true
+  },
+  "00000000601D.0A5": {
+    "owned": true
+  },
+  "00000000671C.0A5": {
+    "owned": true
+  },
+  "000000006648.0A5": {
+    "owned": true
+  },
+  "000000006AB0.0A5": {
+    "owned": true
+  },
+  "000000007445.0A5": {
+    "owned": true
+  },
+  "000000007446.0A5": {
+    "owned": true
+  },
+  "000000008477.0A5": {
+    "owned": true
+  },
+  "00000000A044.0A5": {
+    "owned": true
+  },
+  "00000000AB3E.0A5": {
+    "owned": true
+  },
+  "00000000B684.0A5": {
+    "owned": true
+  },
+  "00000000C491.0A5": {
+    "owned": true
+  },
+  "000000000CC9.0A5": {
+    "owned": true
+  },
+  "000000000CCA.0A5": {
+    "owned": true
+  },
+  "000000004D1D.0A5": {
+    "owned": true
+  },
+  "00000000116A.0A5": {
+    "owned": true
+  },
+  "00000000107C.0A5": {
+    "owned": true
+  },
+  "000000004B1A.0A5": {
+    "owned": true
+  },
+  "000000002407.0A5": {
+    "owned": true
+  },
+  "0000000012DE.0A5": {
+    "owned": true
+  },
+  "000000000EE3.0A5": {
+    "owned": true
+  },
+  "00000000466C.0A5": {
+    "owned": true
+  },
+  "000000000CD7.0A5": {
+    "owned": true
+  },
+  "000000000CDE.0A5": {
+    "owned": true
+  },
+  "000000000CE2.0A5": {
+    "owned": true
+  },
+  "000000000CD9.0A5": {
+    "owned": true
+  },
+  "000000000CE0.0A5": {
+    "owned": true
+  },
+  "000000000CCD.0A5": {
+    "owned": true
+  },
+  "000000000CD4.0A5": {
+    "owned": true
+  },
+  "000000000CDF.0A5": {
+    "owned": true
+  },
+  "000000000CE3.0A5": {
+    "owned": true
+  },
+  "000000000CD0.0A5": {
+    "owned": true
+  },
+  "000000000CDD.0A5": {
+    "owned": true
+  },
+  "000000000CC8.0A5": {
+    "owned": true
+  },
+  "000000000CCC.0A5": {
+    "owned": true
+  },
+  "000000000CD6.0A5": {
+    "owned": true
+  },
+  "000000000CE1.0A5": {
+    "owned": true
+  },
+  "000000000CDC.0A5": {
+    "owned": true
+  },
+  "000000000CDA.0A5": {
+    "owned": true
+  },
+  "000000000CD5.0A5": {
+    "owned": true
+  },
+  "000000000CD8.0A5": {
+    "owned": true
+  },
+  "000000000CD2.0A5": {
+    "owned": true
+  },
+  "000000000CCE.0A5": {
+    "owned": true
+  },
+  "000000000CDB.0A5": {
+    "owned": true
+  },
+  "000000001234.0A5": {
+    "owned": true
+  },
+  "000000000D22.0A5": {
+    "owned": true
+  },
+  "000000005711.0A5": {
+    "owned": true
+  },
+  "000000005DB8.0A5": {
+    "owned": true
+  },
+  "000000005DB7.0A5": {
+    "owned": true
+  },
+  "0000000064F1.0A5": {
+    "owned": true
+  },
+  "000000008E3A.0A5": {
+    "owned": true
+  },
+  "00000000A3AA.0A5": {
+    "owned": true
+  },
+  "00000000AB57.0A5": {
+    "owned": true
+  },
+  "00000000BF6E.0A5": {
+    "owned": true
+  },
+  "000000000826.0A5": {
+    "owned": true
+  },
+  "000000000825.0A5": {
+    "owned": true
+  },
+  "000000004833.0A5": {
+    "owned": true
+  },
+  "000000001081.0A5": {
+    "owned": true
+  },
+  "000000000EEE.0A5": {
+    "owned": true
+  },
+  "000000000816.0A5": {
+    "owned": true
+  },
+  "0000000015C4.0A5": {
+    "owned": true
+  },
+  "000000000818.0A5": {
+    "owned": true
+  },
+  "000000000810.0A5": {
+    "owned": true
+  },
+  "0000000002DF.0A5": {
+    "owned": true
+  },
+  "00000000018A.0A5": {
+    "owned": true
+  },
+  "0000000001F8.0A5": {
+    "owned": true
+  },
+  "000000000819.0A5": {
+    "owned": true
+  },
+  "0000000002E3.0A5": {
+    "owned": true
+  },
+  "000000000823.0A5": {
+    "owned": true
+  },
+  "000000000813.0A5": {
+    "owned": true
+  },
+  "000000000824.0A5": {
+    "owned": true
+  },
+  "00000000080F.0A5": {
+    "owned": true
+  },
+  "0000000001F7.0A5": {
+    "owned": true
+  },
+  "0000000001F9.0A5": {
+    "owned": true
+  },
+  "000000000817.0A5": {
+    "owned": true
+  },
+  "000000004B11.0A5": {
+    "owned": true
+  },
+  "000000004BB5.0A5": {
+    "owned": true
+  },
+  "000000004D9F.0A5": {
+    "owned": true
+  },
+  "000000000B5B.0A5": {
+    "owned": true
+  },
+  "000000000D41.0A5": {
+    "owned": true
+  },
+  "000000000D1F.0A5": {
+    "owned": true
+  },
+  "0000000056D9.0A5": {
+    "owned": true
+  },
+  "0000000061DB.0A5": {
+    "owned": true
+  },
+  "00000000655F.0A5": {
+    "owned": true
+  },
+  "000000006BA6.0A5": {
+    "owned": true
+  },
+  "000000006E2D.0A5": {
+    "owned": true
+  },
+  "000000006E2B.0A5": {
+    "owned": true
+  },
+  "000000006E2C.0A5": {
+    "owned": true
+  },
+  "000000007A45.0A5": {
+    "owned": true
+  },
+  "00000000854D.0A5": {
+    "owned": true
+  },
+  "00000000B681.0A5": {
+    "owned": true
+  },
+  "0000000006BE.0A5": {
+    "owned": true
+  },
+  "0000000006BF.0A5": {
+    "owned": true
+  },
+  "00000000116B.0A5": {
+    "owned": true
+  },
+  "000000001091.0A5": {
+    "owned": true
+  },
+  "000000004874.0A5": {
+    "owned": true
+  },
+  "000000000C59.0A5": {
+    "owned": true
+  },
+  "000000000EE4.0A5": {
+    "owned": true
+  },
+  "000000000ECE.0A5": {
+    "owned": true
+  },
+  "0000000006AD.0A5": {
+    "owned": true
+  },
+  "000000000300.0A5": {
+    "owned": true
+  },
+  "0000000002F8.0A5": {
+    "owned": true
+  },
+  "0000000002FC.0A5": {
+    "owned": true
+  },
+  "0000000006BB.0A5": {
+    "owned": true
+  },
+  "0000000006A9.0A5": {
+    "owned": true
+  },
+  "0000000006A8.0A5": {
+    "owned": true
+  },
+  "000000000187.0A5": {
+    "owned": true
+  },
+  "000000000301.0A5": {
+    "owned": true
+  },
+  "0000000002FB.0A5": {
+    "owned": true
+  },
+  "0000000015BA.0A5": {
+    "owned": true
+  },
+  "0000000006AC.0A5": {
+    "owned": true
+  },
+  "0000000006BD.0A5": {
+    "owned": true
+  },
+  "0000000002FF.0A5": {
+    "owned": true
+  },
+  "0000000001EB.0A5": {
+    "owned": true
+  },
+  "0000000006AF.0A5": {
+    "owned": true
+  },
+  "0000000006A7.0A5": {
+    "owned": true
+  },
+  "0000000006BC.0A5": {
+    "owned": true
+  },
+  "0000000001EA.0A5": {
+    "owned": true
+  },
+  "000000000BA2.0A5": {
+    "owned": true
+  },
+  "000000004BE5.0A5": {
+    "owned": true
+  },
+  "000000000D31.0A5": {
+    "owned": true
+  },
+  "000000000D15.0A5": {
+    "owned": true
+  },
+  "000000006AA8.0A5": {
+    "owned": true
+  },
+  "00000000755E.0A5": {
+    "owned": true
+  },
+  "00000000795F.0A5": {
+    "owned": true
+  },
+  "00000000015E.0A5": {
+    "owned": true
+  },
+  "00000000015C.0A5": {
+    "owned": true
+  },
+  "000000001176.0A5": {
+    "owned": true
+  },
+  "000000002AD9.0A5": {
+    "owned": true
+  },
+  "000000000EC9.0A5": {
+    "owned": true
+  },
+  "000000004F4C.0A5": {
+    "owned": true
+  },
+  "000000000165.0A5": {
+    "owned": true
+  },
+  "000000000167.0A5": {
+    "owned": true
+  },
+  "0000000000E2.0A5": {
+    "owned": true
+  },
+  "000000000873.0A5": {
+    "owned": true
+  },
+  "000000000839.0A5": {
+    "owned": true
+  },
+  "000000000169.0A5": {
+    "owned": true
+  },
+  "0000000000DF.0A5": {
+    "owned": true
+  },
+  "0000000000E0.0A5": {
+    "owned": true
+  },
+  "00000000016E.0A5": {
+    "owned": true
+  },
+  "00000000611F.0A5": {
+    "owned": true
+  },
+  "000000000170.0A5": {
+    "owned": true
+  },
+  "000000000161.0A5": {
+    "owned": true
+  },
+  "000000000168.0A5": {
+    "owned": true
+  },
+  "000000000172.0A5": {
+    "owned": true
+  },
+  "00000000016A.0A5": {
+    "owned": true
+  },
+  "0000000000E1.0A5": {
+    "owned": true
+  },
+  "0000000000DE.0A5": {
+    "owned": true
+  },
+  "000000004ADF.0A5": {
+    "owned": true
+  },
+  "000000000B5C.0A5": {
+    "owned": true
+  },
+  "000000004A82.0A5": {
+    "owned": true
+  },
+  "000000004EBD.0A5": {
+    "owned": true
+  },
+  "0000000055E7.0A5": {
+    "owned": true
+  },
+  "000000006200.0A5": {
+    "owned": true
+  },
+  "000000006BA4.0A5": {
+    "owned": true
+  },
+  "000000007965.0A5": {
+    "owned": true
+  },
+  "000000007A29.0A5": {
+    "owned": true
+  },
+  "000000008AA6.0A5": {
+    "owned": true
+  },
+  "00000000A049.0A5": {
+    "owned": true
+  },
+  "00000000B682.0A5": {
+    "owned": true
+  },
+  "00000000BFCD.0A5": {
+    "owned": true
+  },
+  "00000000C494.0A5": {
+    "owned": true
+  },
+  "00000000BA53.0A5": {
+    "owned": true
+  },
+  "00000000CC35.0A5": {
+    "owned": true
+  },
+  "00000000B7F7.0A5": {
+    "owned": true
+  },
+  "00000000B9D2.0A5": {
+    "owned": true
+  },
+  "00000000C33F.0A5": {
+    "owned": true
+  },
+  "00000000BFC4.0A5": {
+    "owned": true
+  },
+  "00000000C871.0A5": {
+    "owned": true
+  },
+  "00000000704D.0A5": {
+    "owned": true
+  },
+  "00000000704E.0A5": {
+    "owned": true
+  },
+  "000000007059.0A5": {
+    "owned": true
+  },
+  "000000007056.0A5": {
+    "owned": true
+  },
+  "000000007055.0A5": {
+    "owned": true
+  },
+  "000000007058.0A5": {
+    "owned": true
+  },
+  "00000000704F.0A5": {
+    "owned": true
+  },
+  "000000007052.0A5": {
+    "owned": true
+  },
+  "000000007054.0A5": {
+    "owned": true
+  },
+  "000000007057.0A5": {
+    "owned": true
+  },
+  "000000007330.0A5": {
+    "owned": true
+  },
+  "000000007ECC.0A5": {
+    "owned": true
+  },
+  "000000006BAB.0A5": {
+    "owned": true
+  },
+  "0000000081BC.0A5": {
+    "owned": true
+  },
+  "000000008AA8.0A5": {
+    "owned": true
+  },
+  "000000008D5C.0A5": {
+    "owned": true
+  },
+  "00000000ABCE.0A5": {
+    "owned": true
+  },
+  "00000000B687.0A5": {
+    "owned": true
+  },
+  "000000000695.0A5": {
+    "owned": true
+  },
+  "0000000008E1.0A5": {
+    "owned": true
+  },
+  "0000000049C6.0A5": {
+    "owned": true
+  },
+  "000000001177.0A5": {
+    "owned": true
+  },
+  "00000000107D.0A5": {
+    "owned": true
+  },
+  "000000002ADA.0A5": {
+    "owned": true
+  },
+  "000000000C65.0A5": {
+    "owned": true
+  },
+  "000000000EF0.0A5": {
+    "owned": true
+  },
+  "000000004C2F.0A5": {
+    "owned": true
+  },
+  "0000000002EF.0A5": {
+    "owned": true
+  },
+  "0000000002E8.0A5": {
+    "owned": true
+  },
+  "000000000682.0A5": {
+    "owned": true
+  },
+  "0000000002F2.0A5": {
+    "owned": true
+  },
+  "000000000687.0A5": {
+    "owned": true
+  },
+  "000000000693.0A5": {
+    "owned": true
+  },
+  "000000000182.0A5": {
+    "owned": true
+  },
+  "000000000698.0A5": {
+    "owned": true
+  },
+  "000000000697.0A5": {
+    "owned": true
+  },
+  "0000000002F0.0A5": {
+    "owned": true
+  },
+  "000000000683.0A5": {
+    "owned": true
+  },
+  "0000000015C6.0A5": {
+    "owned": true
+  },
+  "0000000002EE.0A5": {
+    "owned": true
+  },
+  "000000000699.0A5": {
+    "owned": true
+  },
+  "00000000068A.0A5": {
+    "owned": true
+  },
+  "000000000696.0A5": {
+    "owned": true
+  },
+  "0000000002F4.0A5": {
+    "owned": true
+  },
+  "0000000002EA.0A5": {
+    "owned": true
+  },
+  "000000000688.0A5": {
+    "owned": true
+  },
+  "000000000689.0A5": {
+    "owned": true
+  },
+  "0000000002F1.0A5": {
+    "owned": true
+  },
+  "00000000A6C2.0A5": {
+    "owned": true
+  },
+  "000000000D23.0A5": {
+    "owned": true
+  },
+  "0000000055E6.0A5": {
+    "owned": true
+  },
+  "00000000671F.0A5": {
+    "owned": true
+  },
+  "000000006720.0A5": {
+    "owned": true
+  },
+  "000000006E2E.0A5": {
+    "owned": true
+  },
+  "00000000755D.0A5": {
+    "owned": true
+  },
+  "000000007964.0A5": {
+    "owned": true
+  },
+  "000000007EBA.0A5": {
+    "owned": true
+  },
+  "000000008479.0A5": {
+    "owned": true
+  },
+  "000000008478.0A5": {
+    "owned": true
+  },
+  "000000008D70.0A5": {
+    "owned": true
+  },
+  "00000000AAC5.0A5": {
+    "owned": true
+  },
+  "00000000C0C2.0A5": {
+    "owned": true
+  },
+  "00000000086C.0A5": {
+    "owned": true
+  },
+  "00000000086B.0A5": {
+    "owned": true
+  },
+  "000000001173.0A5": {
+    "owned": true
+  },
+  "000000001084.0A5": {
+    "owned": true
+  },
+  "000000000C60.0A5": {
+    "owned": true
+  },
+  "000000004B28.0A5": {
+    "owned": true
+  },
+  "000000000ECF.0A5": {
+    "owned": true
+  },
+  "0000000001F5.0A5": {
+    "owned": true
+  },
+  "0000000002CE.0A5": {
+    "owned": true
+  },
+  "0000000001F1.0A5": {
+    "owned": true
+  },
+  "00000000085F.0A5": {
+    "owned": true
+  },
+  "00000000085A.0A5": {
+    "owned": true
+  },
+  "000000000869.0A5": {
+    "owned": true
+  },
+  "00000000085D.0A5": {
+    "owned": true
+  },
+  "0000000001F4.0A5": {
+    "owned": true
+  },
+  "000000000188.0A5": {
+    "owned": true
+  },
+  "0000000001F0.0A5": {
+    "owned": true
+  },
+  "000000000859.0A5": {
+    "owned": true
+  },
+  "00000000084F.0A5": {
+    "owned": true
+  },
+  "0000000001F3.0A5": {
+    "owned": true
+  },
+  "0000000002CF.0A5": {
+    "owned": true
+  },
+  "000000000867.0A5": {
+    "owned": true
+  },
+  "00000000085C.0A5": {
+    "owned": true
+  },
+  "0000000002CA.0A5": {
+    "owned": true
+  },
+  "0000000015C1.0A5": {
+    "owned": true
+  },
+  "0000000001F2.0A5": {
+    "owned": true
+  },
+  "00000000084C.0A5": {
+    "owned": true
+  },
+  "00000000085E.0A5": {
+    "owned": true
+  },
+  "0000000002CC.0A5": {
+    "owned": true
+  },
+  "00000000085B.0A5": {
+    "owned": true
+  },
+  "000000004D78.0A5": {
+    "owned": true
+  },
+  "000000000BA1.0A5": {
+    "owned": true
+  },
+  "000000000D39.0A5": {
+    "owned": true
+  },
+  "000000005FDD.0A5": {
+    "owned": true
+  },
+  "00000000655D.0A5": {
+    "owned": true
+  },
+  "000000006AAF.0A5": {
+    "owned": true
+  },
+  "000000006AB1.0A5": {
+    "owned": true
+  },
+  "0000000080C6.0A5": {
+    "owned": true
+  },
+  "00000000CC25.0A5": {
+    "owned": true
+  },
+  "000000001A35.0A5": {
+    "owned": true
+  },
+  "000000001A36.0A5": {
+    "owned": true
+  },
+  "0000000049CC.0A5": {
+    "owned": true
+  },
+  "0000000028CA.0A5": {
+    "owned": true
+  },
+  "000000002408.0A5": {
+    "owned": true
+  },
+  "0000000022C9.0A5": {
+    "owned": true
+  },
+  "00000000252C.0A5": {
+    "owned": true
+  },
+  "000000004F4B.0A5": {
+    "owned": true
+  },
+  "0000000024CC.0A5": {
+    "owned": true
+  },
+  "000000001A1D.0A5": {
+    "owned": true
+  },
+  "000000001A1E.0A5": {
+    "owned": true
+  },
+  "000000001A21.0A5": {
+    "owned": true
+  },
+  "000000001A2F.0A5": {
+    "owned": true
+  },
+  "000000001A05.0A5": {
+    "owned": true
+  },
+  "000000001A22.0A5": {
+    "owned": true
+  },
+  "000000001A2E.0A5": {
+    "owned": true
+  },
+  "000000001A29.0A5": {
+    "owned": true
+  },
+  "000000001A23.0A5": {
+    "owned": true
+  },
+  "000000001A1C.0A5": {
+    "owned": true
+  },
+  "000000001A28.0A5": {
+    "owned": true
+  },
+  "000000001A24.0A5": {
+    "owned": true
+  },
+  "000000001A04.0A5": {
+    "owned": true
+  },
+  "000000001A2A.0A5": {
+    "owned": true
+  },
+  "000000001A25.0A5": {
+    "owned": true
+  },
+  "000000001A20.0A5": {
+    "owned": true
+  },
+  "000000001A27.0A5": {
+    "owned": true
+  },
+  "0000000047E2.0A5": {
+    "owned": true
+  },
+  "000000001A69.0A5": {
+    "owned": true
+  },
+  "000000002503.0A5": {
+    "owned": true
+  },
+  "000000002484.0A5": {
+    "owned": true
+  },
+  "000000006202.0A5": {
+    "owned": true
+  },
+  "00000000693B.0A5": {
+    "owned": true
+  },
+  "00000000693A.0A5": {
+    "owned": true
+  },
+  "00000000A04B.0A5": {
+    "owned": true
+  },
+  "00000000A3B3.0A5": {
+    "owned": true
+  },
+  "00000000A3B4.0A5": {
+    "owned": true
+  },
+  "00000000A6B1.0A5": {
+    "owned": true
+  },
+  "00000000A237.0A5": {
+    "owned": true
+  },
+  "00000000AB55.0A5": {
+    "owned": true
+  },
+  "00000000B7F1.0A5": {
+    "owned": true
+  },
+  "00000000B9CE.0A5": {
+    "owned": true
+  },
+  "00000000C33A.0A5": {
+    "owned": true
+  },
+  "00000000C489.0A5": {
+    "owned": true
+  },
+  "000000000719.0A5": {
+    "owned": true
+  },
+  "00000000071A.0A5": {
+    "owned": true
+  },
+  "000000004880.0A5": {
+    "owned": true
+  },
+  "000000004CDE.0A5": {
+    "owned": true
+  },
+  "00000000107B.0A5": {
+    "owned": true
+  },
+  "000000004E1F.0A5": {
+    "owned": true
+  },
+  "000000000C5B.0A5": {
+    "owned": true
+  },
+  "000000000ED2.0A5": {
+    "owned": true
+  },
+  "000000000EE7.0A5": {
+    "owned": true
+  },
+  "000000000287.0A5": {
+    "owned": true
+  },
+  "000000000715.0A5": {
+    "owned": true
+  },
+  "0000000015BD.0A5": {
+    "owned": true
+  },
+  "000000000289.0A5": {
+    "owned": true
+  },
+  "000000000707.0A5": {
+    "owned": true
+  },
+  "000000000713.0A5": {
+    "owned": true
+  },
+  "000000000703.0A5": {
+    "owned": true
+  },
+  "00000000018D.0A5": {
+    "owned": true
+  },
+  "00000000028D.0A5": {
+    "owned": true
+  },
+  "000000000706.0A5": {
+    "owned": true
+  },
+  "000000000286.0A5": {
+    "owned": true
+  },
+  "000000000284.0A5": {
+    "owned": true
+  },
+  "00000000070A.0A5": {
+    "owned": true
+  },
+  "000000000288.0A5": {
+    "owned": true
+  },
+  "00000000028C.0A5": {
+    "owned": true
+  },
+  "000000000290.0A5": {
+    "owned": true
+  },
+  "000000000708.0A5": {
+    "owned": true
+  },
+  "00000000A6C1.0A5": {
+    "owned": true
+  },
+  "000000000D40.0A5": {
+    "owned": true
+  },
+  "000000000D18.0A5": {
+    "owned": true
+  },
+  "000000005DBC.0A5": {
+    "owned": true
+  },
+  "000000006966.0A5": {
+    "owned": true
+  },
+  "000000006F2B.0A5": {
+    "owned": true
+  },
+  "00000000745F.0A5": {
+    "owned": true
+  },
+  "0000000082FF.0A5": {
+    "owned": true
+  },
+  "0000000081E0.0A5": {
+    "owned": true
+  },
+  "00000000BFCE.0A5": {
+    "owned": true
+  },
+  "000000000597.0A5": {
+    "owned": true
+  },
+  "000000000596.0A5": {
+    "owned": true
+  },
+  "000000001165.0A5": {
+    "owned": true
+  },
+  "000000004CE4.0A5": {
+    "owned": true
+  },
+  "000000001075.0A5": {
+    "owned": true
+  },
+  "000000000EDE.0A5": {
+    "owned": true
+  },
+  "000000000EC7.0A5": {
+    "owned": true
+  },
+  "000000000206.0A5": {
+    "owned": true
+  },
+  "000000000204.0A5": {
+    "owned": true
+  },
+  "000000000201.0A5": {
+    "owned": true
+  },
+  "000000000581.0A5": {
+    "owned": true
+  },
+  "00000000058F.0A5": {
+    "owned": true
+  },
+  "000000000205.0A5": {
+    "owned": true
+  },
+  "0000000001FE.0A5": {
+    "owned": true
+  },
+  "000000000587.0A5": {
+    "owned": true
+  },
+  "000000000589.0A5": {
+    "owned": true
+  },
+  "000000000A41.0A5": {
+    "owned": true
+  },
+  "000000000189.0A5": {
+    "owned": true
+  },
+  "0000000015B3.0A5": {
+    "owned": true
+  },
+  "000000000A4B.0A5": {
+    "owned": true
+  },
+  "00000000020A.0A5": {
+    "owned": true
+  },
+  "0000000001FF.0A5": {
+    "owned": true
+  },
+  "000000000582.0A5": {
+    "owned": true
+  },
+  "00000000058A.0A5": {
+    "owned": true
+  },
+  "00000000058C.0A5": {
+    "owned": true
+  },
+  "00000000057F.0A5": {
+    "owned": true
+  },
+  "000000000586.0A5": {
+    "owned": true
+  },
+  "000000000208.0A5": {
+    "owned": true
+  },
+  "0000000047E4.0A5": {
+    "owned": true
+  },
+  "000000004389.0A5": {
+    "owned": true
+  },
+  "000000000D2B.0A5": {
+    "owned": true
+  },
+  "000000000D10.0A5": {
+    "owned": true
+  },
+  "000000004BE6.0A5": {
+    "owned": true
+  },
+  "000000005DBD.0A5": {
+    "owned": true
+  },
+  "000000006BB2.0A5": {
+    "owned": true
+  },
+  "0000000071C6.0A5": {
+    "owned": true
+  },
+  "0000000081C2.0A5": {
+    "owned": true
+  },
+  "0000000081B6.0A5": {
+    "owned": true
+  },
+  "000000008473.0A5": {
+    "owned": true
+  },
+  "000000008E3C.0A5": {
+    "owned": true
+  },
+  "00000000ABCD.0A5": {
+    "owned": true
+  },
+  "00000000CC24.0A5": {
+    "owned": true
   }
 }
