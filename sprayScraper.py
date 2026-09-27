@@ -107,12 +107,22 @@ def merge_sprays(existing, fetched):
                 unchanged.add(guid)
 
     merged_list = sorted(merged.values(), key=lambda x: (x.get("name") or "").lower())
+
+    def label(guid):
+        item = merged.get(guid, {})
+        name = item.get("name") or "(no name)"
+        hero = item.get("hero") or "Universal"
+        return f"{name} [{hero}] ({guid})"
+
     stats = {
         "new": len(new_guids),
         "updated": len(updated_guids),
         "unchanged": len(unchanged),
         "removed": len(set(existing) - set(fetched)),
         "total": len(merged_list),
+        "new_items":     sorted(label(g) for g in new_guids),
+        "updated_items": sorted(label(g) for g in updated_guids),
+        "removed_items": sorted(label(g) for g in set(existing) - set(fetched)),
     }
     return merged_list, stats
 
@@ -156,6 +166,21 @@ if __name__ == "__main__":
     print(f"  unchanged: {stats['unchanged']}")
     print(f"  removed:   {stats['removed']}  (in file but gone from API)")
     print(f"  total:     {stats['total']}")
+
+    if stats["new_items"]:
+        print("\n  New sprays:")
+        for entry in stats["new_items"]:
+            print(f"    + {entry}")
+
+    # if stats["updated_items"]:
+    #     print("\n  Updated sprays:")
+    #     for entry in stats["updated_items"]:
+    #         print(f"    ~ {entry}")
+
+    if stats["removed_items"]:
+        print("\n  Removed sprays:")
+        for entry in stats["removed_items"]:
+            print(f"    - {entry}")
 
     save_sprays(merged)
     print(f"\nSaved {len(merged)} sprays to {SPRAYS_FILE}")
