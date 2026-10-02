@@ -188,7 +188,8 @@
   "000000000C86.0A5": {
     "unassignedHeroes": [
       "Mei"
-    ]
+    ],
+    "owned": true
   },
   "000000004B2C.0A5": {
     "unassignedHeroes": [
@@ -404,7 +405,8 @@
     "unassignedHeroes": [
       "Juno",
       "Venture"
-    ]
+    ],
+    "owned": true
   },
   "00000000C96E.0A5": {
     "unassignedHeroes": [
@@ -559,7 +561,8 @@
     "unassignedHeroes": [
       "Sombra",
       "Venture"
-    ]
+    ],
+    "owned": true
   },
   "00000000D1FC.0A5": {
     "unassignedHeroes": [
@@ -597,7 +600,8 @@
   "00000000D1FB.0A5": {
     "unassignedHeroes": [
       "Sierra"
-    ]
+    ],
+    "owned": true
   },
   "0000000077CD.0A5": {
     "unassignedHeroes": [
@@ -629,10 +633,10 @@
       "Kiriko",
       "Mei"
     ],
-    "owned": false
+    "owned": true
   },
   "00000000961A.0A5": {
-    "owned": false,
+    "owned": true,
     "unassignedHeroes": [
       "Doomfist"
     ]
@@ -644,7 +648,8 @@
     "unassignedHeroes": [
       "Venture",
       "Wrecking Ball"
-    ]
+    ],
+    "owned": true
   },
   "00000000D1F0.0A5": {
     "unassignedHeroes": [
@@ -691,7 +696,8 @@
     "unassignedHeroes": [
       "Torbjörn",
       "Wrecking Ball"
-    ]
+    ],
+    "owned": true
   },
   "00000000D1F3.0A5": {
     "unassignedHeroes": [
@@ -720,12 +726,14 @@
       "Tracer",
       "Wrecking Ball",
       "Zenyatta"
-    ]
+    ],
+    "owned": true
   },
   "000000004DE4.0A5": {
     "unassignedHeroes": [
       "Wrecking Ball"
-    ]
+    ],
+    "owned": true
   },
   "000000004D81.0A5": {
     "unassignedHeroes": [
@@ -824,7 +832,8 @@
   "000000004ADE.0A5": {
     "unassignedHeroes": [
       "Tracer"
-    ]
+    ],
+    "owned": true
   },
   "000000001A75.0A5": {
     "unassignedHeroes": [
@@ -841,7 +850,8 @@
       "Hanzo",
       "Sombra",
       "Zarya"
-    ]
+    ],
+    "owned": true
   },
   "000000004CD6.0A5": {
     "unassignedHeroes": [
@@ -864,14 +874,16 @@
       "D.Va",
       "Tracer",
       "Wrecking Ball"
-    ]
+    ],
+    "owned": true
   },
   "000000001A73.0A5": {
     "unassignedHeroes": [
       "Mei",
       "Tracer",
       "Winston"
-    ]
+    ],
+    "owned": true
   },
   "000000004FCC.0A5": {
     "unassignedHeroes": [
@@ -925,7 +937,8 @@
     "unassignedHeroes": [
       "Genji",
       "Tracer"
-    ]
+    ],
+    "owned": true
   },
   "000000004C0A.0A5": {
     "unassignedHeroes": [
@@ -1168,6 +1181,7 @@
   "000000007C6F.0A5": {
     "owned": true,
     "unassignedHeroes": [
+      "Cassidy",
       "Mercy",
       "Orisa",
       "Tracer",
@@ -1982,7 +1996,8 @@
   "000000002787.0A5": {
     "unassignedHeroes": [
       "Ana"
-    ]
+    ],
+    "owned": true
   },
   "000000000E52.0A5": {
     "owned": true
@@ -3629,7 +3644,7 @@
     "owned": true
   },
   "000000007E74.0A5": {
-    "owned": false
+    "owned": true
   },
   "000000007E73.0A5": {
     "owned": true
@@ -4688,7 +4703,7 @@
     "owned": true
   },
   "000000001316.0A5": {
-    "owned": false
+    "owned": true
   },
   "00000000131E.0A5": {
     "owned": true
@@ -6776,6 +6791,459 @@
     "owned": true
   },
   "00000000CC24.0A5": {
+    "owned": true
+  },
+  "000000000C4E.0A5": {
+    "owned": true
+  },
+  "00000000086D.0A5": {
+    "owned": true
+  },
+  "0000000071EC.0A5": {
+    "owned": true
+  },
+  "00000000A6CA.0A5": {
+    "owned": true
+  },
+  "00000000A6C8.0A5": {
+    "owned": true
+  },
+  "000000007B83.0A5": {
+    "owned": true
+  },
+  "0000000078F8.0A5": {
+    "owned": true
+  },
+  "000000005113.0A5": {
+    "owned": true
+  },
+  "000000005114.0A5": {
+    "owned": true
+  },
+  "000000005116.0A5": {
+    "owned": true
+  },
+  "000000005117.0A5": {
+    "owned": true
+  },
+  "000000005118.0A5": {
+    "owned": true
+  },
+  "000000005119.0A5": {
+    "owned": true
+  },
+  "00000000511E.0A5": {
+    "owned": true
+  },
+  "000000005120.0A5": {
+    "owned": true
+  },
+  "000000005FA3.0A5": {
+    "owned": true
+  },
+  "000000006533.0A5": {
+    "owned": true
+  },
+  "00000000487D.0A5": {
+    "owned": true
+  },
+  "000000000A9D.0A5": {
+    "owned": true
+  },
+  "000000000ABA.0A5": {
+    "owned": true
+  },
+  "000000000A9C.0A5": {
+    "owned": true
+  },
+  "000000000A9A.0A5": {
+    "owned": true
+  },
+  "000000000B7A.0A5": {
+    "owned": true
+  },
+  "000000002478.0A5": {
+    "owned": true
+  },
+  "000000002474.0A5": {
+    "owned": true
+  },
+  "00000000229A.0A5": {
+    "owned": true
+  },
+  "000000004D1E.0A5": {
+    "owned": true
+  },
+  "000000004C11.0A5": {
+    "owned": true
+  },
+  "000000002849.0A5": {
+    "owned": true
+  },
+  "00000000297D.0A5": {
+    "owned": true
+  },
+  "000000004C2B.0A5": {
+    "owned": true
+  },
+  "000000000608.0A5": {
+    "owned": true
+  },
+  "0000000024CD.0A5": {
+    "owned": true
+  },
+  "000000001707.0A5": {
+    "owned": true
+  },
+  "0000000016F5.0A5": {
+    "owned": true
+  },
+  "000000000562.0A5": {
+    "owned": true
+  },
+  "0000000001B5.0A5": {
+    "owned": true
+  },
+  "000000000B54.0A5": {
+    "owned": true
+  },
+  "000000000D2A.0A5": {
+    "owned": true
+  },
+  "0000000071C5.0A5": {
+    "owned": true
+  },
+  "00000000066A.0A5": {
+    "owned": true
+  },
+  "000000000668.0A5": {
+    "owned": true
+  },
+  "000000000672.0A5": {
+    "owned": true
+  },
+  "000000000663.0A5": {
+    "owned": true
+  },
+  "00000000D201.0A5": {
+    "owned": true
+  },
+  "000000004D21.0A5": {
+    "owned": true
+  },
+  "0000000018DA.0A5": {
+    "owned": true
+  },
+  "0000000015E8.0A5": {
+    "owned": true
+  },
+  "00000000465F.0A5": {
+    "owned": true
+  },
+  "0000000048F8.0A5": {
+    "owned": true
+  },
+  "0000000084B1.0A5": {
+    "owned": true
+  },
+  "0000000084B2.0A5": {
+    "owned": true
+  },
+  "0000000084C1.0A5": {
+    "owned": true
+  },
+  "000000004E1E.0A5": {
+    "owned": true
+  },
+  "000000000729.0A5": {
+    "owned": true
+  },
+  "000000000C9D.0A5": {
+    "owned": true
+  },
+  "00000000AAC8.0A5": {
+    "owned": true
+  },
+  "000000000C53.0A5": {
+    "owned": true
+  },
+  "0000000001A8.0A5": {
+    "owned": true
+  },
+  "000000000D29.0A5": {
+    "owned": true
+  },
+  "0000000054B8.0A5": {
+    "owned": true
+  },
+  "00000000854C.0A5": {
+    "owned": true
+  },
+  "000000007E6A.0A5": {
+    "owned": true
+  },
+  "000000006970.0A5": {
+    "owned": true
+  },
+  "0000000064F3.0A5": {
+    "owned": true
+  },
+  "000000000217.0A5": {
+    "owned": true
+  },
+  "000000000211.0A5": {
+    "owned": true
+  },
+  "0000000005B8.0A5": {
+    "owned": true
+  },
+  "000000000D2C.0A5": {
+    "owned": true
+  },
+  "0000000064D4.0A5": {
+    "owned": true
+  },
+  "000000007682.0A5": {
+    "owned": true
+  },
+  "00000000A3AD.0A5": {
+    "owned": true
+  },
+  "000000006E30.0A5": {
+    "owned": true
+  },
+  "000000008D6C.0A5": {
+    "owned": true
+  },
+  "000000005FCA.0A5": {
+    "owned": false
+  },
+  "000000000246.0A5": {
+    "owned": true
+  },
+  "0000000047E7.0A5": {
+    "owned": true
+  },
+  "000000000D2D.0A5": {
+    "owned": true
+  },
+  "000000001168.0A5": {
+    "owned": true
+  },
+  "000000000C57.0A5": {
+    "owned": true
+  },
+  "0000000015B7.0A5": {
+    "owned": true
+  },
+  "00000000062D.0A5": {
+    "owned": true
+  },
+  "000000000D2E.0A5": {
+    "owned": true
+  },
+  "000000001072.0A5": {
+    "owned": true
+  },
+  "000000000C51.0A5": {
+    "owned": true
+  },
+  "000000000195.0A5": {
+    "owned": true
+  },
+  "00000000019F.0A5": {
+    "owned": true
+  },
+  "000000000196.0A5": {
+    "owned": true
+  },
+  "000000000197.0A5": {
+    "owned": true
+  },
+  "000000000513.0A5": {
+    "owned": true
+  },
+  "000000000515.0A5": {
+    "owned": true
+  },
+  "0000000015C8.0A5": {
+    "owned": true
+  },
+  "00000000130B.0A5": {
+    "owned": true
+  },
+  "000000007EB7.0A5": {
+    "owned": true
+  },
+  "000000002AF7.0A5": {
+    "owned": true
+  },
+  "0000000012DF.0A5": {
+    "owned": true
+  },
+  "000000004DA0.0A5": {
+    "owned": true
+  },
+  "000000008480.0A5": {
+    "owned": true
+  },
+  "000000000183.0A5": {
+    "owned": true
+  },
+  "00000000745E.0A5": {
+    "owned": true
+  },
+  "000000000751.0A5": {
+    "owned": true
+  },
+  "000000000294.0A5": {
+    "owned": true
+  },
+  "000000000298.0A5": {
+    "owned": true
+  },
+  "000000000D35.0A5": {
+    "owned": true
+  },
+  "0000000006DA.0A5": {
+    "owned": true
+  },
+  "0000000006D9.0A5": {
+    "owned": true
+  },
+  "00000000A6BF.0A5": {
+    "owned": true
+  },
+  "000000006721.0A5": {
+    "owned": true
+  },
+  "0000000080C8.0A5": {
+    "owned": true
+  },
+  "00000000AAC9.0A5": {
+    "owned": true
+  },
+  "00000000440F.0A5": {
+    "owned": true
+  },
+  "000000002A49.0A5": {
+    "owned": true
+  },
+  "000000002A4D.0A5": {
+    "owned": true
+  },
+  "000000002A4B.0A5": {
+    "owned": true
+  },
+  "0000000064F0.0A5": {
+    "owned": true
+  },
+  "0000000080C7.0A5": {
+    "owned": true
+  },
+  "000000008D6E.0A5": {
+    "owned": true
+  },
+  "0000000002C3.0A5": {
+    "owned": true
+  },
+  "0000000007D9.0A5": {
+    "owned": true
+  },
+  "000000000ED9.0A5": {
+    "owned": true
+  },
+  "000000000CD1.0A5": {
+    "owned": false
+  },
+  "000000000CCB.0A5": {
+    "owned": true
+  },
+  "00000000A1F3.0A5": {
+    "owned": true
+  },
+  "000000000C63.0A5": {
+    "owned": true
+  },
+  "000000000812.0A5": {
+    "owned": true
+  },
+  "0000000002DE.0A5": {
+    "owned": true
+  },
+  "0000000002E2.0A5": {
+    "owned": true
+  },
+  "000000000815.0A5": {
+    "owned": true
+  },
+  "0000000002E7.0A5": {
+    "owned": true
+  },
+  "0000000002FE.0A5": {
+    "owned": true
+  },
+  "0000000006AB.0A5": {
+    "owned": true
+  },
+  "000000004CE1.0A5": {
+    "owned": true
+  },
+  "000000000173.0A5": {
+    "owned": true
+  },
+  "00000000016F.0A5": {
+    "owned": true
+  },
+  "000000000177.0A5": {
+    "owned": true
+  },
+  "000000000872.0A5": {
+    "owned": true
+  },
+  "000000007051.0A5": {
+    "owned": true
+  },
+  "000000007053.0A5": {
+    "owned": true
+  },
+  "0000000002F3.0A5": {
+    "owned": true
+  },
+  "000000000BDD.0A5": {
+    "owned": true
+  },
+  "000000004661.0A5": {
+    "owned": true
+  },
+  "000000004D0C.0A5": {
+    "owned": true
+  },
+  "000000001A26.0A5": {
+    "owned": true
+  },
+  "000000001A06.0A5": {
+    "owned": true
+  },
+  "00000000028F.0A5": {
+    "owned": true
+  },
+  "000000000285.0A5": {
+    "owned": true
+  },
+  "000000000203.0A5": {
+    "owned": true
+  },
+  "000000000591.0A5": {
+    "owned": true
+  },
+  "000000000585.0A5": {
+    "owned": true
+  },
+  "000000006724.0A5": {
+    "owned": true
+  },
+  "00000000755C.0A5": {
     "owned": true
   }
 }

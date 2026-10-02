@@ -189,6 +189,3 @@ if __name__ == "__main__":
     # - Doomfist Thumbs Down (Wrong Image)
     # - Doomfist Thumbs Down (Wrong Image)
     # - Reinhardt Crusader (Wrong Image)
-    # - Illari Dragon Dance (Not Showing Up)
-    # - Orisa Dragon Dance (Not Showing Up)
-    # - Winston Dragon Dance (Not Showing Up)
